@@ -1,0 +1,1 @@
+# WSCSPI-SmeupToCOU-BUYPlugin
