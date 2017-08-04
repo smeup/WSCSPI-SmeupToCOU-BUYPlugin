@@ -6,4 +6,5 @@ target/classes/
 /target/
 /bin/
 /wsdl/
+/src/wsdl/
 /src/it/cineca/u_gov/co/ws/*.class
