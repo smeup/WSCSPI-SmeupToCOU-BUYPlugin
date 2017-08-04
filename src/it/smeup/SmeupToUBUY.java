@@ -52,6 +52,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	public static final int RETCODEERRORSERVICE=90;
 	public static final int RETCODEERRORINVALIDXML=100;
 	public static final int RETCODEERRORDATA=110;
+	public static final int RETCODEERRORDIFFERENTWSDL=120;
 	
 	enum TypeValue {
 		OK,
@@ -171,7 +172,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 
 		} catch (Exception e) {
 			sr.setCode(RETCODEERROROUTPUTFILE);
-			sr.setText(e.getMessage());
+			sr.setText(e);
 			StringWriter sw = new StringWriter();
 			PrintWriter pw = new PrintWriter(sw);
 			e.printStackTrace(pw);
@@ -204,7 +205,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 
 		} catch (Exception e) {
 			sr.setCode(RETCODEERRORINPUTFILE);
-			sr.setText(e.getMessage());
+			sr.setText(e);
 			StringWriter sw = new StringWriter();
 			PrintWriter pw = new PrintWriter(sw);
 			e.printStackTrace(pw);
@@ -229,7 +230,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		} catch (Exception e) {
 			if (sr.getCode()==0) {
 				sr.setCode(RETCODEERRORSERVICE);
-				sr.setText(e.getMessage());
+				sr.setText(e);
 				StringWriter sw = new StringWriter();
 				PrintWriter pw = new PrintWriter(sw);
 				e.printStackTrace(pw);
@@ -282,11 +283,14 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				} else if (e.getClass().equals(ApplicationException_Exception.class)) {
 					sr.setCode(RETCODEERRORDATA);
 					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
+				} else if (e.getClass().equals(NullPointerException.class)) {
+					sr.setCode(RETCODEERRORDIFFERENTWSDL);
+					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 				} else {
 					sr.setCode(RETCODEERRORSEND);
 					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 				}
-				sr.setText(e.getMessage());
+				sr.setText(e);
 				StringWriter sw = new StringWriter();
 				PrintWriter pw = new PrintWriter(sw);
 				e.printStackTrace(pw);
@@ -577,10 +581,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 //		} catch (Exception e) {
 //			if (sr.getCode()==0){
 //				sr.setCode(RETCODEERRORSEND);
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //				sr.setExternalText(e.getStackTrace().toString());
 //			} else {
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //			}
 //		}
 //
@@ -614,10 +618,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 //		} catch (Exception e) {
 //			if (sr.getCode()==0){
 //				sr.setCode(RETCODEERRORSEND);
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //				sr.setExternalText(e.getStackTrace().toString());
 //			} else {
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //			}
 //		}
 //
@@ -672,10 +676,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 //		} catch (Exception e) {
 //			if (sr.getCode()==0){
 //				sr.setCode(RETCODEERRORSEND);
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //				sr.setExternalText(e.getStackTrace().toString());
 //			} else {
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //			}
 //		}
 //
@@ -704,10 +708,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 //		} catch (Exception e) {
 //			if (sr.getCode()==0){
 //				sr.setCode(RETCODEERRORSEND);
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //				sr.setExternalText(e.getStackTrace().toString());
 //			} else {
-//				sr.setText(e.getMessage());
+//				sr.setText(e);
 //			}
 //		}
 //

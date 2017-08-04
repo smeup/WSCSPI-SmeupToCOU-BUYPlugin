@@ -53,6 +53,14 @@ public class SmeupResponse {
 	public void setText(String text) {
 		this.text = text;
 	}
+	
+	public void setText(Exception e) {
+		if (e.getMessage()==null) {
+			this.setText(e.toString());
+		} else {
+			this.setText(e.getMessage());
+		}
+	}
 
 	public String getExternalText() {
 		if (this.externalText==null) {

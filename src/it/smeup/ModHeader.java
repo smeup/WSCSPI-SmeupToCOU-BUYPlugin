@@ -69,7 +69,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 		                		vOut= new FileOutputStream(iResponseFile.getName());
 		                	} catch (FileNotFoundException e) {
 		                		sResp.setCode(SmeupToUBUY.RETCODEERROROUTPUTFILE);
-		                		sResp.setText(e.getMessage());
+		                		sResp.setText(e);
 		            			StringWriter sw = new StringWriter();
 		            			PrintWriter pw = new PrintWriter(sw);
 		            			sResp.setStackTrace(sw.toString());
@@ -92,7 +92,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
             			ex.printStackTrace(pw);
 	                } catch (SOAPException e) {
 						sResp.setCode(SmeupToUBUY.RETCODEERRORSEND);	
-						sResp.setText(e.getMessage());
+						sResp.setText(e);
 						StringWriter sw = new StringWriter();
 						PrintWriter pw = new PrintWriter(sw);
 						sResp.setStackTrace(sw.toString());
@@ -134,7 +134,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
             		ex.printStackTrace();
 	            } catch (SOAPException e) {
 					sResp.setCode(SmeupToUBUY.RETCODEERRORSEND);	
-					sResp.setText(e.getMessage());
+					sResp.setText(e);
 					StringWriter sw = new StringWriter();
 					PrintWriter pw = new PrintWriter(sw);
 					sResp.setStackTrace(sw.toString());
@@ -164,7 +164,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 		                System.out.println('\n');
 					} catch (FileNotFoundException e) {
 						sResp.setCode(SmeupToUBUY.RETCODEERRORINPUTFILE);
-	            		sResp.setText(e.getMessage());
+	            		sResp.setText(e);
 	        			StringWriter sw = new StringWriter();
 	        			PrintWriter pw = new PrintWriter(sw);
 	        			sResp.setStackTrace(sw.toString());
@@ -173,7 +173,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 						e.printStackTrace(pw);
 					} catch (ParserConfigurationException e) {
 	 					sResp.setCode(SmeupToUBUY.RETCODEERRORINVALIDXML);
-						sResp.setText(e.getMessage());
+						sResp.setText(e);
 						StringWriter sw = new StringWriter();
 						PrintWriter pw = new PrintWriter(sw);
 						sResp.setStackTrace(sw.toString());
@@ -182,7 +182,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 						e.printStackTrace(pw);
 					} catch (SAXException e) {
 						sResp.setCode(SmeupToUBUY.RETCODEERRORINVALIDXML);
-						sResp.setText(e.getMessage());
+						sResp.setText(e);
 						StringWriter sw = new StringWriter();
 						PrintWriter pw = new PrintWriter(sw);
 						sResp.setStackTrace(sw.toString());
@@ -191,7 +191,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 						e.printStackTrace(pw);
 					} catch (IOException e) {
 						sResp.setCode(SmeupToUBUY.RETCODEERRORINPUTFILE);
-	            		sResp.setText(e.getMessage());
+	            		sResp.setText(e);
 	        			StringWriter sw = new StringWriter();
 	        			PrintWriter pw = new PrintWriter(sw);
 	        			sResp.setStackTrace(sw.toString());
@@ -200,7 +200,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 						e.printStackTrace(pw);
 					} catch (SOAPException e) {
 						sResp.setCode(SmeupToUBUY.RETCODEERRORSEND);	
-						sResp.setText(e.getMessage());
+						sResp.setText(e);
 						StringWriter sw = new StringWriter();
 						PrintWriter pw = new PrintWriter(sw);
 						sResp.setStackTrace(sw.toString());
