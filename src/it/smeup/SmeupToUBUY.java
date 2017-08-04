@@ -71,6 +71,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	
 	enum OriginValue {
 		SMEUP,
+		SMEUPWSDEST,
 		WSDEST,
 		PROVIDER
 	}
@@ -271,17 +272,19 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				wscos.getVociCoan(null);
 				break;
 			default:
-				generaRisposta(arg1,"Unknow Operation");
-				break;
+				return generaRisposta(arg1,"Unknow Operation");
 			}
 		} catch (Exception e) {
 			if (sr.getCode()==0) {
 				if (e.getClass().equals(ClientTransportException.class)) {
 					sr.setCode(RETCODEERRORPAGENOTFOUND);
+					sr.setOrigin(OriginValue.WSDEST.name());
 				} else if (e.getClass().equals(ApplicationException_Exception.class)) {
 					sr.setCode(RETCODEERRORDATA);
+					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 				} else {
 					sr.setCode(RETCODEERRORSEND);
+					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 				}
 				sr.setText(e.getMessage());
 				StringWriter sw = new StringWriter();
@@ -289,7 +292,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				e.printStackTrace(pw);
 				sr.setStackTrace(sw.toString());
 				sr.setSubType(SubTypeValue.APPLICATION.name());
-				sr.setOrigin(OriginValue.WSDEST.name());
+				
 			}
 		}
 		return generaRisposta(arg1,sr);

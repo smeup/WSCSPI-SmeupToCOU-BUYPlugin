@@ -97,7 +97,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 						PrintWriter pw = new PrintWriter(sw);
 						sResp.setStackTrace(sw.toString());
 						sResp.setSubType(SmeupToUBUY.SubTypeValue.APPLICATION.name());
-						sResp.setOrigin(SmeupToUBUY.OriginValue.WSDEST.name());
+						sResp.setOrigin(SmeupToUBUY.OriginValue.SMEUPWSDEST.name());
 						e.printStackTrace(pw);
 	                }		                
 	//	                
@@ -139,7 +139,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 					PrintWriter pw = new PrintWriter(sw);
 					sResp.setStackTrace(sw.toString());
 					sResp.setSubType(SmeupToUBUY.SubTypeValue.APPLICATION.name());
-					sResp.setOrigin(SmeupToUBUY.OriginValue.WSDEST.name());
+					sResp.setOrigin(SmeupToUBUY.OriginValue.SMEUPWSDEST.name());
 					e.printStackTrace(pw);
 	            }
 	        } else {
@@ -205,7 +205,7 @@ public class ModHeader implements SOAPHandler<SOAPMessageContext> {
 						PrintWriter pw = new PrintWriter(sw);
 						sResp.setStackTrace(sw.toString());
 						sResp.setSubType(SmeupToUBUY.SubTypeValue.APPLICATION.name());
-						sResp.setOrigin(SmeupToUBUY.OriginValue.WSDEST.name());
+						sResp.setOrigin(SmeupToUBUY.OriginValue.SMEUPWSDEST.name());
 						e.printStackTrace(pw);
 					}
                 }
