@@ -229,14 +229,24 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		
 		} catch (Exception e) {
 			if (sr.getCode()==0) {
-				sr.setCode(RETCODEERRORSERVICE);
+				if (e.getClass().equals(ClientTransportException.class)) {
+					sr.setCode(RETCODEERRORPAGENOTFOUND);
+					sr.setOrigin(OriginValue.WSDEST.name());
+					sr.setSubType(SubTypeValue.APPLICATION.name());
+				} else if (e.getClass().equals(NullPointerException.class)) {
+					sr.setCode(RETCODEERRORDIFFERENTWSDL);
+					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
+					sr.setSubType(SubTypeValue.APPLICATION.name());
+				} else {
+					sr.setCode(RETCODEERRORSERVICE);
+					sr.setOrigin(OriginValue.WSDEST.name());
+					sr.setSubType(SubTypeValue.SYSTEM.name());
+				}
 				sr.setText(e);
 				StringWriter sw = new StringWriter();
 				PrintWriter pw = new PrintWriter(sw);
 				e.printStackTrace(pw);
-				sr.setStackTrace(sw.toString());
-				sr.setSubType(SubTypeValue.SYSTEM.name());
-				sr.setOrigin(OriginValue.WSDEST.name());
+				sr.setStackTrace(sw.toString());			
 			}
 			return generaRisposta(arg1, sr);
 		}
