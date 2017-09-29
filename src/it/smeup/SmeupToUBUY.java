@@ -130,7 +130,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 
 	public SPIWsCConnectorResponse invoke(String arg0, SPIWsCConnectorInput arg1) {
 		Operazione ope = Operazione.valueOf(arg0);
-		SmeupResponse sr = new SmeupResponse();
+		SmeupResponseCO sr = new SmeupResponseCO();
 		File inpFileBody = null;
 		File outFileMsg = null;
 				
@@ -217,7 +217,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		
 		try {
 			wscoss = new WSCOServiceService();
-			wscoss.setHandlerResolver(new HandlHeader(inpFileBody,outFileMsg,sr));
+			wscoss.setHandlerResolver(new HandlHeaderCO(inpFileBody,outFileMsg,sr));
 			
 			wscos = wscoss.getWSCOServicePort();
 			
@@ -421,7 +421,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
     	return vInput;
     }
 	
-	private SPIWsCConnectorResponse generaRisposta(SPIWsCConnectorInput tabInput, SmeupResponse DRC) {
+	private SPIWsCConnectorResponse generaRisposta(SPIWsCConnectorInput tabInput, SmeupResponseCO DRC) {
 		//Scrivo l'XMl nel caso ci sia un errore e non mi sia arrivata una risposta dal webservice
 		if (DRC.getCode()!=0) {
 			File out = null;
@@ -473,7 +473,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		return resp;
 	}
 	
-	private void scriviFileXml(SPIWsCConnectorInput tabInput, SmeupResponse DRC, File out) {
+	private void scriviFileXml(SPIWsCConnectorInput tabInput, SmeupResponseCO DRC, File out) {
 		  try {
 
 				DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
@@ -543,7 +543,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	
 	
 	private SPIWsCConnectorResponse generaRisposta(SPIWsCConnectorInput tabInput, String freeText) {
-		SmeupResponse DRC = new SmeupResponse();
+		SmeupResponseCO DRC = new SmeupResponseCO();
 		DRC.setText(freeText);
 		
 		return generaRisposta(tabInput,DRC);

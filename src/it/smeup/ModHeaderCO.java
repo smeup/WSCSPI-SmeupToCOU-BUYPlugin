@@ -25,19 +25,19 @@ import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-public class ModHeader implements SOAPHandler<SOAPMessageContext> {
+public class ModHeaderCO implements SOAPHandler<SOAPMessageContext> {
 	
     private File iBodyFile= null;
     private File iResponseFile= null;
     private long iIDInvioInterno= System.currentTimeMillis();
-    private SmeupResponse sResp=null;
+    private SmeupResponseCO sResp=null;
     
     
-    public ModHeader(File aBodyFile, File aResponseFile, SmeupResponse sr) {
+    public ModHeaderCO(File aBodyFile, File aResponseFile, SmeupResponseCO sr) {
         iBodyFile= aBodyFile;
         iResponseFile= aResponseFile;
         if (sr==null) {
-        	sResp = new SmeupResponse();
+        	sResp = new SmeupResponseCO();
         } else {
         	sResp = sr;
         }

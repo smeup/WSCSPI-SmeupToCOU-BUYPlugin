@@ -1,6 +1,6 @@
 package it.smeup;
 
-public class SmeupResponse {
+public class SmeupResponseCO {
 
 	// Codice errore ritorno negativo errore nei parametri invio positivo errore da remoto zero tutto ok 
 	protected int code;
@@ -19,7 +19,7 @@ public class SmeupResponse {
 	// Testo dell'errore da sistema remoto
 	protected String externalText;
 	
-	public SmeupResponse() {
+	public SmeupResponseCO() {
 		this.setCode(0);
 		this.setText("");
 		this.setStackTrace("");
