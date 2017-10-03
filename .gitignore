@@ -8,3 +8,4 @@ target/classes/
 /wsdl/
 /src/wsdl/
 /src/it/cineca/u_gov/co/ws/*.class
+/src/it/smeup/*.bak

@@ -40,19 +40,22 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	
 	public static final String PATHNAMEINPUTBODY = "xml_request";
 	public static final String PATHNAMEOUTPUTMESSAGE = "xml_response";
+	public static final String PATHNAMEERRORMESSAGE = "xml_error";
 	public static final String USER = "USER";
 	public static final String PASSWORD = "PASSWORD";
 	
-	public static final int RETCODEERROROUTPUTPARAM=40;
-	public static final int RETCODEERROROUTPUTFILE=50;
-	public static final int RETCODEERRORINPUTPARAM=60;	
-	public static final int RETCODEERRORINPUTFILE=70;
-	public static final int RETCODEERRORSEND=80;
-	public static final int RETCODEERRORPAGENOTFOUND=85;
-	public static final int RETCODEERRORSERVICE=90;
-	public static final int RETCODEERRORINVALIDXML=100;
-	public static final int RETCODEERRORDATA=110;
-	public static final int RETCODEERRORDIFFERENTWSDL=120;
+	public static final String RETCODEERROROUTPUTPARAM="40";
+	public static final String RETCODEERROROUTPUTFILE="50";
+	public static final String RETCODEERRORINPUTPARAM="60";	
+	public static final String RETCODEERRORINPUTFILE="70";
+	public static final String RETCODEERRORSEND="80";
+	public static final String RETCODEERRORPAGENOTFOUND="85";
+	public static final String RETCODEERRORSERVICE="90";
+	public static final String RETCODEERRORINVALIDXML="100";
+	public static final String RETCODEERRORDATA="110";
+	public static final String RETCODEERRORDIFFERENTWSDL="120";
+	
+	public static final String RETCODEOK="0"; 
 	
 	enum TypeValue {
 		OK,
@@ -67,7 +70,9 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		FILESYSTEM,
 		APPLICATION,
 		PARAMETERS,
-		FORMATDATA
+		FORMATDATA,
+		NETWORKING,
+		DATABASE
 	}
 	
 	enum OriginValue {
@@ -96,6 +101,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	protected String password;
 	protected String inpBody;
 	protected String outMsg;
+	protected String errMsg;
 	
 	protected WSCOService wscos;
 	protected WSCOServiceService wscoss;
@@ -133,15 +139,18 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		SmeupResponseCO sr = new SmeupResponseCO();
 		File inpFileBody = null;
 		File outFileMsg = null;
+		File errFileMsg = null;
 				
 		inpBody = arg1.getData(PATHNAMEINPUTBODY);
 		outMsg = arg1.getData(PATHNAMEOUTPUTMESSAGE);
+		errMsg = arg1.getData(PATHNAMEERRORMESSAGE);
 		
 		if (outMsg == null || outMsg.trim().length()<=0) {
 			 sr.setCode(RETCODEERROROUTPUTPARAM);
 			 sr.setText("Output file is required");
 			 sr.setSubType(SubTypeValue.PARAMETERS.name());
 			 sr.setOrigin(OriginValue.SMEUP.name());
+			 sr.setType(TypeValue.ERROR.name());
 			 return generaRisposta(arg1,sr);
 		}
 		
@@ -154,6 +163,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				sr.setText("Path output file not exists");
 				sr.setSubType(SubTypeValue.FILESYSTEM.name());
 				sr.setOrigin(OriginValue.SMEUP.name());
+				sr.setType(TypeValue.ERROR.name());
 				return generaRisposta(arg1,sr);
 			}
 			if (!pathOutMsg.isDirectory()) {
@@ -161,6 +171,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				sr.setText("Path output file not exists");
 				sr.setSubType(SubTypeValue.FILESYSTEM.name());
 				sr.setOrigin(OriginValue.SMEUP.name());
+				sr.setType(TypeValue.ERROR.name());
 				return generaRisposta(arg1,sr);
 			}
 			FileOutputStream vOut= new FileOutputStream(outFileMsg);
@@ -179,7 +190,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			sr.setStackTrace(sw.toString());
 			sr.setSubType(SubTypeValue.FILESYSTEM.name());
 			sr.setOrigin(OriginValue.SMEUP.name());
-			return generaRisposta(arg1, sr);			// TODO: handle exception
+			sr.setType(TypeValue.ERROR.name());
+			return generaRisposta(arg1, sr);
 		}
 		
 		if (inpBody == null || inpBody.trim().length()<=0) {
@@ -187,6 +199,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			 sr.setText("Input file is required");
 			 sr.setSubType(SubTypeValue.PARAMETERS.name());
 			 sr.setOrigin(OriginValue.SMEUP.name());
+			 sr.setType(TypeValue.ERROR.name());
 			 return generaRisposta(arg1,sr);
 		}
 		
@@ -199,10 +212,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				sr.setText("Input file not exists");
 				sr.setSubType(SubTypeValue.FILESYSTEM.name());
 				sr.setOrigin(OriginValue.SMEUP.name());
+				sr.setType(TypeValue.ERROR.name());
 				return generaRisposta(arg1,sr);
 			}
 			
-
 		} catch (Exception e) {
 			sr.setCode(RETCODEERRORINPUTFILE);
 			sr.setText(e);
@@ -212,9 +225,56 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			sr.setStackTrace(sw.toString());
 			sr.setSubType(SubTypeValue.FILESYSTEM.name());
 			sr.setOrigin(OriginValue.SMEUP.name());
+			sr.setType(TypeValue.ERROR.name());
 			return generaRisposta(arg1,sr);
+		}	
+		//se non ricevo il nome del file di errori lo ricavo:
+		//prendo il path del file di output e compongo un nome di default
+		if (errMsg == null || errMsg.trim().length()<=0) {
+			errMsg = outFileMsg.getPath().substring(0, outFileMsg.getPath().length() - 4).concat("_log.xml");
 		}
 		
+		try {
+			errFileMsg = new File(errMsg);
+			File pathErrMsg = new File(errFileMsg.getParent());
+			
+			if (!pathErrMsg.exists() && !pathErrMsg.mkdirs()) {
+				sr.setCode(RETCODEERROROUTPUTFILE);
+				sr.setText("Path error file not exists");
+				sr.setSubType(SubTypeValue.FILESYSTEM.name());
+				sr.setOrigin(OriginValue.SMEUP.name());
+				sr.setType(TypeValue.ERROR.name());
+				return generaRisposta(arg1,sr);
+			}
+			if (!pathErrMsg.isDirectory()) {
+				sr.setCode(RETCODEERROROUTPUTFILE);
+				sr.setText("Path error file not exists");
+				sr.setSubType(SubTypeValue.FILESYSTEM.name());
+				sr.setOrigin(OriginValue.SMEUP.name());
+				sr.setType(TypeValue.ERROR.name());
+				return generaRisposta(arg1,sr);
+			}
+			FileOutputStream vOut= new FileOutputStream(errFileMsg);
+			vOut.close();
+			
+			if (errFileMsg.exists()) {
+				errFileMsg.delete();
+			}
+
+		} catch (Exception e) {
+			sr.setCode(RETCODEERROROUTPUTFILE);
+			sr.setText(e);
+			StringWriter sw = new StringWriter();
+			PrintWriter pw = new PrintWriter(sw);
+			e.printStackTrace(pw);
+			sr.setStackTrace(sw.toString());
+			sr.setSubType(SubTypeValue.FILESYSTEM.name());
+			sr.setOrigin(OriginValue.SMEUP.name());
+			sr.setType(TypeValue.ERROR.name());
+			return generaRisposta(arg1, sr);
+		}
+			
+
 		try {
 			wscoss = new WSCOServiceService();
 			wscoss.setHandlerResolver(new HandlHeaderCO(inpFileBody,outFileMsg,sr));
@@ -228,27 +288,29 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			prov.getRequestContext().put(BindingProvider.PASSWORD_PROPERTY, password);
 		
 		} catch (Exception e) {
-			if (sr.getCode()==0) {
+			if (sr.getCode()==RETCODEOK) {
 				if (e.getClass().equals(ClientTransportException.class)) {
 					sr.setCode(RETCODEERRORPAGENOTFOUND);
-					sr.setOrigin(OriginValue.WSDEST.name());
+					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 					sr.setSubType(SubTypeValue.APPLICATION.name());
 				} else if (e.getClass().equals(NullPointerException.class)) {
 					sr.setCode(RETCODEERRORDIFFERENTWSDL);
-					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
+					sr.setOrigin(OriginValue.SMEUP.name());
 					sr.setSubType(SubTypeValue.APPLICATION.name());
 				} else {
 					sr.setCode(RETCODEERRORSERVICE);
-					sr.setOrigin(OriginValue.WSDEST.name());
+					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 					sr.setSubType(SubTypeValue.SYSTEM.name());
 				}
 				sr.setText(e);
 				StringWriter sw = new StringWriter();
 				PrintWriter pw = new PrintWriter(sw);
 				e.printStackTrace(pw);
-				sr.setStackTrace(sw.toString());			
+				sr.setStackTrace(sw.toString());	
+				sr.setType(TypeValue.ERROR.name());
 			}
-			return generaRisposta(arg1, sr);
+
+			return generaRisposta(arg1,sr);
 		}
 		try {
 			switch (ope) {
@@ -286,7 +348,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				return generaRisposta(arg1,"Unknow Operation");
 			}
 		} catch (Exception e) {
-			if (sr.getCode()==0) {
+			if (sr.getCode()==RETCODEOK) {
 				if (e.getClass().equals(ClientTransportException.class)) {
 					sr.setCode(RETCODEERRORPAGENOTFOUND);
 					sr.setOrigin(OriginValue.WSDEST.name());
@@ -295,10 +357,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 				} else if (e.getClass().equals(NullPointerException.class)) {
 					sr.setCode(RETCODEERRORDIFFERENTWSDL);
-					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
+					sr.setOrigin(OriginValue.SMEUP.name());
 				} else {
 					sr.setCode(RETCODEERRORSEND);
-					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
+					sr.setOrigin(OriginValue.SMEUP.name());
 				}
 				sr.setText(e);
 				StringWriter sw = new StringWriter();
@@ -306,9 +368,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				e.printStackTrace(pw);
 				sr.setStackTrace(sw.toString());
 				sr.setSubType(SubTypeValue.APPLICATION.name());
-				
+				sr.setType(TypeValue.ERROR.name());
 			}
 		}
+		
 		return generaRisposta(arg1,sr);
 	}
 
@@ -422,36 +485,38 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
     }
 	
 	private SPIWsCConnectorResponse generaRisposta(SPIWsCConnectorInput tabInput, SmeupResponseCO DRC) {
-		//Scrivo l'XMl nel caso ci sia un errore e non mi sia arrivata una risposta dal webservice
-		if (DRC.getCode()!=0) {
+		//MPB scrivo gli eventuali errori in un altro file diverso da quello di risposta e anche in caso positivo
+//		if (DRC.getCode()!=RETCODEOK) {
 			File out = null;
-			if (outMsg == null && outMsg.trim().length()<=0) {
+			if (errMsg == null && errMsg.trim().length()<=0) {
 				out = new File(System.currentTimeMillis()+".xml");
 			} else {
-				out = new File(outMsg);
+				out = new File(errMsg);
 				if (DRC.getCode()==RETCODEERROROUTPUTFILE) {
 					String name = out.getName();
 					out = new File(name);
 				}
 			}
-			if (!out.exists()) {
-				scriviFileXml(tabInput,DRC,out);
-			}	
-		} else {
-			DRC.setType(TypeValue.OK.name());
-		}
+			scriviFileXml(tabInput,DRC,out);
+				
+//		} else {
+//			DRC.setType(TypeValue.OK.name());
+//		}
+		
 
 		SPIWsCConnectorResponse resp = new SPIWsCConnectorResponse();
 		//nella prima hashMap metto codici di errore/risposte da XPP
 		HashMap<String,String> tab1Out = new HashMap<String, String>();
 		ArrayList<HashMap<String,String>> vGrid = new ArrayList<HashMap<String,String>>();
 		
-		tab1Out.put("SmeupPluginReturnCode", (new Integer(DRC.getCode()).toString()));
+		tab1Out.put("SmeupPluginReturnCode", DRC.getCode());
 		tab1Out.put("SmeupPluginText", DRC.getText());
 		tab1Out.put("SmeupPluginStackTrace", DRC.getStackTrace());
 		tab1Out.put("SmeupPluginType", DRC.getType());
 		tab1Out.put("SmeupPluginSubType", DRC.getSubType());
 		tab1Out.put("SmeupPluginOrigin", DRC.getOrigin());
+		tab1Out.put("SmeupPluginTechnicalText", DRC.getTechnicalText());
+		
 		
 		vGrid.add(tab1Out);
 		
@@ -487,12 +552,16 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				rootElement.appendChild(smeupOutput);
 
 				Element smeupPluginReturnCode = doc.createElement("SmeupPluginReturnCode");
-				smeupPluginReturnCode.appendChild(doc.createTextNode(new Integer(DRC.getCode()).toString()));
+				smeupPluginReturnCode.appendChild(doc.createTextNode(DRC.getCode()));
 				smeupOutput.appendChild(smeupPluginReturnCode);
 
 				Element smeupPluginText = doc.createElement("SmeupPluginText");
 				smeupPluginText.appendChild(doc.createTextNode(DRC.getText()));
 				smeupOutput.appendChild(smeupPluginText);
+				
+				Element technicalText = doc.createElement("SmeupTechnicalText");
+				technicalText.appendChild(doc.createTextNode(DRC.getTechnicalText()));
+				smeupOutput.appendChild(technicalText);
 				
 				Element smeupPluginStackTrace = doc.createElement("SmeupPluginStackTrace");
 				smeupPluginStackTrace.appendChild(doc.createTextNode(DRC.getStackTrace()));

@@ -3,7 +3,7 @@ package it.smeup;
 public class SmeupResponseCO {
 
 	// Codice errore ritorno negativo errore nei parametri invio positivo errore da remoto zero tutto ok 
-	protected int code;
+	protected String code;
 	// testo dell'errore breve
 	protected String text;
 	// Stack trace dell'errore
@@ -14,29 +14,26 @@ public class SmeupResponseCO {
 	protected String subType;
 	// Dove può essere la causa/origine del messaggio: Smeup/WebService destinazione/Provider
 	protected String origin;
-	// Codice di ritorno da sistema remoto
-	protected boolean externalResult;
 	// Testo dell'errore da sistema remoto
-	protected String externalText;
+	protected String technicalText;
 	
 	public SmeupResponseCO() {
-		this.setCode(0);
+		this.setCode(SmeupToUBUY.RETCODEOK);
 		this.setText("");
 		this.setStackTrace("");
-		this.setType(SmeupToUBUY.TypeValue.ERROR.name());
+		this.setType(SmeupToUBUY.TypeValue.OK.name());
 		this.setSubType("");
 		this.setOrigin("");
-		this.setExternalResult(false);
-		this.setExternalText("");
+		this.setTechnicalText("");
 	}
 
 
-	public int getCode() {
+	public String getCode() {
 		return code;
 	}
 
 
-	public void setCode(int code) {
+	public void setCode(String code) {
 		this.code = code;
 	}
 
@@ -62,21 +59,21 @@ public class SmeupResponseCO {
 		}
 	}
 
-	public String getExternalText() {
-		if (this.externalText==null) {
+	public String getTechnicalText() {
+		if (this.technicalText==null) {
 			return "";	
 		} else {
-			return this.externalText;
+			return this.technicalText;
 		}
 	}
 
 
-	public void setExternalText(String externalText) {
-		this.externalText = externalText;
+	public void setTechnicalText(String externalText) {
+		this.technicalText = externalText;
 	}	
 
 	public boolean isError() {
-		if (this.code!=0) {
+		if (this.code!=SmeupToUBUY.RETCODEOK) {
 			return true;
 		} else {
 			return false;
@@ -133,16 +130,6 @@ public class SmeupResponseCO {
 
 	public void setOrigin(String origin) {
 		this.origin = origin;
-	}
-
-
-	public boolean isExternalResult() {
-		return externalResult;
-	}
-
-
-	public void setExternalResult(boolean externalResult) {
-		this.externalResult = externalResult;
 	}
 
 }
