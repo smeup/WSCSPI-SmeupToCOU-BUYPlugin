@@ -19,12 +19,7 @@ public class SmeupResponseCO {
 	
 	public SmeupResponseCO() {
 		this.setCode(SmeupToUBUY.RETCODEOK);
-		this.setText("");
-		this.setStackTrace("");
 		this.setType(SmeupToUBUY.TypeValue.OK.name());
-		this.setSubType("");
-		this.setOrigin("");
-		this.setTechnicalText("");
 	}
 
 
@@ -39,11 +34,10 @@ public class SmeupResponseCO {
 
 
 	public String getText() {
-		if (this.text==null) {
-			return "";	
-		} else {
-			return this.text;
-		}
+		if (text==null || text.trim().length()<=0) {
+			text = SmeupToUBUY.EMPTY;	
+		} 
+		return text;
 	}
 
 
@@ -60,11 +54,10 @@ public class SmeupResponseCO {
 	}
 
 	public String getTechnicalText() {
-		if (this.technicalText==null) {
-			return "";	
-		} else {
-			return this.technicalText;
-		}
+		if (technicalText==null || technicalText.trim().length()<=0) {
+			technicalText = SmeupToUBUY.EMPTY;	
+		} 
+		return technicalText;
 	}
 
 
@@ -82,8 +75,8 @@ public class SmeupResponseCO {
 
 
 	public String getStackTrace() {
-		if (stackTrace==null) {
-			stackTrace="";
+		if (stackTrace==null || stackTrace.trim().length()<=0) {
+			stackTrace= SmeupToUBUY.EMPTY;
 		}
 		return stackTrace;
 	}
@@ -95,8 +88,8 @@ public class SmeupResponseCO {
 
 
 	public String getType() {
-		if (type==null) {
-			type="";
+		if (type==null || type.trim().length()<=0) {
+			type= SmeupToUBUY.EMPTY;
 		}
 		return type;
 	}
@@ -108,8 +101,8 @@ public class SmeupResponseCO {
 
 
 	public String getSubType() {
-		if (subType==null) {
-			subType="";
+		if (subType==null || subType.trim().length()<=0) {
+			subType= SmeupToUBUY.EMPTY;
 		}
 		return subType;
 	}
@@ -121,8 +114,8 @@ public class SmeupResponseCO {
 
 
 	public String getOrigin() {
-		if (origin==null) {
-			origin="";
+		if (origin==null || origin.trim().length()<=0) {
+			origin= SmeupToUBUY.EMPTY;
 		}
 		return origin;
 	}

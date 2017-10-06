@@ -56,6 +56,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	public static final String RETCODEERRORDIFFERENTWSDL="120";
 	
 	public static final String RETCODEOK="0"; 
+	public static final String EMPTY="EMPTY";
 	
 	enum TypeValue {
 		OK,
@@ -135,8 +136,19 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	}
 
 	public SPIWsCConnectorResponse invoke(String arg0, SPIWsCConnectorInput arg1) {
-		Operazione ope = Operazione.valueOf(arg0);
 		SmeupResponseCO sr = new SmeupResponseCO();
+		Operazione ope = null;
+		try {
+			ope = Operazione.valueOf(arg0);
+		} catch (Exception e) {
+			sr.setCode(RETCODEERROROUTPUTPARAM);
+			sr.setText("Unknown operation: "+arg0);
+			sr.setSubType(SubTypeValue.PARAMETERS.name());
+			sr.setOrigin(OriginValue.SMEUP.name());
+			sr.setType(TypeValue.ERROR.name());
+			return generaRisposta(arg1,sr);
+		}
+		
 		File inpFileBody = null;
 		File outFileMsg = null;
 		File errFileMsg = null;
