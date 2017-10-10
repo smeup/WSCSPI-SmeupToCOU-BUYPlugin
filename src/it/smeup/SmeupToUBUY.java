@@ -2,6 +2,7 @@ package it.smeup;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.ArrayList;
@@ -22,6 +23,9 @@ import javax.xml.ws.BindingProvider;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 import com.sun.xml.internal.ws.client.ClientTransportException;
 
@@ -605,6 +609,31 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 					smeupInput.appendChild(element);
 		            
 		        }
+
+		        Document docBody;
+				try {
+					docBody = docBuilder.parse(new File(inpBody));
+					
+					Element smeupContentBodyFile = doc.createElement("SmeupContentBodyFile");
+					NodeList list = docBody.getChildNodes();
+					for(int i = 0 ; i< list.getLength() ; i++) {
+						Node n = list.item(i);
+						Node copiedNode = doc.importNode(n, true);
+						smeupContentBodyFile.appendChild(copiedNode);
+
+					}
+			        
+					smeupInput.appendChild(smeupContentBodyFile);
+					
+
+				} catch (SAXException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+					        
 
 				// write the content into xml file
 				TransformerFactory transformerFactory = TransformerFactory.newInstance();
