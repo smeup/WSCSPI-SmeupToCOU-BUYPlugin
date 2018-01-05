@@ -30,7 +30,8 @@ public class WSCOServiceService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("https://univ-test02.sviluppo.u-gov.it/ws-co/ws/private/service.wsdl");
+//            url = new URL("https://univ-test02.sviluppo.u-gov.it/ws-co/ws/private/service.wsdl");
+        	url = new URL("https://univ-test03.sviluppo.u-gov.it/ws-co/ws/private/service.wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
