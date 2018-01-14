@@ -18,6 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="cdIva" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="detraibilita" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *         &lt;element name="dsIva" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="percentualeIva" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *       &lt;/sequence>
@@ -31,12 +32,14 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "codiceIvaDTO", propOrder = {
     "cdIva",
+    "detraibilita",
     "dsIva",
     "percentualeIva"
 })
 public class CodiceIvaDTO {
 
     protected String cdIva;
+    protected BigDecimal detraibilita;
     protected String dsIva;
     protected BigDecimal percentualeIva;
 
@@ -62,6 +65,30 @@ public class CodiceIvaDTO {
      */
     public void setCdIva(String value) {
         this.cdIva = value;
+    }
+
+    /**
+     * Gets the value of the detraibilita property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public BigDecimal getDetraibilita() {
+        return detraibilita;
+    }
+
+    /**
+     * Sets the value of the detraibilita property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public void setDetraibilita(BigDecimal value) {
+        this.detraibilita = value;
     }
 
     /**

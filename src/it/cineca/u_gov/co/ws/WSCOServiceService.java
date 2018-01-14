@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "WSCOServiceService", targetNamespace = "http://ws.co.u-gov.cineca.it/", wsdlLocation = "https://univ-test02.sviluppo.u-gov.it/ws-co/ws/private/service.wsdl")
+@WebServiceClient(name = "WSCOServiceService", targetNamespace = "http://ws.co.u-gov.cineca.it/", wsdlLocation = "https://test.uniud.u-gov.it/ws-co/ws/private/service.wsdl")
 public class WSCOServiceService
     extends Service
 {
@@ -30,8 +30,7 @@ public class WSCOServiceService
         URL url = null;
         WebServiceException e = null;
         try {
-//            url = new URL("https://univ-test02.sviluppo.u-gov.it/ws-co/ws/private/service.wsdl");
-        	url = new URL("https://univ-test03.sviluppo.u-gov.it/ws-co/ws/private/service.wsdl");
+            url = new URL("https://test.uniud.u-gov.it/ws-co/ws/private/service.wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
