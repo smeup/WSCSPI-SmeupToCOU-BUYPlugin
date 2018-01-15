@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for uaVoceCoanProgettoDTO complex type.
+ * <p>Classe Java per uaVoceCoanProgettoDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="uaVoceCoanProgettoDTO">
@@ -49,7 +49,7 @@ public class UaVoceCoanProgettoDTO {
     protected List<VoceCoanLightDTO> voci;
 
     /**
-     * Gets the value of the cdUo property.
+     * Recupera il valore della proprietà cdUo.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class UaVoceCoanProgettoDTO {
     }
 
     /**
-     * Sets the value of the cdUo property.
+     * Imposta il valore della proprietà cdUo.
      * 
      * @param value
      *     allowed object is

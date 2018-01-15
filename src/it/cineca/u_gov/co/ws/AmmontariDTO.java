@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ammontariDTO complex type.
+ * <p>Classe Java per ammontariDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ammontariDTO">
@@ -50,7 +50,7 @@ public class AmmontariDTO {
     protected BigDecimal ammPrincipaleCoge;
 
     /**
-     * Gets the value of the ammIvaDetr property.
+     * Recupera il valore della proprietà ammIvaDetr.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Sets the value of the ammIvaDetr property.
+     * Imposta il valore della proprietà ammIvaDetr.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Gets the value of the ammIvaEuro property.
+     * Recupera il valore della proprietà ammIvaEuro.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Sets the value of the ammIvaEuro property.
+     * Imposta il valore della proprietà ammIvaEuro.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Gets the value of the ammIvaIndetr property.
+     * Recupera il valore della proprietà ammIvaIndetr.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Sets the value of the ammIvaIndetr property.
+     * Imposta il valore della proprietà ammIvaIndetr.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Gets the value of the ammIvaProrataCoge property.
+     * Recupera il valore della proprietà ammIvaProrataCoge.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Sets the value of the ammIvaProrataCoge property.
+     * Imposta il valore della proprietà ammIvaProrataCoge.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Gets the value of the ammPrincipaleCoan property.
+     * Recupera il valore della proprietà ammPrincipaleCoan.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Sets the value of the ammPrincipaleCoan property.
+     * Imposta il valore della proprietà ammPrincipaleCoan.
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Gets the value of the ammPrincipaleCoge property.
+     * Recupera il valore della proprietà ammPrincipaleCoge.
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class AmmontariDTO {
     }
 
     /**
-     * Sets the value of the ammPrincipaleCoge property.
+     * Imposta il valore della proprietà ammPrincipaleCoge.
      * 
      * @param value
      *     allowed object is

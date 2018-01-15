@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getElencoTariffari complex type.
+ * <p>Classe Java per getElencoTariffari complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getElencoTariffari">
@@ -43,7 +43,7 @@ public class GetElencoTariffari {
     protected String cdUoOrigine;
 
     /**
-     * Gets the value of the dataRif property.
+     * Recupera il valore della proprietà dataRif.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class GetElencoTariffari {
     }
 
     /**
-     * Sets the value of the dataRif property.
+     * Imposta il valore della proprietà dataRif.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class GetElencoTariffari {
     }
 
     /**
-     * Gets the value of the cdTipoOpIva property.
+     * Recupera il valore della proprietà cdTipoOpIva.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class GetElencoTariffari {
     }
 
     /**
-     * Sets the value of the cdTipoOpIva property.
+     * Imposta il valore della proprietà cdTipoOpIva.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class GetElencoTariffari {
     }
 
     /**
-     * Gets the value of the cdUoOrigine property.
+     * Recupera il valore della proprietà cdUoOrigine.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class GetElencoTariffari {
     }
 
     /**
-     * Sets the value of the cdUoOrigine property.
+     * Imposta il valore della proprietà cdUoOrigine.
      * 
      * @param value
      *     allowed object is

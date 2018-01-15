@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getElencoCup complex type.
+ * <p>Classe Java per getElencoCup complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getElencoCup">
@@ -40,7 +40,7 @@ public class GetElencoCup {
     protected Boolean flNotaCredito;
 
     /**
-     * Gets the value of the cdNodo property.
+     * Recupera il valore della proprietà cdNodo.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class GetElencoCup {
     }
 
     /**
-     * Sets the value of the cdNodo property.
+     * Imposta il valore della proprietà cdNodo.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class GetElencoCup {
     }
 
     /**
-     * Gets the value of the tiAttivoPassivo property.
+     * Recupera il valore della proprietà tiAttivoPassivo.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class GetElencoCup {
     }
 
     /**
-     * Sets the value of the tiAttivoPassivo property.
+     * Imposta il valore della proprietà tiAttivoPassivo.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class GetElencoCup {
     }
 
     /**
-     * Gets the value of the flNotaCredito property.
+     * Recupera il valore della proprietà flNotaCredito.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class GetElencoCup {
     }
 
     /**
-     * Sets the value of the flNotaCredito property.
+     * Imposta il valore della proprietà flNotaCredito.
      * 
      * @param value
      *     allowed object is

@@ -12,9 +12,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for scritturaEsternaCoanDTO complex type.
+ * <p>Classe Java per scritturaEsternaCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="scritturaEsternaCoanDTO">
@@ -77,7 +77,7 @@ public class ScritturaEsternaCoanDTO {
     protected String tipoDocumento;
 
     /**
-     * Gets the value of the cdAppExt property.
+     * Recupera il valore della proprietà cdAppExt.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdAppExt property.
+     * Imposta il valore della proprietà cdAppExt.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdSezionale property.
+     * Recupera il valore della proprietà cdSezionale.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdSezionale property.
+     * Imposta il valore della proprietà cdSezionale.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdValuta property.
+     * Recupera il valore della proprietà cdValuta.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdValuta property.
+     * Imposta il valore della proprietà cdValuta.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the codFis property.
+     * Recupera il valore della proprietà codFis.
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the codFis property.
+     * Imposta il valore della proprietà codFis.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsDg property.
+     * Recupera il valore della proprietà dsDg.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsDg property.
+     * Imposta il valore della proprietà dsDg.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the dtReg property.
+     * Recupera il valore della proprietà dtReg.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the dtReg property.
+     * Imposta il valore della proprietà dtReg.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the idAbSogg property.
+     * Recupera il valore della proprietà idAbSogg.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the idAbSogg property.
+     * Imposta il valore della proprietà idAbSogg.
      * 
      * @param value
      *     allowed object is
@@ -274,7 +274,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the idTestataDocumento property.
+     * Recupera il valore della proprietà idTestataDocumento.
      * 
      * @return
      *     possible object is
@@ -286,7 +286,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the idTestataDocumento property.
+     * Imposta il valore della proprietà idTestataDocumento.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +298,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the numRegistrazione property.
+     * Recupera il valore della proprietà numRegistrazione.
      * 
      * @return
      *     possible object is
@@ -310,7 +310,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the numRegistrazione property.
+     * Imposta il valore della proprietà numRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +322,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the partIva property.
+     * Recupera il valore della proprietà partIva.
      * 
      * @return
      *     possible object is
@@ -334,7 +334,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the partIva property.
+     * Imposta il valore della proprietà partIva.
      * 
      * @param value
      *     allowed object is
@@ -346,7 +346,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the ragioneSociale property.
+     * Recupera il valore della proprietà ragioneSociale.
      * 
      * @return
      *     possible object is
@@ -358,7 +358,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the ragioneSociale property.
+     * Imposta il valore della proprietà ragioneSociale.
      * 
      * @param value
      *     allowed object is
@@ -370,7 +370,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the tipoDocumento property.
+     * Recupera il valore della proprietà tipoDocumento.
      * 
      * @return
      *     possible object is
@@ -382,7 +382,7 @@ public class ScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the tipoDocumento property.
+     * Imposta il valore della proprietà tipoDocumento.
      * 
      * @param value
      *     allowed object is

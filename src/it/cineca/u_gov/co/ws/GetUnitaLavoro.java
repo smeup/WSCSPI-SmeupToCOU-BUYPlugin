@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getUnitaLavoro complex type.
+ * <p>Classe Java per getUnitaLavoro complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getUnitaLavoro">
@@ -40,7 +40,7 @@ public class GetUnitaLavoro {
     protected XMLGregorianCalendar dtRegistrazione;
 
     /**
-     * Gets the value of the cdPj property.
+     * Recupera il valore della proprietà cdPj.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class GetUnitaLavoro {
     }
 
     /**
-     * Sets the value of the cdPj property.
+     * Imposta il valore della proprietà cdPj.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class GetUnitaLavoro {
     }
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class GetUnitaLavoro {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is

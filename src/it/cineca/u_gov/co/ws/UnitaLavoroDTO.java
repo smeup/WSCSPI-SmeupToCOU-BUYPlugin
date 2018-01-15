@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for unitaLavoroDTO complex type.
+ * <p>Classe Java per unitaLavoroDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="unitaLavoroDTO">
@@ -40,7 +40,7 @@ public class UnitaLavoroDTO {
     protected Long idUnitaLavoro;
 
     /**
-     * Gets the value of the cdUnitaLavoro property.
+     * Recupera il valore della proprietà cdUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class UnitaLavoroDTO {
     }
 
     /**
-     * Sets the value of the cdUnitaLavoro property.
+     * Imposta il valore della proprietà cdUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class UnitaLavoroDTO {
     }
 
     /**
-     * Gets the value of the dsUnitaLavoro property.
+     * Recupera il valore della proprietà dsUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class UnitaLavoroDTO {
     }
 
     /**
-     * Sets the value of the dsUnitaLavoro property.
+     * Imposta il valore della proprietà dsUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class UnitaLavoroDTO {
     }
 
     /**
-     * Gets the value of the idUnitaLavoro property.
+     * Recupera il valore della proprietà idUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class UnitaLavoroDTO {
     }
 
     /**
-     * Sets the value of the idUnitaLavoro property.
+     * Imposta il valore della proprietà idUnitaLavoro.
      * 
      * @param value
      *     allowed object is

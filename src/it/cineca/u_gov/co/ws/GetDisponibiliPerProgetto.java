@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getDisponibiliPerProgetto complex type.
+ * <p>Classe Java per getDisponibiliPerProgetto complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getDisponibiliPerProgetto">
@@ -49,7 +49,7 @@ public class GetDisponibiliPerProgetto {
     protected Long idVoceCoan;
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Gets the value of the idProgetto property.
+     * Recupera il valore della proprietà idProgetto.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Sets the value of the idProgetto property.
+     * Imposta il valore della proprietà idProgetto.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Gets the value of the idVoceCoan property.
+     * Recupera il valore della proprietà idVoceCoan.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class GetDisponibiliPerProgetto {
     }
 
     /**
-     * Sets the value of the idVoceCoan property.
+     * Imposta il valore della proprietà idVoceCoan.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getCodiceCPV complex type.
+ * <p>Classe Java per getCodiceCPV complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getCodiceCPV">
@@ -43,7 +43,7 @@ public class GetCodiceCPV {
     protected String cdBeneServizio;
 
     /**
-     * Gets the value of the dtReg property.
+     * Recupera il valore della proprietà dtReg.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class GetCodiceCPV {
     }
 
     /**
-     * Sets the value of the dtReg property.
+     * Imposta il valore della proprietà dtReg.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class GetCodiceCPV {
     }
 
     /**
-     * Gets the value of the flUltimoLivello property.
+     * Recupera il valore della proprietà flUltimoLivello.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class GetCodiceCPV {
     }
 
     /**
-     * Sets the value of the flUltimoLivello property.
+     * Imposta il valore della proprietà flUltimoLivello.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class GetCodiceCPV {
     }
 
     /**
-     * Gets the value of the cdBeneServizio property.
+     * Recupera il valore della proprietà cdBeneServizio.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class GetCodiceCPV {
     }
 
     /**
-     * Sets the value of the cdBeneServizio property.
+     * Imposta il valore della proprietà cdBeneServizio.
      * 
      * @param value
      *     allowed object is

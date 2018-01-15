@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for logDisponibileCoanDTO complex type.
+ * <p>Classe Java per logDisponibileCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="logDisponibileCoanDTO">
@@ -80,7 +80,7 @@ public class LogDisponibileCoanDTO {
     protected Long idDettaglioDocumento;
 
     /**
-     * Gets the value of the ammDisponibileCO property.
+     * Recupera il valore della proprietà ammDisponibileCO.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the ammDisponibileCO property.
+     * Imposta il valore della proprietà ammDisponibileCO.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the ammDisponibilePJ property.
+     * Recupera il valore della proprietà ammDisponibilePJ.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the ammDisponibilePJ property.
+     * Imposta il valore della proprietà ammDisponibilePJ.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the ammPrevisioneCO property.
+     * Recupera il valore della proprietà ammPrevisioneCO.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the ammPrevisioneCO property.
+     * Imposta il valore della proprietà ammPrevisioneCO.
      * 
      * @param value
      *     allowed object is
@@ -152,7 +152,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the ammPrevisionePJ property.
+     * Recupera il valore della proprietà ammPrevisionePJ.
      * 
      * @return
      *     possible object is
@@ -164,7 +164,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the ammPrevisionePJ property.
+     * Imposta il valore della proprietà ammPrevisionePJ.
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the ammTotaleScrittureCO property.
+     * Recupera il valore della proprietà ammTotaleScrittureCO.
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the ammTotaleScrittureCO property.
+     * Imposta il valore della proprietà ammTotaleScrittureCO.
      * 
      * @param value
      *     allowed object is
@@ -200,7 +200,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the ammTotaleScritturePJ property.
+     * Recupera il valore della proprietà ammTotaleScritturePJ.
      * 
      * @return
      *     possible object is
@@ -212,7 +212,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the ammTotaleScritturePJ property.
+     * Imposta il valore della proprietà ammTotaleScritturePJ.
      * 
      * @param value
      *     allowed object is
@@ -224,7 +224,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the ammontare property.
+     * Recupera il valore della proprietà ammontare.
      * 
      * @return
      *     possible object is
@@ -236,7 +236,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the ammontare property.
+     * Imposta il valore della proprietà ammontare.
      * 
      * @param value
      *     allowed object is
@@ -248,7 +248,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -260,7 +260,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -272,7 +272,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -284,7 +284,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -296,7 +296,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -308,7 +308,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -320,7 +320,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the denomUa property.
+     * Recupera il valore della proprietà denomUa.
      * 
      * @return
      *     possible object is
@@ -332,7 +332,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the denomUa property.
+     * Imposta il valore della proprietà denomUa.
      * 
      * @param value
      *     allowed object is
@@ -344,7 +344,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the denomVoceCoan property.
+     * Recupera il valore della proprietà denomVoceCoan.
      * 
      * @return
      *     possible object is
@@ -356,7 +356,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the denomVoceCoan property.
+     * Imposta il valore della proprietà denomVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -368,7 +368,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the dsProgetto property.
+     * Recupera il valore della proprietà dsProgetto.
      * 
      * @return
      *     possible object is
@@ -380,7 +380,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the dsProgetto property.
+     * Imposta il valore della proprietà dsProgetto.
      * 
      * @param value
      *     allowed object is
@@ -392,7 +392,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -404,7 +404,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -416,7 +416,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the flDisponibilita property.
+     * Recupera il valore della proprietà flDisponibilita.
      * 
      * @return
      *     possible object is
@@ -428,7 +428,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the flDisponibilita property.
+     * Imposta il valore della proprietà flDisponibilita.
      * 
      * @param value
      *     allowed object is
@@ -440,7 +440,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Gets the value of the idDettaglioDocumento property.
+     * Recupera il valore della proprietà idDettaglioDocumento.
      * 
      * @return
      *     possible object is
@@ -452,7 +452,7 @@ public class LogDisponibileCoanDTO {
     }
 
     /**
-     * Sets the value of the idDettaglioDocumento property.
+     * Imposta il valore della proprietà idDettaglioDocumento.
      * 
      * @param value
      *     allowed object is

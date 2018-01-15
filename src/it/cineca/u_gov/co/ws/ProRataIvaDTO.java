@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for proRataIvaDTO complex type.
+ * <p>Classe Java per proRataIvaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="proRataIvaDTO">
@@ -59,7 +59,7 @@ public class ProRataIvaDTO {
     protected String tiCampoAttivita;
 
     /**
-     * Gets the value of the cdAteco property.
+     * Recupera il valore della proprietà cdAteco.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the cdAteco property.
+     * Imposta il valore della proprietà cdAteco.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the cdAttivitaIva property.
+     * Recupera il valore della proprietà cdAttivitaIva.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the cdAttivitaIva property.
+     * Imposta il valore della proprietà cdAttivitaIva.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the cdRegimeFiscale property.
+     * Recupera il valore della proprietà cdRegimeFiscale.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the cdRegimeFiscale property.
+     * Imposta il valore della proprietà cdRegimeFiscale.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the dsAttivitaIva property.
+     * Recupera il valore della proprietà dsAttivitaIva.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the dsAttivitaIva property.
+     * Imposta il valore della proprietà dsAttivitaIva.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the flEditoria property.
+     * Recupera il valore della proprietà flEditoria.
      * 
      * @return
      *     possible object is
@@ -191,7 +191,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the flEditoria property.
+     * Imposta il valore della proprietà flEditoria.
      * 
      * @param value
      *     allowed object is
@@ -203,7 +203,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the flPrincipale property.
+     * Recupera il valore della proprietà flPrincipale.
      * 
      * @return
      *     possible object is
@@ -215,7 +215,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the flPrincipale property.
+     * Imposta il valore della proprietà flPrincipale.
      * 
      * @param value
      *     allowed object is
@@ -227,7 +227,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the percentualeProRata property.
+     * Recupera il valore della proprietà percentualeProRata.
      * 
      * @return
      *     possible object is
@@ -239,7 +239,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the percentualeProRata property.
+     * Imposta il valore della proprietà percentualeProRata.
      * 
      * @param value
      *     allowed object is
@@ -251,7 +251,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -263,7 +263,7 @@ public class ProRataIvaDTO {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is

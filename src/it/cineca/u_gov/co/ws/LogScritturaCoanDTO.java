@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for logScritturaCoanDTO complex type.
+ * <p>Classe Java per logScritturaCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="logScritturaCoanDTO">
@@ -76,7 +76,7 @@ public class LogScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the errore property.
+     * Recupera il valore della proprietà errore.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class LogScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the errore property.
+     * Imposta il valore della proprietà errore.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class LogScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idScrCoan property.
+     * Recupera il valore della proprietà idScrCoan.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class LogScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idScrCoan property.
+     * Imposta il valore della proprietà idScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class LogScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the progScrittura property.
+     * Recupera il valore della proprietà progScrittura.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class LogScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the progScrittura property.
+     * Imposta il valore della proprietà progScrittura.
      * 
      * @param value
      *     allowed object is

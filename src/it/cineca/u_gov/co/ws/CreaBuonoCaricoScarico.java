@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for creaBuonoCaricoScarico complex type.
+ * <p>Classe Java per creaBuonoCaricoScarico complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaBuonoCaricoScarico">
@@ -51,7 +51,7 @@ public class CreaBuonoCaricoScarico {
     protected List<CreaBuonoInDTO> dgs;
 
     /**
-     * Gets the value of the cdAppExt property.
+     * Recupera il valore della proprietà cdAppExt.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class CreaBuonoCaricoScarico {
     }
 
     /**
-     * Sets the value of the cdAppExt property.
+     * Imposta il valore della proprietà cdAppExt.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class CreaBuonoCaricoScarico {
     }
 
     /**
-     * Gets the value of the tipoScrittura property.
+     * Recupera il valore della proprietà tipoScrittura.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class CreaBuonoCaricoScarico {
     }
 
     /**
-     * Sets the value of the tipoScrittura property.
+     * Imposta il valore della proprietà tipoScrittura.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class CreaBuonoCaricoScarico {
     }
 
     /**
-     * Gets the value of the flMassivo property.
+     * Recupera il valore della proprietà flMassivo.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class CreaBuonoCaricoScarico {
     }
 
     /**
-     * Sets the value of the flMassivo property.
+     * Imposta il valore della proprietà flMassivo.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class CreaBuonoCaricoScarico {
     }
 
     /**
-     * Gets the value of the dtRegistrazioneBuono property.
+     * Recupera il valore della proprietà dtRegistrazioneBuono.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class CreaBuonoCaricoScarico {
     }
 
     /**
-     * Sets the value of the dtRegistrazioneBuono property.
+     * Imposta il valore della proprietà dtRegistrazioneBuono.
      * 
      * @param value
      *     allowed object is

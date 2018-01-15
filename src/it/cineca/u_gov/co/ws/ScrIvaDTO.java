@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for scrIvaDTO complex type.
+ * <p>Classe Java per scrIvaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="scrIvaDTO">
@@ -109,12 +109,15 @@ public class ScrIvaDTO {
     protected String nomeTipoDg;
     protected Integer numRegistrazioneDg;
     protected Integer pgScrIva;
+    @XmlSchemaType(name = "string")
     protected TipiAttivoPassivo tiAttivoPassivo;
+    @XmlSchemaType(name = "string")
     protected TipiAttivita tiCampoAttivita;
+    @XmlSchemaType(name = "string")
     protected TipiFattura tiFattura;
 
     /**
-     * Gets the value of the ammImponibileEuro property.
+     * Recupera il valore della proprietà ammImponibileEuro.
      * 
      * @return
      *     possible object is
@@ -126,7 +129,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the ammImponibileEuro property.
+     * Imposta il valore della proprietà ammImponibileEuro.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +141,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the ammImponibileValuta property.
+     * Recupera il valore della proprietà ammImponibileValuta.
      * 
      * @return
      *     possible object is
@@ -150,7 +153,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the ammImponibileValuta property.
+     * Imposta il valore della proprietà ammImponibileValuta.
      * 
      * @param value
      *     allowed object is
@@ -162,7 +165,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the ammIvaEuro property.
+     * Recupera il valore della proprietà ammIvaEuro.
      * 
      * @return
      *     possible object is
@@ -174,7 +177,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the ammIvaEuro property.
+     * Imposta il valore della proprietà ammIvaEuro.
      * 
      * @param value
      *     allowed object is
@@ -186,7 +189,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the annoDg property.
+     * Recupera il valore della proprietà annoDg.
      * 
      * @return
      *     possible object is
@@ -198,7 +201,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the annoDg property.
+     * Imposta il valore della proprietà annoDg.
      * 
      * @param value
      *     allowed object is
@@ -210,7 +213,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the cdAttivitaIva property.
+     * Recupera il valore della proprietà cdAttivitaIva.
      * 
      * @return
      *     possible object is
@@ -222,7 +225,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the cdAttivitaIva property.
+     * Imposta il valore della proprietà cdAttivitaIva.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +237,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the cdClaGeo property.
+     * Recupera il valore della proprietà cdClaGeo.
      * 
      * @return
      *     possible object is
@@ -246,7 +249,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the cdClaGeo property.
+     * Imposta il valore della proprietà cdClaGeo.
      * 
      * @param value
      *     allowed object is
@@ -258,7 +261,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the cdSezionale property.
+     * Recupera il valore della proprietà cdSezionale.
      * 
      * @return
      *     possible object is
@@ -270,7 +273,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the cdSezionale property.
+     * Imposta il valore della proprietà cdSezionale.
      * 
      * @param value
      *     allowed object is
@@ -282,7 +285,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the cdTiOperazIva property.
+     * Recupera il valore della proprietà cdTiOperazIva.
      * 
      * @return
      *     possible object is
@@ -294,7 +297,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the cdTiOperazIva property.
+     * Imposta il valore della proprietà cdTiOperazIva.
      * 
      * @param value
      *     allowed object is
@@ -306,7 +309,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the cdUe property.
+     * Recupera il valore della proprietà cdUe.
      * 
      * @return
      *     possible object is
@@ -318,7 +321,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the cdUe property.
+     * Imposta il valore della proprietà cdUe.
      * 
      * @param value
      *     allowed object is
@@ -330,7 +333,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the cdUoNumeranteDg property.
+     * Recupera il valore della proprietà cdUoNumeranteDg.
      * 
      * @return
      *     possible object is
@@ -342,7 +345,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the cdUoNumeranteDg property.
+     * Imposta il valore della proprietà cdUoNumeranteDg.
      * 
      * @param value
      *     allowed object is
@@ -354,7 +357,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the cdValuta property.
+     * Recupera il valore della proprietà cdValuta.
      * 
      * @return
      *     possible object is
@@ -366,7 +369,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the cdValuta property.
+     * Imposta il valore della proprietà cdValuta.
      * 
      * @param value
      *     allowed object is
@@ -378,7 +381,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the dtEsigibilita property.
+     * Recupera il valore della proprietà dtEsigibilita.
      * 
      * @return
      *     possible object is
@@ -390,7 +393,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the dtEsigibilita property.
+     * Imposta il valore della proprietà dtEsigibilita.
      * 
      * @param value
      *     allowed object is
@@ -402,7 +405,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -414,7 +417,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -426,7 +429,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -438,7 +441,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -450,7 +453,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the flIvaDifferita property.
+     * Recupera il valore della proprietà flIvaDifferita.
      * 
      * @return
      *     possible object is
@@ -462,7 +465,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the flIvaDifferita property.
+     * Imposta il valore della proprietà flIvaDifferita.
      * 
      * @param value
      *     allowed object is
@@ -474,7 +477,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the flStorno property.
+     * Recupera il valore della proprietà flStorno.
      * 
      * @return
      *     possible object is
@@ -486,7 +489,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the flStorno property.
+     * Imposta il valore della proprietà flStorno.
      * 
      * @param value
      *     allowed object is
@@ -498,7 +501,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the flagSplitPayment property.
+     * Recupera il valore della proprietà flagSplitPayment.
      * 
      * @return
      *     possible object is
@@ -510,7 +513,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the flagSplitPayment property.
+     * Imposta il valore della proprietà flagSplitPayment.
      * 
      * @param value
      *     allowed object is
@@ -522,7 +525,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the idAb property.
+     * Recupera il valore della proprietà idAb.
      * 
      * @return
      *     possible object is
@@ -534,7 +537,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the idAb property.
+     * Imposta il valore della proprietà idAb.
      * 
      * @param value
      *     allowed object is
@@ -546,7 +549,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the idDg property.
+     * Recupera il valore della proprietà idDg.
      * 
      * @return
      *     possible object is
@@ -558,7 +561,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the idDg property.
+     * Imposta il valore della proprietà idDg.
      * 
      * @param value
      *     allowed object is
@@ -570,7 +573,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the idScrIva property.
+     * Recupera il valore della proprietà idScrIva.
      * 
      * @return
      *     possible object is
@@ -582,7 +585,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the idScrIva property.
+     * Imposta il valore della proprietà idScrIva.
      * 
      * @param value
      *     allowed object is
@@ -594,7 +597,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the nomeTipoDg property.
+     * Recupera il valore della proprietà nomeTipoDg.
      * 
      * @return
      *     possible object is
@@ -606,7 +609,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the nomeTipoDg property.
+     * Imposta il valore della proprietà nomeTipoDg.
      * 
      * @param value
      *     allowed object is
@@ -618,7 +621,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the numRegistrazioneDg property.
+     * Recupera il valore della proprietà numRegistrazioneDg.
      * 
      * @return
      *     possible object is
@@ -630,7 +633,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the numRegistrazioneDg property.
+     * Imposta il valore della proprietà numRegistrazioneDg.
      * 
      * @param value
      *     allowed object is
@@ -642,7 +645,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the pgScrIva property.
+     * Recupera il valore della proprietà pgScrIva.
      * 
      * @return
      *     possible object is
@@ -654,7 +657,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the pgScrIva property.
+     * Imposta il valore della proprietà pgScrIva.
      * 
      * @param value
      *     allowed object is
@@ -666,7 +669,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the tiAttivoPassivo property.
+     * Recupera il valore della proprietà tiAttivoPassivo.
      * 
      * @return
      *     possible object is
@@ -678,7 +681,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the tiAttivoPassivo property.
+     * Imposta il valore della proprietà tiAttivoPassivo.
      * 
      * @param value
      *     allowed object is
@@ -690,7 +693,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -702,7 +705,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is
@@ -714,7 +717,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Gets the value of the tiFattura property.
+     * Recupera il valore della proprietà tiFattura.
      * 
      * @return
      *     possible object is
@@ -726,7 +729,7 @@ public class ScrIvaDTO {
     }
 
     /**
-     * Sets the value of the tiFattura property.
+     * Imposta il valore della proprietà tiFattura.
      * 
      * @param value
      *     allowed object is

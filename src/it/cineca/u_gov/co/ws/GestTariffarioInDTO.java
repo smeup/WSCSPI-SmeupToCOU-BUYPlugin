@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for gestTariffarioInDTO complex type.
+ * <p>Classe Java per gestTariffarioInDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="gestTariffarioInDTO">
@@ -68,7 +68,7 @@ public class GestTariffarioInDTO {
     protected String unitaMisura;
 
     /**
-     * Gets the value of the cdIva property.
+     * Recupera il valore della proprietà cdIva.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the cdIva property.
+     * Imposta il valore della proprietà cdIva.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the cdTariffa property.
+     * Recupera il valore della proprietà cdTariffa.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the cdTariffa property.
+     * Imposta il valore della proprietà cdTariffa.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the cdTipoSpesa property.
+     * Recupera il valore della proprietà cdTipoSpesa.
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the cdTipoSpesa property.
+     * Imposta il valore della proprietà cdTipoSpesa.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the cdUO property.
+     * Recupera il valore della proprietà cdUO.
      * 
      * @return
      *     possible object is
@@ -152,7 +152,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the cdUO property.
+     * Imposta il valore della proprietà cdUO.
      * 
      * @param value
      *     allowed object is
@@ -164,7 +164,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the destinazione property.
+     * Recupera il valore della proprietà destinazione.
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the destinazione property.
+     * Imposta il valore della proprietà destinazione.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +188,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the dsTariffa property.
+     * Recupera il valore della proprietà dsTariffa.
      * 
      * @return
      *     possible object is
@@ -200,7 +200,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the dsTariffa property.
+     * Imposta il valore della proprietà dsTariffa.
      * 
      * @param value
      *     allowed object is
@@ -212,7 +212,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the dtRiferimento property.
+     * Recupera il valore della proprietà dtRiferimento.
      * 
      * @return
      *     possible object is
@@ -224,7 +224,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the dtRiferimento property.
+     * Imposta il valore della proprietà dtRiferimento.
      * 
      * @param value
      *     allowed object is
@@ -236,7 +236,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the flEnpav property.
+     * Recupera il valore della proprietà flEnpav.
      * 
      * @return
      *     possible object is
@@ -248,7 +248,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the flEnpav property.
+     * Imposta il valore della proprietà flEnpav.
      * 
      * @param value
      *     allowed object is
@@ -260,7 +260,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the prezzoUnitario property.
+     * Recupera il valore della proprietà prezzoUnitario.
      * 
      * @return
      *     possible object is
@@ -272,7 +272,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the prezzoUnitario property.
+     * Imposta il valore della proprietà prezzoUnitario.
      * 
      * @param value
      *     allowed object is
@@ -284,7 +284,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the tiBeneServizio property.
+     * Recupera il valore della proprietà tiBeneServizio.
      * 
      * @return
      *     possible object is
@@ -296,7 +296,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the tiBeneServizio property.
+     * Imposta il valore della proprietà tiBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -308,7 +308,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Gets the value of the unitaMisura property.
+     * Recupera il valore della proprietà unitaMisura.
      * 
      * @return
      *     possible object is
@@ -320,7 +320,7 @@ public class GestTariffarioInDTO {
     }
 
     /**
-     * Sets the value of the unitaMisura property.
+     * Imposta il valore della proprietà unitaMisura.
      * 
      * @param value
      *     allowed object is

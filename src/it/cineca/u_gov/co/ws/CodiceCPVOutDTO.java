@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for codiceCPVOutDTO complex type.
+ * <p>Classe Java per codiceCPVOutDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="codiceCPVOutDTO">
@@ -52,7 +52,7 @@ public class CodiceCPVOutDTO {
     protected Integer livello;
 
     /**
-     * Gets the value of the cdCPV property.
+     * Recupera il valore della proprietà cdCPV.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Sets the value of the cdCPV property.
+     * Imposta il valore della proprietà cdCPV.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Gets the value of the cdCPVPadre property.
+     * Recupera il valore della proprietà cdCPVPadre.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Sets the value of the cdCPVPadre property.
+     * Imposta il valore della proprietà cdCPVPadre.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Gets the value of the cdCPVProprio property.
+     * Recupera il valore della proprietà cdCPVProprio.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Sets the value of the cdCPVProprio property.
+     * Imposta il valore della proprietà cdCPVProprio.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Gets the value of the codificaCPV property.
+     * Recupera il valore della proprietà codificaCPV.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Sets the value of the codificaCPV property.
+     * Imposta il valore della proprietà codificaCPV.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Gets the value of the dsCPV property.
+     * Recupera il valore della proprietà dsCPV.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Sets the value of the dsCPV property.
+     * Imposta il valore della proprietà dsCPV.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Gets the value of the flUltimoLivello property.
+     * Recupera il valore della proprietà flUltimoLivello.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Sets the value of the flUltimoLivello property.
+     * Imposta il valore della proprietà flUltimoLivello.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Gets the value of the livello property.
+     * Recupera il valore della proprietà livello.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class CodiceCPVOutDTO {
     }
 
     /**
-     * Sets the value of the livello property.
+     * Imposta il valore della proprietà livello.
      * 
      * @param value
      *     allowed object is

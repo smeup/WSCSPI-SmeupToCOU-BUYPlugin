@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for listaDgAutorizza complex type.
+ * <p>Classe Java per listaDgAutorizza complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="listaDgAutorizza">
@@ -52,7 +52,7 @@ public class ListaDgAutorizza {
     protected Long idAbAttore;
 
     /**
-     * Gets the value of the dtInizio property.
+     * Recupera il valore della proprietà dtInizio.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class ListaDgAutorizza {
     }
 
     /**
-     * Sets the value of the dtInizio property.
+     * Imposta il valore della proprietà dtInizio.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class ListaDgAutorizza {
     }
 
     /**
-     * Gets the value of the dtFine property.
+     * Recupera il valore della proprietà dtFine.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class ListaDgAutorizza {
     }
 
     /**
-     * Sets the value of the dtFine property.
+     * Imposta il valore della proprietà dtFine.
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class ListaDgAutorizza {
     }
 
     /**
-     * Gets the value of the nomeTipoAttore property.
+     * Recupera il valore della proprietà nomeTipoAttore.
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class ListaDgAutorizza {
     }
 
     /**
-     * Sets the value of the nomeTipoAttore property.
+     * Imposta il valore della proprietà nomeTipoAttore.
      * 
      * @param value
      *     allowed object is
@@ -153,7 +153,7 @@ public class ListaDgAutorizza {
     }
 
     /**
-     * Gets the value of the idAbAttore property.
+     * Recupera il valore della proprietà idAbAttore.
      * 
      * @return
      *     possible object is
@@ -165,7 +165,7 @@ public class ListaDgAutorizza {
     }
 
     /**
-     * Sets the value of the idAbAttore property.
+     * Imposta il valore della proprietà idAbAttore.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getDisponibileCOPJ complex type.
+ * <p>Classe Java per getDisponibileCOPJ complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getDisponibileCOPJ">
@@ -50,7 +50,7 @@ public class GetDisponibileCOPJ {
     protected BigDecimal ammontare;
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Gets the value of the cdWp property.
+     * Recupera il valore della proprietà cdWp.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Sets the value of the cdWp property.
+     * Imposta il valore della proprietà cdWp.
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Gets the value of the ammontare property.
+     * Recupera il valore della proprietà ammontare.
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class GetDisponibileCOPJ {
     }
 
     /**
-     * Sets the value of the ammontare property.
+     * Imposta il valore della proprietà ammontare.
      * 
      * @param value
      *     allowed object is

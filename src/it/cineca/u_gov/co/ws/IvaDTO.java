@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ivaDTO complex type.
+ * <p>Classe Java per ivaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ivaDTO">
@@ -37,7 +37,7 @@ public class IvaDTO {
     protected String dsIva;
 
     /**
-     * Gets the value of the cdIva property.
+     * Recupera il valore della proprietà cdIva.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class IvaDTO {
     }
 
     /**
-     * Sets the value of the cdIva property.
+     * Imposta il valore della proprietà cdIva.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class IvaDTO {
     }
 
     /**
-     * Gets the value of the dsIva property.
+     * Recupera il valore della proprietà dsIva.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class IvaDTO {
     }
 
     /**
-     * Sets the value of the dsIva property.
+     * Imposta il valore della proprietà dsIva.
      * 
      * @param value
      *     allowed object is

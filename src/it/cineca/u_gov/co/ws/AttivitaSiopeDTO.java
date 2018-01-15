@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for attivitaSiopeDTO complex type.
+ * <p>Classe Java per attivitaSiopeDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="attivitaSiopeDTO">
@@ -46,7 +46,7 @@ public class AttivitaSiopeDTO {
     protected Long idAttivitaGestionale;
 
     /**
-     * Gets the value of the cdAttivitaGestionale property.
+     * Recupera il valore della proprietà cdAttivitaGestionale.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Sets the value of the cdAttivitaGestionale property.
+     * Imposta il valore della proprietà cdAttivitaGestionale.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Gets the value of the dsAttivitaGestionale property.
+     * Recupera il valore della proprietà dsAttivitaGestionale.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Sets the value of the dsAttivitaGestionale property.
+     * Imposta il valore della proprietà dsAttivitaGestionale.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Gets the value of the flDefault property.
+     * Recupera il valore della proprietà flDefault.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Sets the value of the flDefault property.
+     * Imposta il valore della proprietà flDefault.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Gets the value of the idAttivitaGestionale property.
+     * Recupera il valore della proprietà idAttivitaGestionale.
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class AttivitaSiopeDTO {
     }
 
     /**
-     * Sets the value of the idAttivitaGestionale property.
+     * Imposta il valore della proprietà idAttivitaGestionale.
      * 
      * @param value
      *     allowed object is

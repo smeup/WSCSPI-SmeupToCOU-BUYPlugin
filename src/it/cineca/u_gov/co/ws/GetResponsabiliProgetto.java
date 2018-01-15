@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getResponsabiliProgetto complex type.
+ * <p>Classe Java per getResponsabiliProgetto complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getResponsabiliProgetto">
@@ -34,7 +34,7 @@ public class GetResponsabiliProgetto {
     protected Long idProgetto;
 
     /**
-     * Gets the value of the idProgetto property.
+     * Recupera il valore della proprietà idProgetto.
      * 
      * @return
      *     possible object is
@@ -46,7 +46,7 @@ public class GetResponsabiliProgetto {
     }
 
     /**
-     * Sets the value of the idProgetto property.
+     * Imposta il valore della proprietà idProgetto.
      * 
      * @param value
      *     allowed object is

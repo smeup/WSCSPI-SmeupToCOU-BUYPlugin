@@ -12,9 +12,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for nuovaScritturaCoanDTO complex type.
+ * <p>Classe Java per nuovaScritturaCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="nuovaScritturaCoanDTO">
@@ -82,7 +82,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsScrCoan property.
+     * Recupera il valore della proprietà dsScrCoan.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsScrCoan property.
+     * Imposta il valore della proprietà dsScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the progScrittura property.
+     * Recupera il valore della proprietà progScrittura.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class NuovaScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the progScrittura property.
+     * Imposta il valore della proprietà progScrittura.
      * 
      * @param value
      *     allowed object is

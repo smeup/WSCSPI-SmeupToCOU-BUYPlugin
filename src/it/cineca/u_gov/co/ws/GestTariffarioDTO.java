@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for gestTariffarioDTO complex type.
+ * <p>Classe Java per gestTariffarioDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="gestTariffarioDTO">
@@ -70,7 +70,7 @@ public class GestTariffarioDTO {
     }
 
     /**
-     * Gets the value of the tipoOperazione property.
+     * Recupera il valore della proprietà tipoOperazione.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class GestTariffarioDTO {
     }
 
     /**
-     * Sets the value of the tipoOperazione property.
+     * Imposta il valore della proprietà tipoOperazione.
      * 
      * @param value
      *     allowed object is

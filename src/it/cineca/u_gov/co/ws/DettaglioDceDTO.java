@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for dettaglioDceDTO complex type.
+ * <p>Classe Java per dettaglioDceDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="dettaglioDceDTO">
@@ -75,7 +75,7 @@ public class DettaglioDceDTO {
     protected String tiCampoAttivita;
 
     /**
-     * Gets the value of the cdBeneServizio property.
+     * Recupera il valore della proprietà cdBeneServizio.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the cdBeneServizio property.
+     * Imposta il valore della proprietà cdBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the cdIva property.
+     * Recupera il valore della proprietà cdIva.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the cdIva property.
+     * Imposta il valore della proprietà cdIva.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the cig property.
+     * Recupera il valore della proprietà cig.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the cig property.
+     * Imposta il valore della proprietà cig.
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the cup property.
+     * Recupera il valore della proprietà cup.
      * 
      * @return
      *     possible object is
@@ -159,7 +159,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the cup property.
+     * Imposta il valore della proprietà cup.
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the dsDgDet property.
+     * Recupera il valore della proprietà dsDgDet.
      * 
      * @return
      *     possible object is
@@ -183,7 +183,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the dsDgDet property.
+     * Imposta il valore della proprietà dsDgDet.
      * 
      * @param value
      *     allowed object is
@@ -195,7 +195,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the dtFine property.
+     * Recupera il valore della proprietà dtFine.
      * 
      * @return
      *     possible object is
@@ -207,7 +207,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the dtFine property.
+     * Imposta il valore della proprietà dtFine.
      * 
      * @param value
      *     allowed object is
@@ -219,7 +219,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the dtInizio property.
+     * Recupera il valore della proprietà dtInizio.
      * 
      * @return
      *     possible object is
@@ -231,7 +231,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the dtInizio property.
+     * Imposta il valore della proprietà dtInizio.
      * 
      * @param value
      *     allowed object is
@@ -243,7 +243,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the flChiudePredecessore property.
+     * Recupera il valore della proprietà flChiudePredecessore.
      * 
      * @return
      *     possible object is
@@ -255,7 +255,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the flChiudePredecessore property.
+     * Imposta il valore della proprietà flChiudePredecessore.
      * 
      * @param value
      *     allowed object is
@@ -267,7 +267,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the idDettaglioDocPredecessore property.
+     * Recupera il valore della proprietà idDettaglioDocPredecessore.
      * 
      * @return
      *     possible object is
@@ -279,7 +279,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the idDettaglioDocPredecessore property.
+     * Imposta il valore della proprietà idDettaglioDocPredecessore.
      * 
      * @param value
      *     allowed object is
@@ -291,7 +291,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the percIva property.
+     * Recupera il valore della proprietà percIva.
      * 
      * @return
      *     possible object is
@@ -303,7 +303,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the percIva property.
+     * Imposta il valore della proprietà percIva.
      * 
      * @param value
      *     allowed object is
@@ -315,7 +315,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the prezzoUnitario property.
+     * Recupera il valore della proprietà prezzoUnitario.
      * 
      * @return
      *     possible object is
@@ -327,7 +327,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the prezzoUnitario property.
+     * Imposta il valore della proprietà prezzoUnitario.
      * 
      * @param value
      *     allowed object is
@@ -339,7 +339,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the quantita property.
+     * Recupera il valore della proprietà quantita.
      * 
      * @return
      *     possible object is
@@ -351,7 +351,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the quantita property.
+     * Imposta il valore della proprietà quantita.
      * 
      * @param value
      *     allowed object is
@@ -363,7 +363,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -375,7 +375,7 @@ public class DettaglioDceDTO {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is

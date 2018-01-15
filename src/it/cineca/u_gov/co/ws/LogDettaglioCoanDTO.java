@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for logDettaglioCoanDTO complex type.
+ * <p>Classe Java per logDettaglioCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="logDettaglioCoanDTO">
@@ -37,7 +37,7 @@ public class LogDettaglioCoanDTO {
     protected Long progDettaglio;
 
     /**
-     * Gets the value of the errore property.
+     * Recupera il valore della proprietà errore.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class LogDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the errore property.
+     * Imposta il valore della proprietà errore.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class LogDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the progDettaglio property.
+     * Recupera il valore della proprietà progDettaglio.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class LogDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the progDettaglio property.
+     * Imposta il valore della proprietà progDettaglio.
      * 
      * @param value
      *     allowed object is

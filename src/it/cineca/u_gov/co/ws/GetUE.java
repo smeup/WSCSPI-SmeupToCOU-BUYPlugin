@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getUE complex type.
+ * <p>Classe Java per getUE complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getUE">
@@ -40,7 +40,7 @@ public class GetUE {
     protected Boolean conUEfiglie;
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class GetUE {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class GetUE {
     }
 
     /**
-     * Gets the value of the cdNodo property.
+     * Recupera il valore della proprietà cdNodo.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class GetUE {
     }
 
     /**
-     * Sets the value of the cdNodo property.
+     * Imposta il valore della proprietà cdNodo.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class GetUE {
     }
 
     /**
-     * Gets the value of the conUEfiglie property.
+     * Recupera il valore della proprietà conUEfiglie.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class GetUE {
     }
 
     /**
-     * Sets the value of the conUEfiglie property.
+     * Imposta il valore della proprietà conUEfiglie.
      * 
      * @param value
      *     allowed object is

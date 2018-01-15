@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for gestTariffarioOutDTO complex type.
+ * <p>Classe Java per gestTariffarioOutDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="gestTariffarioOutDTO">
@@ -40,7 +40,7 @@ public class GestTariffarioOutDTO {
     protected String msgErrore;
 
     /**
-     * Gets the value of the cdTariffa property.
+     * Recupera il valore della proprietà cdTariffa.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class GestTariffarioOutDTO {
     }
 
     /**
-     * Sets the value of the cdTariffa property.
+     * Imposta il valore della proprietà cdTariffa.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class GestTariffarioOutDTO {
     }
 
     /**
-     * Gets the value of the cdUO property.
+     * Recupera il valore della proprietà cdUO.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class GestTariffarioOutDTO {
     }
 
     /**
-     * Sets the value of the cdUO property.
+     * Imposta il valore della proprietà cdUO.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class GestTariffarioOutDTO {
     }
 
     /**
-     * Gets the value of the msgErrore property.
+     * Recupera il valore della proprietà msgErrore.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class GestTariffarioOutDTO {
     }
 
     /**
-     * Sets the value of the msgErrore property.
+     * Imposta il valore della proprietà msgErrore.
      * 
      * @param value
      *     allowed object is

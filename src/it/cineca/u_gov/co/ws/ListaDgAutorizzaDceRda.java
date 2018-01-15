@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for listaDgAutorizzaDceRda complex type.
+ * <p>Classe Java per listaDgAutorizzaDceRda complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="listaDgAutorizzaDceRda">
@@ -50,7 +50,7 @@ public class ListaDgAutorizzaDceRda {
     protected String tipo;
 
     /**
-     * Gets the value of the dtInizio property.
+     * Recupera il valore della proprietà dtInizio.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Sets the value of the dtInizio property.
+     * Imposta il valore della proprietà dtInizio.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Gets the value of the dtFine property.
+     * Recupera il valore della proprietà dtFine.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Sets the value of the dtFine property.
+     * Imposta il valore della proprietà dtFine.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Gets the value of the idAbAttore property.
+     * Recupera il valore della proprietà idAbAttore.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Sets the value of the idAbAttore property.
+     * Imposta il valore della proprietà idAbAttore.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Gets the value of the tipoDocumento property.
+     * Recupera il valore della proprietà tipoDocumento.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Sets the value of the tipoDocumento property.
+     * Imposta il valore della proprietà tipoDocumento.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Gets the value of the tipo property.
+     * Recupera il valore della proprietà tipo.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class ListaDgAutorizzaDceRda {
     }
 
     /**
-     * Sets the value of the tipo property.
+     * Imposta il valore della proprietà tipo.
      * 
      * @param value
      *     allowed object is

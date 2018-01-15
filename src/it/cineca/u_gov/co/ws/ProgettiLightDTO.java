@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for progettiLightDTO complex type.
+ * <p>Classe Java per progettiLightDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="progettiLightDTO">
@@ -43,7 +43,7 @@ public class ProgettiLightDTO {
     protected Long idProgetto;
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class ProgettiLightDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class ProgettiLightDTO {
     }
 
     /**
-     * Gets the value of the dsProgetto property.
+     * Recupera il valore della proprietà dsProgetto.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class ProgettiLightDTO {
     }
 
     /**
-     * Sets the value of the dsProgetto property.
+     * Imposta il valore della proprietà dsProgetto.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class ProgettiLightDTO {
     }
 
     /**
-     * Gets the value of the flUnitaLavoroObbl property.
+     * Recupera il valore della proprietà flUnitaLavoroObbl.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class ProgettiLightDTO {
     }
 
     /**
-     * Sets the value of the flUnitaLavoroObbl property.
+     * Imposta il valore della proprietà flUnitaLavoroObbl.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class ProgettiLightDTO {
     }
 
     /**
-     * Gets the value of the idProgetto property.
+     * Recupera il valore della proprietà idProgetto.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class ProgettiLightDTO {
     }
 
     /**
-     * Sets the value of the idProgetto property.
+     * Imposta il valore della proprietà idProgetto.
      * 
      * @param value
      *     allowed object is

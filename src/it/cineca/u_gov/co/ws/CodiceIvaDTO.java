@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for codiceIvaDTO complex type.
+ * <p>Classe Java per codiceIvaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="codiceIvaDTO">
@@ -44,7 +44,7 @@ public class CodiceIvaDTO {
     protected BigDecimal percentualeIva;
 
     /**
-     * Gets the value of the cdIva property.
+     * Recupera il valore della proprietà cdIva.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class CodiceIvaDTO {
     }
 
     /**
-     * Sets the value of the cdIva property.
+     * Imposta il valore della proprietà cdIva.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class CodiceIvaDTO {
     }
 
     /**
-     * Gets the value of the detraibilita property.
+     * Recupera il valore della proprietà detraibilita.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class CodiceIvaDTO {
     }
 
     /**
-     * Sets the value of the detraibilita property.
+     * Imposta il valore della proprietà detraibilita.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class CodiceIvaDTO {
     }
 
     /**
-     * Gets the value of the dsIva property.
+     * Recupera il valore della proprietà dsIva.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class CodiceIvaDTO {
     }
 
     /**
-     * Sets the value of the dsIva property.
+     * Imposta il valore della proprietà dsIva.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class CodiceIvaDTO {
     }
 
     /**
-     * Gets the value of the percentualeIva property.
+     * Recupera il valore della proprietà percentualeIva.
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class CodiceIvaDTO {
     }
 
     /**
-     * Sets the value of the percentualeIva property.
+     * Imposta il valore della proprietà percentualeIva.
      * 
      * @param value
      *     allowed object is

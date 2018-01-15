@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for dettaglioScrEsternaCoanDTO complex type.
+ * <p>Classe Java per dettaglioScrEsternaCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="dettaglioScrEsternaCoanDTO">
@@ -84,7 +84,7 @@ public class DettaglioScrEsternaCoanDTO {
     protected String tiCampoAttivita;
 
     /**
-     * Gets the value of the ammImponibile property.
+     * Recupera il valore della proprietà ammImponibile.
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the ammImponibile property.
+     * Imposta il valore della proprietà ammImponibile.
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the ammIva property.
+     * Recupera il valore della proprietà ammIva.
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the ammIva property.
+     * Imposta il valore della proprietà ammIva.
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdCofogCoan property.
+     * Recupera il valore della proprietà cdCofogCoan.
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdCofogCoan property.
+     * Imposta il valore della proprietà cdCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdDimAna property.
+     * Recupera il valore della proprietà cdDimAna.
      * 
      * @return
      *     possible object is
@@ -168,7 +168,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdDimAna property.
+     * Imposta il valore della proprietà cdDimAna.
      * 
      * @param value
      *     allowed object is
@@ -180,7 +180,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdIva property.
+     * Recupera il valore della proprietà cdIva.
      * 
      * @return
      *     possible object is
@@ -192,7 +192,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdIva property.
+     * Imposta il valore della proprietà cdIva.
      * 
      * @param value
      *     allowed object is
@@ -204,7 +204,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -216,7 +216,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -228,7 +228,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -240,7 +240,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -252,7 +252,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUnitaLavoro property.
+     * Recupera il valore della proprietà cdUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -264,7 +264,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUnitaLavoro property.
+     * Imposta il valore della proprietà cdUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -276,7 +276,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -288,7 +288,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -300,7 +300,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsDgDet property.
+     * Recupera il valore della proprietà dsDgDet.
      * 
      * @return
      *     possible object is
@@ -312,7 +312,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsDgDet property.
+     * Imposta il valore della proprietà dsDgDet.
      * 
      * @param value
      *     allowed object is
@@ -324,7 +324,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the dtFine property.
+     * Recupera il valore della proprietà dtFine.
      * 
      * @return
      *     possible object is
@@ -336,7 +336,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the dtFine property.
+     * Imposta il valore della proprietà dtFine.
      * 
      * @param value
      *     allowed object is
@@ -348,7 +348,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the dtInizio property.
+     * Recupera il valore della proprietà dtInizio.
      * 
      * @return
      *     possible object is
@@ -360,7 +360,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the dtInizio property.
+     * Imposta il valore della proprietà dtInizio.
      * 
      * @param value
      *     allowed object is
@@ -372,7 +372,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the flChiusoForzato property.
+     * Recupera il valore della proprietà flChiusoForzato.
      * 
      * @return
      *     possible object is
@@ -384,7 +384,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the flChiusoForzato property.
+     * Imposta il valore della proprietà flChiusoForzato.
      * 
      * @param value
      *     allowed object is
@@ -396,7 +396,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the idDettaglioDocPredecessore property.
+     * Recupera il valore della proprietà idDettaglioDocPredecessore.
      * 
      * @return
      *     possible object is
@@ -408,7 +408,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the idDettaglioDocPredecessore property.
+     * Imposta il valore della proprietà idDettaglioDocPredecessore.
      * 
      * @param value
      *     allowed object is
@@ -420,7 +420,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the idDettaglioDocumento property.
+     * Recupera il valore della proprietà idDettaglioDocumento.
      * 
      * @return
      *     possible object is
@@ -432,7 +432,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the idDettaglioDocumento property.
+     * Imposta il valore della proprietà idDettaglioDocumento.
      * 
      * @param value
      *     allowed object is
@@ -444,7 +444,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -456,7 +456,7 @@ public class DettaglioScrEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is

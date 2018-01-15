@@ -12,9 +12,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for creaBuonoOutDTO complex type.
+ * <p>Classe Java per creaBuonoOutDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaBuonoOutDTO">
@@ -68,7 +68,7 @@ public class CreaBuonoOutDTO {
     protected String stato;
 
     /**
-     * Gets the value of the annoRif property.
+     * Recupera il valore della proprietà annoRif.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the annoRif property.
+     * Imposta il valore della proprietà annoRif.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the cdUoOrigine property.
+     * Recupera il valore della proprietà cdUoOrigine.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the cdUoOrigine property.
+     * Imposta il valore della proprietà cdUoOrigine.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazioneDg property.
+     * Recupera il valore della proprietà dtRegistrazioneDg.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazioneDg property.
+     * Imposta il valore della proprietà dtRegistrazioneDg.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the errore property.
+     * Recupera il valore della proprietà errore.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the errore property.
+     * Imposta il valore della proprietà errore.
      * 
      * @param value
      *     allowed object is
@@ -193,7 +193,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the idDg property.
+     * Recupera il valore della proprietà idDg.
      * 
      * @return
      *     possible object is
@@ -205,7 +205,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the idDg property.
+     * Imposta il valore della proprietà idDg.
      * 
      * @param value
      *     allowed object is
@@ -217,7 +217,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the messaggio property.
+     * Recupera il valore della proprietà messaggio.
      * 
      * @return
      *     possible object is
@@ -229,7 +229,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the messaggio property.
+     * Imposta il valore della proprietà messaggio.
      * 
      * @param value
      *     allowed object is
@@ -241,7 +241,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the nomeTipoDg property.
+     * Recupera il valore della proprietà nomeTipoDg.
      * 
      * @return
      *     possible object is
@@ -253,7 +253,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the nomeTipoDg property.
+     * Imposta il valore della proprietà nomeTipoDg.
      * 
      * @param value
      *     allowed object is
@@ -265,7 +265,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the numRegistrazione property.
+     * Recupera il valore della proprietà numRegistrazione.
      * 
      * @return
      *     possible object is
@@ -277,7 +277,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the numRegistrazione property.
+     * Imposta il valore della proprietà numRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -289,7 +289,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Gets the value of the stato property.
+     * Recupera il valore della proprietà stato.
      * 
      * @return
      *     possible object is
@@ -301,7 +301,7 @@ public class CreaBuonoOutDTO {
     }
 
     /**
-     * Sets the value of the stato property.
+     * Imposta il valore della proprietà stato.
      * 
      * @param value
      *     allowed object is

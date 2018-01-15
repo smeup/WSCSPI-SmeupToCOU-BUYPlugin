@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getUAEse complex type.
+ * <p>Classe Java per getUAEse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getUAEse">
@@ -37,7 +37,7 @@ public class GetUAEse {
     protected Integer esercizio;
 
     /**
-     * Gets the value of the ua property.
+     * Recupera il valore della proprietà ua.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class GetUAEse {
     }
 
     /**
-     * Sets the value of the ua property.
+     * Imposta il valore della proprietà ua.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class GetUAEse {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class GetUAEse {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is

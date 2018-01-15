@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for elencoUaDTO complex type.
+ * <p>Classe Java per elencoUaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="elencoUaDTO">
@@ -76,7 +76,7 @@ public class ElencoUaDTO {
     protected String tiStrategicoOperativo;
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the codiceUo property.
+     * Recupera il valore della proprietà codiceUo.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the codiceUo property.
+     * Imposta il valore della proprietà codiceUo.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the denominazioneUa property.
+     * Recupera il valore della proprietà denominazioneUa.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the denominazioneUa property.
+     * Imposta il valore della proprietà denominazioneUa.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the flAutBudget property.
+     * Recupera il valore della proprietà flAutBudget.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the flAutBudget property.
+     * Imposta il valore della proprietà flAutBudget.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the flEsternoEnte property.
+     * Recupera il valore della proprietà flEsternoEnte.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the flEsternoEnte property.
+     * Imposta il valore della proprietà flEsternoEnte.
      * 
      * @param value
      *     allowed object is
@@ -220,7 +220,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the flProfitto property.
+     * Recupera il valore della proprietà flProfitto.
      * 
      * @return
      *     possible object is
@@ -232,7 +232,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the flProfitto property.
+     * Imposta il valore della proprietà flProfitto.
      * 
      * @param value
      *     allowed object is
@@ -244,7 +244,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the flRiportoVinc property.
+     * Recupera il valore della proprietà flRiportoVinc.
      * 
      * @return
      *     possible object is
@@ -256,7 +256,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the flRiportoVinc property.
+     * Imposta il valore della proprietà flRiportoVinc.
      * 
      * @param value
      *     allowed object is
@@ -268,7 +268,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the flagRiferimento property.
+     * Recupera il valore della proprietà flagRiferimento.
      * 
      * @return
      *     possible object is
@@ -280,7 +280,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the flagRiferimento property.
+     * Imposta il valore della proprietà flagRiferimento.
      * 
      * @param value
      *     allowed object is
@@ -292,7 +292,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the tiAusiliarioGenerale property.
+     * Recupera il valore della proprietà tiAusiliarioGenerale.
      * 
      * @return
      *     possible object is
@@ -304,7 +304,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the tiAusiliarioGenerale property.
+     * Imposta il valore della proprietà tiAusiliarioGenerale.
      * 
      * @param value
      *     allowed object is
@@ -316,7 +316,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the tiIntermedioFinale property.
+     * Recupera il valore della proprietà tiIntermedioFinale.
      * 
      * @return
      *     possible object is
@@ -328,7 +328,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the tiIntermedioFinale property.
+     * Imposta il valore della proprietà tiIntermedioFinale.
      * 
      * @param value
      *     allowed object is
@@ -340,7 +340,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the tiProduttivoStruttura property.
+     * Recupera il valore della proprietà tiProduttivoStruttura.
      * 
      * @return
      *     possible object is
@@ -352,7 +352,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the tiProduttivoStruttura property.
+     * Imposta il valore della proprietà tiProduttivoStruttura.
      * 
      * @param value
      *     allowed object is
@@ -364,7 +364,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the tiRealeFittizio property.
+     * Recupera il valore della proprietà tiRealeFittizio.
      * 
      * @return
      *     possible object is
@@ -376,7 +376,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the tiRealeFittizio property.
+     * Imposta il valore della proprietà tiRealeFittizio.
      * 
      * @param value
      *     allowed object is
@@ -388,7 +388,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the tiRespCosto property.
+     * Recupera il valore della proprietà tiRespCosto.
      * 
      * @return
      *     possible object is
@@ -400,7 +400,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the tiRespCosto property.
+     * Imposta il valore della proprietà tiRespCosto.
      * 
      * @param value
      *     allowed object is
@@ -412,7 +412,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Gets the value of the tiStrategicoOperativo property.
+     * Recupera il valore della proprietà tiStrategicoOperativo.
      * 
      * @return
      *     possible object is
@@ -424,7 +424,7 @@ public class ElencoUaDTO {
     }
 
     /**
-     * Sets the value of the tiStrategicoOperativo property.
+     * Imposta il valore della proprietà tiStrategicoOperativo.
      * 
      * @param value
      *     allowed object is

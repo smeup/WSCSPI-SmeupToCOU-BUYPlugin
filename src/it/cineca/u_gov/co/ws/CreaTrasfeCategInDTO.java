@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for creaTrasfeCategInDTO complex type.
+ * <p>Classe Java per creaTrasfeCategInDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaTrasfeCategInDTO">
@@ -37,7 +37,7 @@ public class CreaTrasfeCategInDTO {
     protected String cdVoceCoge;
 
     /**
-     * Gets the value of the cdCategGruppo property.
+     * Recupera il valore della proprietà cdCategGruppo.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CreaTrasfeCategInDTO {
     }
 
     /**
-     * Sets the value of the cdCategGruppo property.
+     * Imposta il valore della proprietà cdCategGruppo.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class CreaTrasfeCategInDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoge property.
+     * Recupera il valore della proprietà cdVoceCoge.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class CreaTrasfeCategInDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoge property.
+     * Imposta il valore della proprietà cdVoceCoge.
      * 
      * @param value
      *     allowed object is

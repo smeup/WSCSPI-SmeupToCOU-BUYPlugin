@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for listaContrattiPassivi complex type.
+ * <p>Classe Java per listaContrattiPassivi complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="listaContrattiPassivi">
@@ -40,7 +40,7 @@ public class ListaContrattiPassivi {
     protected String cdIndicePA;
 
     /**
-     * Gets the value of the cdAppExt property.
+     * Recupera il valore della proprietà cdAppExt.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class ListaContrattiPassivi {
     }
 
     /**
-     * Sets the value of the cdAppExt property.
+     * Imposta il valore della proprietà cdAppExt.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class ListaContrattiPassivi {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class ListaContrattiPassivi {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class ListaContrattiPassivi {
     }
 
     /**
-     * Gets the value of the cdIndicePA property.
+     * Recupera il valore della proprietà cdIndicePA.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class ListaContrattiPassivi {
     }
 
     /**
-     * Sets the value of the cdIndicePA property.
+     * Imposta il valore della proprietà cdIndicePA.
      * 
      * @param value
      *     allowed object is

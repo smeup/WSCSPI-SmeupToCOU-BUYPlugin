@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for riclCoanNewDTO complex type.
+ * <p>Classe Java per riclCoanNewDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="riclCoanNewDTO">
@@ -58,7 +58,7 @@ public class RiclCoanNewDTO {
     protected String tiVoce;
 
     /**
-     * Gets the value of the cdVoceRiclCoan property.
+     * Recupera il valore della proprietà cdVoceRiclCoan.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the cdVoceRiclCoan property.
+     * Imposta il valore della proprietà cdVoceRiclCoan.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the denomVoceRiclCoan property.
+     * Recupera il valore della proprietà denomVoceRiclCoan.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the denomVoceRiclCoan property.
+     * Imposta il valore della proprietà denomVoceRiclCoan.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the flConfermato property.
+     * Recupera il valore della proprietà flConfermato.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the flConfermato property.
+     * Imposta il valore della proprietà flConfermato.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the flDefault property.
+     * Recupera il valore della proprietà flDefault.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the flDefault property.
+     * Imposta il valore della proprietà flDefault.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the idVoceRiclCoan property.
+     * Recupera il valore della proprietà idVoceRiclCoan.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the idVoceRiclCoan property.
+     * Imposta il valore della proprietà idVoceRiclCoan.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the segno property.
+     * Recupera il valore della proprietà segno.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the segno property.
+     * Imposta il valore della proprietà segno.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the tiRiclassificato property.
+     * Recupera il valore della proprietà tiRiclassificato.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the tiRiclassificato property.
+     * Imposta il valore della proprietà tiRiclassificato.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Gets the value of the tiVoce property.
+     * Recupera il valore della proprietà tiVoce.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class RiclCoanNewDTO {
     }
 
     /**
-     * Sets the value of the tiVoce property.
+     * Imposta il valore della proprietà tiVoce.
      * 
      * @param value
      *     allowed object is

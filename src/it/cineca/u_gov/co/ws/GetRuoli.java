@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getRuoli complex type.
+ * <p>Classe Java per getRuoli complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getRuoli">
@@ -39,7 +39,7 @@ public class GetRuoli {
     protected List<String> ruoli;
 
     /**
-     * Gets the value of the user property.
+     * Recupera il valore della proprietà user.
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class GetRuoli {
     }
 
     /**
-     * Sets the value of the user property.
+     * Imposta il valore della proprietà user.
      * 
      * @param value
      *     allowed object is

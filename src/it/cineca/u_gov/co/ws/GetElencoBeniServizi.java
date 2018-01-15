@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getElencoBeniServizi complex type.
+ * <p>Classe Java per getElencoBeniServizi complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getElencoBeniServizi">
@@ -43,7 +43,7 @@ public class GetElencoBeniServizi {
     protected Boolean flCaricoBene;
 
     /**
-     * Gets the value of the dtRif property.
+     * Recupera il valore della proprietà dtRif.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class GetElencoBeniServizi {
     }
 
     /**
-     * Sets the value of the dtRif property.
+     * Imposta il valore della proprietà dtRif.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class GetElencoBeniServizi {
     }
 
     /**
-     * Gets the value of the cdTipoOpIva property.
+     * Recupera il valore della proprietà cdTipoOpIva.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class GetElencoBeniServizi {
     }
 
     /**
-     * Sets the value of the cdTipoOpIva property.
+     * Imposta il valore della proprietà cdTipoOpIva.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class GetElencoBeniServizi {
     }
 
     /**
-     * Gets the value of the flCaricoBene property.
+     * Recupera il valore della proprietà flCaricoBene.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class GetElencoBeniServizi {
     }
 
     /**
-     * Sets the value of the flCaricoBene property.
+     * Imposta il valore della proprietà flCaricoBene.
      * 
      * @param value
      *     allowed object is

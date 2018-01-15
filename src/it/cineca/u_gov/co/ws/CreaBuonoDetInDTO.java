@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for creaBuonoDetInDTO complex type.
+ * <p>Classe Java per creaBuonoDetInDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaBuonoDetInDTO">
@@ -146,7 +146,7 @@ public class CreaBuonoDetInDTO {
     protected BigDecimal valoreConvenzionale;
 
     /**
-     * Gets the value of the annoFabbricazione property.
+     * Recupera il valore della proprietà annoFabbricazione.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the annoFabbricazione property.
+     * Imposta il valore della proprietà annoFabbricazione.
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cdAnnualitaFiscale property.
+     * Recupera il valore della proprietà cdAnnualitaFiscale.
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cdAnnualitaFiscale property.
+     * Imposta il valore della proprietà cdAnnualitaFiscale.
      * 
      * @param value
      *     allowed object is
@@ -194,7 +194,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cdAnnualitaOrdinaria property.
+     * Recupera il valore della proprietà cdAnnualitaOrdinaria.
      * 
      * @return
      *     possible object is
@@ -206,7 +206,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cdAnnualitaOrdinaria property.
+     * Imposta il valore della proprietà cdAnnualitaOrdinaria.
      * 
      * @param value
      *     allowed object is
@@ -218,7 +218,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cdCondizione property.
+     * Recupera il valore della proprietà cdCondizione.
      * 
      * @return
      *     possible object is
@@ -230,7 +230,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cdCondizione property.
+     * Imposta il valore della proprietà cdCondizione.
      * 
      * @param value
      *     allowed object is
@@ -242,7 +242,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cdConvenzione property.
+     * Recupera il valore della proprietà cdConvenzione.
      * 
      * @return
      *     possible object is
@@ -254,7 +254,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cdConvenzione property.
+     * Imposta il valore della proprietà cdConvenzione.
      * 
      * @param value
      *     allowed object is
@@ -266,7 +266,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cdImmobilizzazione property.
+     * Recupera il valore della proprietà cdImmobilizzazione.
      * 
      * @return
      *     possible object is
@@ -278,7 +278,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cdImmobilizzazione property.
+     * Imposta il valore della proprietà cdImmobilizzazione.
      * 
      * @param value
      *     allowed object is
@@ -290,7 +290,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cdSpazio property.
+     * Recupera il valore della proprietà cdSpazio.
      * 
      * @return
      *     possible object is
@@ -302,7 +302,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cdSpazio property.
+     * Imposta il valore della proprietà cdSpazio.
      * 
      * @param value
      *     allowed object is
@@ -314,7 +314,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cdUoRif property.
+     * Recupera il valore della proprietà cdUoRif.
      * 
      * @return
      *     possible object is
@@ -326,7 +326,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cdUoRif property.
+     * Imposta il valore della proprietà cdUoRif.
      * 
      * @param value
      *     allowed object is
@@ -338,7 +338,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the cib property.
+     * Recupera il valore della proprietà cib.
      * 
      * @return
      *     possible object is
@@ -350,7 +350,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the cib property.
+     * Imposta il valore della proprietà cib.
      * 
      * @param value
      *     allowed object is
@@ -362,7 +362,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the dsBene property.
+     * Recupera il valore della proprietà dsBene.
      * 
      * @return
      *     possible object is
@@ -374,7 +374,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the dsBene property.
+     * Imposta il valore della proprietà dsBene.
      * 
      * @param value
      *     allowed object is
@@ -386,7 +386,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the dtFineGaranzia property.
+     * Recupera il valore della proprietà dtFineGaranzia.
      * 
      * @return
      *     possible object is
@@ -398,7 +398,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the dtFineGaranzia property.
+     * Imposta il valore della proprietà dtFineGaranzia.
      * 
      * @param value
      *     allowed object is
@@ -410,7 +410,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the dtIniAmmort property.
+     * Recupera il valore della proprietà dtIniAmmort.
      * 
      * @return
      *     possible object is
@@ -422,7 +422,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the dtIniAmmort property.
+     * Imposta il valore della proprietà dtIniAmmort.
      * 
      * @param value
      *     allowed object is
@@ -434,7 +434,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the dtInizioGaranzia property.
+     * Recupera il valore della proprietà dtInizioGaranzia.
      * 
      * @return
      *     possible object is
@@ -446,7 +446,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the dtInizioGaranzia property.
+     * Imposta il valore della proprietà dtInizioGaranzia.
      * 
      * @param value
      *     allowed object is
@@ -458,7 +458,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the dtUltimoInventarioFisico property.
+     * Recupera il valore della proprietà dtUltimoInventarioFisico.
      * 
      * @return
      *     possible object is
@@ -470,7 +470,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the dtUltimoInventarioFisico property.
+     * Imposta il valore della proprietà dtUltimoInventarioFisico.
      * 
      * @param value
      *     allowed object is
@@ -482,7 +482,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the flAccessorio property.
+     * Recupera il valore della proprietà flAccessorio.
      * 
      * @return
      *     possible object is
@@ -494,7 +494,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the flAccessorio property.
+     * Imposta il valore della proprietà flAccessorio.
      * 
      * @param value
      *     allowed object is
@@ -506,7 +506,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the flBeneStorico property.
+     * Recupera il valore della proprietà flBeneStorico.
      * 
      * @return
      *     possible object is
@@ -518,7 +518,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the flBeneStorico property.
+     * Imposta il valore della proprietà flBeneStorico.
      * 
      * @param value
      *     allowed object is
@@ -530,7 +530,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the flBeneUsato property.
+     * Recupera il valore della proprietà flBeneUsato.
      * 
      * @return
      *     possible object is
@@ -542,7 +542,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the flBeneUsato property.
+     * Imposta il valore della proprietà flBeneUsato.
      * 
      * @param value
      *     allowed object is
@@ -554,7 +554,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the flEsenzioneDoganale property.
+     * Recupera il valore della proprietà flEsenzioneDoganale.
      * 
      * @return
      *     possible object is
@@ -566,7 +566,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the flEsenzioneDoganale property.
+     * Imposta il valore della proprietà flEsenzioneDoganale.
      * 
      * @param value
      *     allowed object is
@@ -578,7 +578,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the idAbPossessore property.
+     * Recupera il valore della proprietà idAbPossessore.
      * 
      * @return
      *     possible object is
@@ -590,7 +590,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the idAbPossessore property.
+     * Imposta il valore della proprietà idAbPossessore.
      * 
      * @param value
      *     allowed object is
@@ -602,7 +602,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the idAbRespSpazio property.
+     * Recupera il valore della proprietà idAbRespSpazio.
      * 
      * @return
      *     possible object is
@@ -614,7 +614,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the idAbRespSpazio property.
+     * Imposta il valore della proprietà idAbRespSpazio.
      * 
      * @param value
      *     allowed object is
@@ -626,7 +626,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the idInventarioBenePrincipale property.
+     * Recupera il valore della proprietà idInventarioBenePrincipale.
      * 
      * @return
      *     possible object is
@@ -638,7 +638,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the idInventarioBenePrincipale property.
+     * Imposta il valore della proprietà idInventarioBenePrincipale.
      * 
      * @param value
      *     allowed object is
@@ -650,7 +650,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the idXInve property.
+     * Recupera il valore della proprietà idXInve.
      * 
      * @return
      *     possible object is
@@ -662,7 +662,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the idXInve property.
+     * Imposta il valore della proprietà idXInve.
      * 
      * @param value
      *     allowed object is
@@ -674,7 +674,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the idXInveBenePrincipale property.
+     * Recupera il valore della proprietà idXInveBenePrincipale.
      * 
      * @return
      *     possible object is
@@ -686,7 +686,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the idXInveBenePrincipale property.
+     * Imposta il valore della proprietà idXInveBenePrincipale.
      * 
      * @param value
      *     allowed object is
@@ -698,7 +698,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the locale property.
+     * Recupera il valore della proprietà locale.
      * 
      * @return
      *     possible object is
@@ -710,7 +710,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the locale property.
+     * Imposta il valore della proprietà locale.
      * 
      * @param value
      *     allowed object is
@@ -722,7 +722,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the marca property.
+     * Recupera il valore della proprietà marca.
      * 
      * @return
      *     possible object is
@@ -734,7 +734,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the marca property.
+     * Imposta il valore della proprietà marca.
      * 
      * @param value
      *     allowed object is
@@ -746,7 +746,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the note property.
+     * Recupera il valore della proprietà note.
      * 
      * @return
      *     possible object is
@@ -758,7 +758,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the note property.
+     * Imposta il valore della proprietà note.
      * 
      * @param value
      *     allowed object is
@@ -770,7 +770,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the nrRiga property.
+     * Recupera il valore della proprietà nrRiga.
      * 
      * @return
      *     possible object is
@@ -782,7 +782,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the nrRiga property.
+     * Imposta il valore della proprietà nrRiga.
      * 
      * @param value
      *     allowed object is
@@ -794,7 +794,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the nrRigaBenePrincipale property.
+     * Recupera il valore della proprietà nrRigaBenePrincipale.
      * 
      * @return
      *     possible object is
@@ -806,7 +806,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the nrRigaBenePrincipale property.
+     * Imposta il valore della proprietà nrRigaBenePrincipale.
      * 
      * @param value
      *     allowed object is
@@ -818,7 +818,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the nrRigaRef property.
+     * Recupera il valore della proprietà nrRigaRef.
      * 
      * @return
      *     possible object is
@@ -830,7 +830,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the nrRigaRef property.
+     * Imposta il valore della proprietà nrRigaRef.
      * 
      * @param value
      *     allowed object is
@@ -842,7 +842,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the nrRigaRefBenePrincipale property.
+     * Recupera il valore della proprietà nrRigaRefBenePrincipale.
      * 
      * @return
      *     possible object is
@@ -854,7 +854,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the nrRigaRefBenePrincipale property.
+     * Imposta il valore della proprietà nrRigaRefBenePrincipale.
      * 
      * @param value
      *     allowed object is
@@ -866,7 +866,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the numeroSeriale property.
+     * Recupera il valore della proprietà numeroSeriale.
      * 
      * @return
      *     possible object is
@@ -878,7 +878,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the numeroSeriale property.
+     * Imposta il valore della proprietà numeroSeriale.
      * 
      * @param value
      *     allowed object is
@@ -890,7 +890,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the pgBenePrincipale property.
+     * Recupera il valore della proprietà pgBenePrincipale.
      * 
      * @return
      *     possible object is
@@ -902,7 +902,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the pgBenePrincipale property.
+     * Imposta il valore della proprietà pgBenePrincipale.
      * 
      * @param value
      *     allowed object is
@@ -914,7 +914,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the pgBeneRif property.
+     * Recupera il valore della proprietà pgBeneRif.
      * 
      * @return
      *     possible object is
@@ -926,7 +926,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the pgBeneRif property.
+     * Imposta il valore della proprietà pgBeneRif.
      * 
      * @param value
      *     allowed object is
@@ -938,7 +938,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the pgBeneSubRif property.
+     * Recupera il valore della proprietà pgBeneSubRif.
      * 
      * @return
      *     possible object is
@@ -950,7 +950,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the pgBeneSubRif property.
+     * Imposta il valore della proprietà pgBeneSubRif.
      * 
      * @param value
      *     allowed object is
@@ -962,7 +962,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the targa property.
+     * Recupera il valore della proprietà targa.
      * 
      * @return
      *     possible object is
@@ -974,7 +974,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the targa property.
+     * Imposta il valore della proprietà targa.
      * 
      * @param value
      *     allowed object is
@@ -986,7 +986,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Gets the value of the valoreConvenzionale property.
+     * Recupera il valore della proprietà valoreConvenzionale.
      * 
      * @return
      *     possible object is
@@ -998,7 +998,7 @@ public class CreaBuonoDetInDTO {
     }
 
     /**
-     * Sets the value of the valoreConvenzionale property.
+     * Imposta il valore della proprietà valoreConvenzionale.
      * 
      * @param value
      *     allowed object is

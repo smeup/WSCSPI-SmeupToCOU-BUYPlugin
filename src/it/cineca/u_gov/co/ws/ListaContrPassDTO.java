@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for listaContrPassDTO complex type.
+ * <p>Classe Java per listaContrPassDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="listaContrPassDTO">
@@ -218,7 +218,7 @@ public class ListaContrPassDTO {
     protected Long idScrCoanDet;
 
     /**
-     * Gets the value of the idDg property.
+     * Recupera il valore della proprietà idDg.
      * 
      * @return
      *     possible object is
@@ -230,7 +230,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the idDg property.
+     * Imposta il valore della proprietà idDg.
      * 
      * @param value
      *     allowed object is
@@ -242,7 +242,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdUoOrigine property.
+     * Recupera il valore della proprietà cdUoOrigine.
      * 
      * @return
      *     possible object is
@@ -254,7 +254,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdUoOrigine property.
+     * Imposta il valore della proprietà cdUoOrigine.
      * 
      * @param value
      *     allowed object is
@@ -266,7 +266,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the denomUoOrigine property.
+     * Recupera il valore della proprietà denomUoOrigine.
      * 
      * @return
      *     possible object is
@@ -278,7 +278,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the denomUoOrigine property.
+     * Imposta il valore della proprietà denomUoOrigine.
      * 
      * @param value
      *     allowed object is
@@ -290,7 +290,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdIPA property.
+     * Recupera il valore della proprietà cdIPA.
      * 
      * @return
      *     possible object is
@@ -302,7 +302,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdIPA property.
+     * Imposta il valore della proprietà cdIPA.
      * 
      * @param value
      *     allowed object is
@@ -314,7 +314,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the annoDg property.
+     * Recupera il valore della proprietà annoDg.
      * 
      * @return
      *     possible object is
@@ -326,7 +326,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the annoDg property.
+     * Imposta il valore della proprietà annoDg.
      * 
      * @param value
      *     allowed object is
@@ -338,7 +338,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the nomeTipoDg property.
+     * Recupera il valore della proprietà nomeTipoDg.
      * 
      * @return
      *     possible object is
@@ -350,7 +350,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the nomeTipoDg property.
+     * Imposta il valore della proprietà nomeTipoDg.
      * 
      * @param value
      *     allowed object is
@@ -362,7 +362,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -374,7 +374,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -386,7 +386,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the numRegistrazione property.
+     * Recupera il valore della proprietà numRegistrazione.
      * 
      * @return
      *     possible object is
@@ -398,7 +398,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the numRegistrazione property.
+     * Imposta il valore della proprietà numRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -410,7 +410,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dtDocRif property.
+     * Recupera il valore della proprietà dtDocRif.
      * 
      * @return
      *     possible object is
@@ -422,7 +422,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dtDocRif property.
+     * Imposta il valore della proprietà dtDocRif.
      * 
      * @param value
      *     allowed object is
@@ -434,7 +434,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the numDocRif property.
+     * Recupera il valore della proprietà numDocRif.
      * 
      * @return
      *     possible object is
@@ -446,7 +446,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the numDocRif property.
+     * Imposta il valore della proprietà numDocRif.
      * 
      * @param value
      *     allowed object is
@@ -458,7 +458,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dsDg property.
+     * Recupera il valore della proprietà dsDg.
      * 
      * @return
      *     possible object is
@@ -470,7 +470,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dsDg property.
+     * Imposta il valore della proprietà dsDg.
      * 
      * @param value
      *     allowed object is
@@ -482,7 +482,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the idAbFornitore property.
+     * Recupera il valore della proprietà idAbFornitore.
      * 
      * @return
      *     possible object is
@@ -494,7 +494,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the idAbFornitore property.
+     * Imposta il valore della proprietà idAbFornitore.
      * 
      * @param value
      *     allowed object is
@@ -506,7 +506,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the nomeEstesoFornitore property.
+     * Recupera il valore della proprietà nomeEstesoFornitore.
      * 
      * @return
      *     possible object is
@@ -518,7 +518,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the nomeEstesoFornitore property.
+     * Imposta il valore della proprietà nomeEstesoFornitore.
      * 
      * @param value
      *     allowed object is
@@ -530,7 +530,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the soggetto property.
+     * Recupera il valore della proprietà soggetto.
      * 
      * @return
      *     possible object is
@@ -542,7 +542,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the soggetto property.
+     * Imposta il valore della proprietà soggetto.
      * 
      * @param value
      *     allowed object is
@@ -554,7 +554,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdAppExt property.
+     * Recupera il valore della proprietà cdAppExt.
      * 
      * @return
      *     possible object is
@@ -566,7 +566,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdAppExt property.
+     * Imposta il valore della proprietà cdAppExt.
      * 
      * @param value
      *     allowed object is
@@ -578,7 +578,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the imponibile property.
+     * Recupera il valore della proprietà imponibile.
      * 
      * @return
      *     possible object is
@@ -590,7 +590,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the imponibile property.
+     * Imposta il valore della proprietà imponibile.
      * 
      * @param value
      *     allowed object is
@@ -602,7 +602,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the iva property.
+     * Recupera il valore della proprietà iva.
      * 
      * @return
      *     possible object is
@@ -614,7 +614,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the iva property.
+     * Imposta il valore della proprietà iva.
      * 
      * @param value
      *     allowed object is
@@ -626,7 +626,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the totale property.
+     * Recupera il valore della proprietà totale.
      * 
      * @return
      *     possible object is
@@ -638,7 +638,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the totale property.
+     * Imposta il valore della proprietà totale.
      * 
      * @param value
      *     allowed object is
@@ -650,7 +650,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the idXCommDet property.
+     * Recupera il valore della proprietà idXCommDet.
      * 
      * @return
      *     possible object is
@@ -662,7 +662,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the idXCommDet property.
+     * Imposta il valore della proprietà idXCommDet.
      * 
      * @param value
      *     allowed object is
@@ -674,7 +674,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the numRigaDett property.
+     * Recupera il valore della proprietà numRigaDett.
      * 
      * @return
      *     possible object is
@@ -686,7 +686,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the numRigaDett property.
+     * Imposta il valore della proprietà numRigaDett.
      * 
      * @param value
      *     allowed object is
@@ -698,7 +698,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dsRiga property.
+     * Recupera il valore della proprietà dsRiga.
      * 
      * @return
      *     possible object is
@@ -710,7 +710,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dsRiga property.
+     * Imposta il valore della proprietà dsRiga.
      * 
      * @param value
      *     allowed object is
@@ -722,7 +722,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdCup property.
+     * Recupera il valore della proprietà cdCup.
      * 
      * @return
      *     possible object is
@@ -734,7 +734,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdCup property.
+     * Imposta il valore della proprietà cdCup.
      * 
      * @param value
      *     allowed object is
@@ -746,7 +746,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdBeneServizio property.
+     * Recupera il valore della proprietà cdBeneServizio.
      * 
      * @return
      *     possible object is
@@ -758,7 +758,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdBeneServizio property.
+     * Imposta il valore della proprietà cdBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -770,7 +770,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cpv property.
+     * Recupera il valore della proprietà cpv.
      * 
      * @return
      *     possible object is
@@ -782,7 +782,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cpv property.
+     * Imposta il valore della proprietà cpv.
      * 
      * @param value
      *     allowed object is
@@ -794,7 +794,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the quantita property.
+     * Recupera il valore della proprietà quantita.
      * 
      * @return
      *     possible object is
@@ -806,7 +806,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the quantita property.
+     * Imposta il valore della proprietà quantita.
      * 
      * @param value
      *     allowed object is
@@ -818,7 +818,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the prezzoUnitario property.
+     * Recupera il valore della proprietà prezzoUnitario.
      * 
      * @return
      *     possible object is
@@ -830,7 +830,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the prezzoUnitario property.
+     * Imposta il valore della proprietà prezzoUnitario.
      * 
      * @param value
      *     allowed object is
@@ -842,7 +842,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the prezzoTotale property.
+     * Recupera il valore della proprietà prezzoTotale.
      * 
      * @return
      *     possible object is
@@ -854,7 +854,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the prezzoTotale property.
+     * Imposta il valore della proprietà prezzoTotale.
      * 
      * @param value
      *     allowed object is
@@ -866,7 +866,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the sconto property.
+     * Recupera il valore della proprietà sconto.
      * 
      * @return
      *     possible object is
@@ -878,7 +878,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the sconto property.
+     * Imposta il valore della proprietà sconto.
      * 
      * @param value
      *     allowed object is
@@ -890,7 +890,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the percSconto property.
+     * Recupera il valore della proprietà percSconto.
      * 
      * @return
      *     possible object is
@@ -902,7 +902,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the percSconto property.
+     * Imposta il valore della proprietà percSconto.
      * 
      * @param value
      *     allowed object is
@@ -914,7 +914,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the maggiorazione property.
+     * Recupera il valore della proprietà maggiorazione.
      * 
      * @return
      *     possible object is
@@ -926,7 +926,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the maggiorazione property.
+     * Imposta il valore della proprietà maggiorazione.
      * 
      * @param value
      *     allowed object is
@@ -938,7 +938,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the percMaggiorazione property.
+     * Recupera il valore della proprietà percMaggiorazione.
      * 
      * @return
      *     possible object is
@@ -950,7 +950,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the percMaggiorazione property.
+     * Imposta il valore della proprietà percMaggiorazione.
      * 
      * @param value
      *     allowed object is
@@ -962,7 +962,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the imponibileDett property.
+     * Recupera il valore della proprietà imponibileDett.
      * 
      * @return
      *     possible object is
@@ -974,7 +974,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the imponibileDett property.
+     * Imposta il valore della proprietà imponibileDett.
      * 
      * @param value
      *     allowed object is
@@ -986,7 +986,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the ivaDett property.
+     * Recupera il valore della proprietà ivaDett.
      * 
      * @return
      *     possible object is
@@ -998,7 +998,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the ivaDett property.
+     * Imposta il valore della proprietà ivaDett.
      * 
      * @param value
      *     allowed object is
@@ -1010,7 +1010,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the totaleDett property.
+     * Recupera il valore della proprietà totaleDett.
      * 
      * @return
      *     possible object is
@@ -1022,7 +1022,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the totaleDett property.
+     * Imposta il valore della proprietà totaleDett.
      * 
      * @param value
      *     allowed object is
@@ -1034,7 +1034,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dtInizioComp property.
+     * Recupera il valore della proprietà dtInizioComp.
      * 
      * @return
      *     possible object is
@@ -1046,7 +1046,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dtInizioComp property.
+     * Imposta il valore della proprietà dtInizioComp.
      * 
      * @param value
      *     allowed object is
@@ -1058,7 +1058,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dtFineComp property.
+     * Recupera il valore della proprietà dtFineComp.
      * 
      * @return
      *     possible object is
@@ -1070,7 +1070,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dtFineComp property.
+     * Imposta il valore della proprietà dtFineComp.
      * 
      * @param value
      *     allowed object is
@@ -1082,7 +1082,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the tiScrCoan property.
+     * Recupera il valore della proprietà tiScrCoan.
      * 
      * @return
      *     possible object is
@@ -1094,7 +1094,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the tiScrCoan property.
+     * Imposta il valore della proprietà tiScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -1106,7 +1106,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the esercizioScr property.
+     * Recupera il valore della proprietà esercizioScr.
      * 
      * @return
      *     possible object is
@@ -1118,7 +1118,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the esercizioScr property.
+     * Imposta il valore della proprietà esercizioScr.
      * 
      * @param value
      *     allowed object is
@@ -1130,7 +1130,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the pgScrCoan property.
+     * Recupera il valore della proprietà pgScrCoan.
      * 
      * @return
      *     possible object is
@@ -1142,7 +1142,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the pgScrCoan property.
+     * Imposta il valore della proprietà pgScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -1154,7 +1154,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dtScrCoan property.
+     * Recupera il valore della proprietà dtScrCoan.
      * 
      * @return
      *     possible object is
@@ -1166,7 +1166,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dtScrCoan property.
+     * Imposta il valore della proprietà dtScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -1178,7 +1178,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the numDettScrCoan property.
+     * Recupera il valore della proprietà numDettScrCoan.
      * 
      * @return
      *     possible object is
@@ -1190,7 +1190,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the numDettScrCoan property.
+     * Imposta il valore della proprietà numDettScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -1202,7 +1202,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdUaBudget property.
+     * Recupera il valore della proprietà cdUaBudget.
      * 
      * @return
      *     possible object is
@@ -1214,7 +1214,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdUaBudget property.
+     * Imposta il valore della proprietà cdUaBudget.
      * 
      * @param value
      *     allowed object is
@@ -1226,7 +1226,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -1238,7 +1238,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -1250,7 +1250,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the denomUa property.
+     * Recupera il valore della proprietà denomUa.
      * 
      * @return
      *     possible object is
@@ -1262,7 +1262,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the denomUa property.
+     * Imposta il valore della proprietà denomUa.
      * 
      * @param value
      *     allowed object is
@@ -1274,7 +1274,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -1286,7 +1286,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -1298,7 +1298,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dsVoceCoan property.
+     * Recupera il valore della proprietà dsVoceCoan.
      * 
      * @return
      *     possible object is
@@ -1310,7 +1310,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dsVoceCoan property.
+     * Imposta il valore della proprietà dsVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -1322,7 +1322,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdVoceRicl property.
+     * Recupera il valore della proprietà cdVoceRicl.
      * 
      * @return
      *     possible object is
@@ -1334,7 +1334,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdVoceRicl property.
+     * Imposta il valore della proprietà cdVoceRicl.
      * 
      * @param value
      *     allowed object is
@@ -1346,7 +1346,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the tiDimAna property.
+     * Recupera il valore della proprietà tiDimAna.
      * 
      * @return
      *     possible object is
@@ -1358,7 +1358,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the tiDimAna property.
+     * Imposta il valore della proprietà tiDimAna.
      * 
      * @param value
      *     allowed object is
@@ -1370,7 +1370,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdDimAna property.
+     * Recupera il valore della proprietà cdDimAna.
      * 
      * @return
      *     possible object is
@@ -1382,7 +1382,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdDimAna property.
+     * Imposta il valore della proprietà cdDimAna.
      * 
      * @param value
      *     allowed object is
@@ -1394,7 +1394,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dsDimAna property.
+     * Recupera il valore della proprietà dsDimAna.
      * 
      * @return
      *     possible object is
@@ -1406,7 +1406,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dsDimAna property.
+     * Imposta il valore della proprietà dsDimAna.
      * 
      * @param value
      *     allowed object is
@@ -1418,7 +1418,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -1430,7 +1430,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -1442,7 +1442,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dsProgetto property.
+     * Recupera il valore della proprietà dsProgetto.
      * 
      * @return
      *     possible object is
@@ -1454,7 +1454,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dsProgetto property.
+     * Imposta il valore della proprietà dsProgetto.
      * 
      * @param value
      *     allowed object is
@@ -1466,7 +1466,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdUnitaLavoro property.
+     * Recupera il valore della proprietà cdUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -1478,7 +1478,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdUnitaLavoro property.
+     * Imposta il valore della proprietà cdUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -1490,7 +1490,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dsUnitaLavoro property.
+     * Recupera il valore della proprietà dsUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -1502,7 +1502,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dsUnitaLavoro property.
+     * Imposta il valore della proprietà dsUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -1514,7 +1514,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the cdCofog property.
+     * Recupera il valore della proprietà cdCofog.
      * 
      * @return
      *     possible object is
@@ -1526,7 +1526,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the cdCofog property.
+     * Imposta il valore della proprietà cdCofog.
      * 
      * @param value
      *     allowed object is
@@ -1538,7 +1538,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the dsCofog property.
+     * Recupera il valore della proprietà dsCofog.
      * 
      * @return
      *     possible object is
@@ -1550,7 +1550,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the dsCofog property.
+     * Imposta il valore della proprietà dsCofog.
      * 
      * @param value
      *     allowed object is
@@ -1562,7 +1562,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the ammDettScr property.
+     * Recupera il valore della proprietà ammDettScr.
      * 
      * @return
      *     possible object is
@@ -1574,7 +1574,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the ammDettScr property.
+     * Imposta il valore della proprietà ammDettScr.
      * 
      * @param value
      *     allowed object is
@@ -1586,7 +1586,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the ammQuotaAperta property.
+     * Recupera il valore della proprietà ammQuotaAperta.
      * 
      * @return
      *     possible object is
@@ -1598,7 +1598,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the ammQuotaAperta property.
+     * Imposta il valore della proprietà ammQuotaAperta.
      * 
      * @param value
      *     allowed object is
@@ -1610,7 +1610,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Gets the value of the idScrCoanDet property.
+     * Recupera il valore della proprietà idScrCoanDet.
      * 
      * @return
      *     possible object is
@@ -1622,7 +1622,7 @@ public class ListaContrPassDTO {
     }
 
     /**
-     * Sets the value of the idScrCoanDet property.
+     * Imposta il valore della proprietà idScrCoanDet.
      * 
      * @param value
      *     allowed object is

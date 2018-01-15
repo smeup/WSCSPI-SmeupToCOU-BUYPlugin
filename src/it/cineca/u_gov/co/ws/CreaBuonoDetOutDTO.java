@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for creaBuonoDetOutDTO complex type.
+ * <p>Classe Java per creaBuonoDetOutDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaBuonoDetOutDTO">
@@ -61,7 +61,7 @@ public class CreaBuonoDetOutDTO {
     protected String tipoBuono;
 
     /**
-     * Gets the value of the cdInvent property.
+     * Recupera il valore della proprietà cdInvent.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the cdInvent property.
+     * Imposta il valore della proprietà cdInvent.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the flErrore property.
+     * Recupera il valore della proprietà flErrore.
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the flErrore property.
+     * Imposta il valore della proprietà flErrore.
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the idBuonoCarScar property.
+     * Recupera il valore della proprietà idBuonoCarScar.
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the idBuonoCarScar property.
+     * Imposta il valore della proprietà idBuonoCarScar.
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the messaggioErrore property.
+     * Recupera il valore della proprietà messaggioErrore.
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the messaggioErrore property.
+     * Imposta il valore della proprietà messaggioErrore.
      * 
      * @param value
      *     allowed object is
@@ -205,7 +205,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the messaggioInformativo property.
+     * Recupera il valore della proprietà messaggioInformativo.
      * 
      * @return
      *     possible object is
@@ -217,7 +217,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the messaggioInformativo property.
+     * Imposta il valore della proprietà messaggioInformativo.
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the pgBuonoCarScar property.
+     * Recupera il valore della proprietà pgBuonoCarScar.
      * 
      * @return
      *     possible object is
@@ -241,7 +241,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the pgBuonoCarScar property.
+     * Imposta il valore della proprietà pgBuonoCarScar.
      * 
      * @param value
      *     allowed object is
@@ -253,7 +253,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Gets the value of the tipoBuono property.
+     * Recupera il valore della proprietà tipoBuono.
      * 
      * @return
      *     possible object is
@@ -265,7 +265,7 @@ public class CreaBuonoDetOutDTO {
     }
 
     /**
-     * Sets the value of the tipoBuono property.
+     * Imposta il valore della proprietà tipoBuono.
      * 
      * @param value
      *     allowed object is

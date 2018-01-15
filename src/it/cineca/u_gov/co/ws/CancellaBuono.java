@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for cancellaBuono complex type.
+ * <p>Classe Java per cancellaBuono complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="cancellaBuono">
@@ -46,7 +46,7 @@ public class CancellaBuono {
     protected Integer esercizio;
 
     /**
-     * Gets the value of the idBuonoCarScar property.
+     * Recupera il valore della proprietà idBuonoCarScar.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Sets the value of the idBuonoCarScar property.
+     * Imposta il valore della proprietà idBuonoCarScar.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Gets the value of the cdInvent property.
+     * Recupera il valore della proprietà cdInvent.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Sets the value of the cdInvent property.
+     * Imposta il valore della proprietà cdInvent.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Gets the value of the pgBuonoCarScar property.
+     * Recupera il valore della proprietà pgBuonoCarScar.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Sets the value of the pgBuonoCarScar property.
+     * Imposta il valore della proprietà pgBuonoCarScar.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Gets the value of the tiBuono property.
+     * Recupera il valore della proprietà tiBuono.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Sets the value of the tiBuono property.
+     * Imposta il valore della proprietà tiBuono.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class CancellaBuono {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is

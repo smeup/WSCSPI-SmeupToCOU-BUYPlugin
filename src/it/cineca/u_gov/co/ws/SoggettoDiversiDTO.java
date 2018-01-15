@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for soggettoDiversiDTO complex type.
+ * <p>Classe Java per soggettoDiversiDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="soggettoDiversiDTO">
@@ -40,7 +40,7 @@ public class SoggettoDiversiDTO {
     protected String ragioneSociale;
 
     /**
-     * Gets the value of the idAb property.
+     * Recupera il valore della proprietà idAb.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class SoggettoDiversiDTO {
     }
 
     /**
-     * Sets the value of the idAb property.
+     * Imposta il valore della proprietà idAb.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class SoggettoDiversiDTO {
     }
 
     /**
-     * Gets the value of the nomeEsteso property.
+     * Recupera il valore della proprietà nomeEsteso.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class SoggettoDiversiDTO {
     }
 
     /**
-     * Sets the value of the nomeEsteso property.
+     * Imposta il valore della proprietà nomeEsteso.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class SoggettoDiversiDTO {
     }
 
     /**
-     * Gets the value of the ragioneSociale property.
+     * Recupera il valore della proprietà ragioneSociale.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class SoggettoDiversiDTO {
     }
 
     /**
-     * Sets the value of the ragioneSociale property.
+     * Imposta il valore della proprietà ragioneSociale.
      * 
      * @param value
      *     allowed object is

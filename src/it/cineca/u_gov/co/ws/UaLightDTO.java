@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for uaLightDTO complex type.
+ * <p>Classe Java per uaLightDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="uaLightDTO">
@@ -37,7 +37,7 @@ public class UaLightDTO {
     protected String dsUa;
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class UaLightDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class UaLightDTO {
     }
 
     /**
-     * Gets the value of the dsUa property.
+     * Recupera il valore della proprietà dsUa.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class UaLightDTO {
     }
 
     /**
-     * Sets the value of the dsUa property.
+     * Imposta il valore della proprietà dsUa.
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for valoriBeniDTO complex type.
+ * <p>Classe Java per valoriBeniDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="valoriBeniDTO">
@@ -89,7 +89,7 @@ public class ValoriBeniDTO {
     protected BigDecimal valoreScaricato;
 
     /**
-     * Gets the value of the aumentiValore property.
+     * Recupera il valore della proprietà aumentiValore.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the aumentiValore property.
+     * Imposta il valore della proprietà aumentiValore.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the cdInvent property.
+     * Recupera il valore della proprietà cdInvent.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the cdInvent property.
+     * Imposta il valore della proprietà cdInvent.
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the diminuzioniValore property.
+     * Recupera il valore della proprietà diminuzioniValore.
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the diminuzioniValore property.
+     * Imposta il valore della proprietà diminuzioniValore.
      * 
      * @param value
      *     allowed object is
@@ -161,7 +161,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the dtRif property.
+     * Recupera il valore della proprietà dtRif.
      * 
      * @return
      *     possible object is
@@ -173,7 +173,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the dtRif property.
+     * Imposta il valore della proprietà dtRif.
      * 
      * @param value
      *     allowed object is
@@ -185,7 +185,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the idInventarioBeni property.
+     * Recupera il valore della proprietà idInventarioBeni.
      * 
      * @return
      *     possible object is
@@ -197,7 +197,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the idInventarioBeni property.
+     * Imposta il valore della proprietà idInventarioBeni.
      * 
      * @param value
      *     allowed object is
@@ -209,7 +209,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the messaggio property.
+     * Recupera il valore della proprietà messaggio.
      * 
      * @return
      *     possible object is
@@ -221,7 +221,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the messaggio property.
+     * Imposta il valore della proprietà messaggio.
      * 
      * @param value
      *     allowed object is
@@ -233,7 +233,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the pgBene property.
+     * Recupera il valore della proprietà pgBene.
      * 
      * @return
      *     possible object is
@@ -245,7 +245,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the pgBene property.
+     * Imposta il valore della proprietà pgBene.
      * 
      * @param value
      *     allowed object is
@@ -257,7 +257,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the pgBeneAssoluto property.
+     * Recupera il valore della proprietà pgBeneAssoluto.
      * 
      * @return
      *     possible object is
@@ -269,7 +269,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the pgBeneAssoluto property.
+     * Imposta il valore della proprietà pgBeneAssoluto.
      * 
      * @param value
      *     allowed object is
@@ -281,7 +281,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the pgBeneSub property.
+     * Recupera il valore della proprietà pgBeneSub.
      * 
      * @return
      *     possible object is
@@ -293,7 +293,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the pgBeneSub property.
+     * Imposta il valore della proprietà pgBeneSub.
      * 
      * @param value
      *     allowed object is
@@ -305,7 +305,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the quotaAmmFiscale property.
+     * Recupera il valore della proprietà quotaAmmFiscale.
      * 
      * @return
      *     possible object is
@@ -317,7 +317,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the quotaAmmFiscale property.
+     * Imposta il valore della proprietà quotaAmmFiscale.
      * 
      * @param value
      *     allowed object is
@@ -329,7 +329,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the quotaAmmOrdinario property.
+     * Recupera il valore della proprietà quotaAmmOrdinario.
      * 
      * @return
      *     possible object is
@@ -341,7 +341,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the quotaAmmOrdinario property.
+     * Imposta il valore della proprietà quotaAmmOrdinario.
      * 
      * @param value
      *     allowed object is
@@ -353,7 +353,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the valoreAmmFiscale property.
+     * Recupera il valore della proprietà valoreAmmFiscale.
      * 
      * @return
      *     possible object is
@@ -365,7 +365,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the valoreAmmFiscale property.
+     * Imposta il valore della proprietà valoreAmmFiscale.
      * 
      * @param value
      *     allowed object is
@@ -377,7 +377,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the valoreAmmOrdinario property.
+     * Recupera il valore della proprietà valoreAmmOrdinario.
      * 
      * @return
      *     possible object is
@@ -389,7 +389,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the valoreAmmOrdinario property.
+     * Imposta il valore della proprietà valoreAmmOrdinario.
      * 
      * @param value
      *     allowed object is
@@ -401,7 +401,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the valoreAttuale property.
+     * Recupera il valore della proprietà valoreAttuale.
      * 
      * @return
      *     possible object is
@@ -413,7 +413,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the valoreAttuale property.
+     * Imposta il valore della proprietà valoreAttuale.
      * 
      * @param value
      *     allowed object is
@@ -425,7 +425,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the valoreCaricato property.
+     * Recupera il valore della proprietà valoreCaricato.
      * 
      * @return
      *     possible object is
@@ -437,7 +437,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the valoreCaricato property.
+     * Imposta il valore della proprietà valoreCaricato.
      * 
      * @param value
      *     allowed object is
@@ -449,7 +449,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the valoreResiduoFiscale property.
+     * Recupera il valore della proprietà valoreResiduoFiscale.
      * 
      * @return
      *     possible object is
@@ -461,7 +461,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the valoreResiduoFiscale property.
+     * Imposta il valore della proprietà valoreResiduoFiscale.
      * 
      * @param value
      *     allowed object is
@@ -473,7 +473,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the valoreResiduoOrdinario property.
+     * Recupera il valore della proprietà valoreResiduoOrdinario.
      * 
      * @return
      *     possible object is
@@ -485,7 +485,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the valoreResiduoOrdinario property.
+     * Imposta il valore della proprietà valoreResiduoOrdinario.
      * 
      * @param value
      *     allowed object is
@@ -497,7 +497,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Gets the value of the valoreScaricato property.
+     * Recupera il valore della proprietà valoreScaricato.
      * 
      * @return
      *     possible object is
@@ -509,7 +509,7 @@ public class ValoriBeniDTO {
     }
 
     /**
-     * Sets the value of the valoreScaricato property.
+     * Imposta il valore della proprietà valoreScaricato.
      * 
      * @param value
      *     allowed object is

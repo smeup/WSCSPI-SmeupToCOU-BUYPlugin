@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for creaTrasfeInDTO complex type.
+ * <p>Classe Java per creaTrasfeInDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaTrasfeInDTO">
@@ -102,7 +102,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the cdAppExt property.
+     * Recupera il valore della proprietà cdAppExt.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the cdAppExt property.
+     * Imposta il valore della proprietà cdAppExt.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the cdInventDest property.
+     * Recupera il valore della proprietà cdInventDest.
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the cdInventDest property.
+     * Imposta il valore della proprietà cdInventDest.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the cdInventOri property.
+     * Recupera il valore della proprietà cdInventOri.
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the cdInventOri property.
+     * Imposta il valore della proprietà cdInventOri.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +174,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the cdUoDest property.
+     * Recupera il valore della proprietà cdUoDest.
      * 
      * @return
      *     possible object is
@@ -186,7 +186,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the cdUoDest property.
+     * Imposta il valore della proprietà cdUoDest.
      * 
      * @param value
      *     allowed object is
@@ -198,7 +198,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the cdUoOri property.
+     * Recupera il valore della proprietà cdUoOri.
      * 
      * @return
      *     possible object is
@@ -210,7 +210,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the cdUoOri property.
+     * Imposta il valore della proprietà cdUoOri.
      * 
      * @param value
      *     allowed object is
@@ -222,7 +222,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the descrizione property.
+     * Recupera il valore della proprietà descrizione.
      * 
      * @return
      *     possible object is
@@ -234,7 +234,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the descrizione property.
+     * Imposta il valore della proprietà descrizione.
      * 
      * @param value
      *     allowed object is
@@ -275,7 +275,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -287,7 +287,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -299,7 +299,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the flDonazione property.
+     * Recupera il valore della proprietà flDonazione.
      * 
      * @return
      *     possible object is
@@ -311,7 +311,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the flDonazione property.
+     * Imposta il valore della proprietà flDonazione.
      * 
      * @param value
      *     allowed object is
@@ -323,7 +323,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Gets the value of the flTuttiBeni property.
+     * Recupera il valore della proprietà flTuttiBeni.
      * 
      * @return
      *     possible object is
@@ -335,7 +335,7 @@ public class CreaTrasfeInDTO {
     }
 
     /**
-     * Sets the value of the flTuttiBeni property.
+     * Imposta il valore della proprietà flTuttiBeni.
      * 
      * @param value
      *     allowed object is

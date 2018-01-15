@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for registroIvaDTO complex type.
+ * <p>Classe Java per registroIvaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="registroIvaDTO">
@@ -50,7 +50,7 @@ public class RegistroIvaDTO {
     protected String tipoRegistro;
 
     /**
-     * Gets the value of the dtFine property.
+     * Recupera il valore della proprietà dtFine.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Sets the value of the dtFine property.
+     * Imposta il valore della proprietà dtFine.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Gets the value of the dtInizio property.
+     * Recupera il valore della proprietà dtInizio.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Sets the value of the dtInizio property.
+     * Imposta il valore della proprietà dtInizio.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Gets the value of the idRegistroFiscale property.
+     * Recupera il valore della proprietà idRegistroFiscale.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Sets the value of the idRegistroFiscale property.
+     * Imposta il valore della proprietà idRegistroFiscale.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Gets the value of the tipoRegistro property.
+     * Recupera il valore della proprietà tipoRegistro.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class RegistroIvaDTO {
     }
 
     /**
-     * Sets the value of the tipoRegistro property.
+     * Imposta il valore della proprietà tipoRegistro.
      * 
      * @param value
      *     allowed object is

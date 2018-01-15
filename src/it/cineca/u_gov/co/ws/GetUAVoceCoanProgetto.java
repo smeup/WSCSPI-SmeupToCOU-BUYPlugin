@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getUAVoceCoanProgetto complex type.
+ * <p>Classe Java per getUAVoceCoanProgetto complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getUAVoceCoanProgetto">
@@ -43,7 +43,7 @@ public class GetUAVoceCoanProgetto {
     protected String cdBeneServizio;
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class GetUAVoceCoanProgetto {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class GetUAVoceCoanProgetto {
     }
 
     /**
-     * Gets the value of the cdNodo property.
+     * Recupera il valore della proprietà cdNodo.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class GetUAVoceCoanProgetto {
     }
 
     /**
-     * Sets the value of the cdNodo property.
+     * Imposta il valore della proprietà cdNodo.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class GetUAVoceCoanProgetto {
     }
 
     /**
-     * Gets the value of the cdBeneServizio property.
+     * Recupera il valore della proprietà cdBeneServizio.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class GetUAVoceCoanProgetto {
     }
 
     /**
-     * Sets the value of the cdBeneServizio property.
+     * Imposta il valore della proprietà cdBeneServizio.
      * 
      * @param value
      *     allowed object is

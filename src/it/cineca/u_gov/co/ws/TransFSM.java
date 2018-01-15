@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for transFSM complex type.
+ * <p>Classe Java per transFSM complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="transFSM">
@@ -82,7 +82,7 @@ public class TransFSM {
     }
 
     /**
-     * Gets the value of the edgeName property.
+     * Recupera il valore della proprietà edgeName.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class TransFSM {
     }
 
     /**
-     * Sets the value of the edgeName property.
+     * Imposta il valore della proprietà edgeName.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class TransFSM {
     }
 
     /**
-     * Gets the value of the cdLang property.
+     * Recupera il valore della proprietà cdLang.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class TransFSM {
     }
 
     /**
-     * Sets the value of the cdLang property.
+     * Imposta il valore della proprietà cdLang.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class TransFSM {
     }
 
     /**
-     * Gets the value of the idAbUser property.
+     * Recupera il valore della proprietà idAbUser.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class TransFSM {
     }
 
     /**
-     * Sets the value of the idAbUser property.
+     * Imposta il valore della proprietà idAbUser.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class TransFSM {
     }
 
     /**
-     * Gets the value of the idAbSuppl property.
+     * Recupera il valore della proprietà idAbSuppl.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class TransFSM {
     }
 
     /**
-     * Sets the value of the idAbSuppl property.
+     * Imposta il valore della proprietà idAbSuppl.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class TransFSM {
     }
 
     /**
-     * Gets the value of the note property.
+     * Recupera il valore della proprietà note.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class TransFSM {
     }
 
     /**
-     * Sets the value of the note property.
+     * Imposta il valore della proprietà note.
      * 
      * @param value
      *     allowed object is
