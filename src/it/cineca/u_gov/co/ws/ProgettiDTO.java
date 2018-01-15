@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for progettiDTO complex type.
+ * <p>Classe Java per progettiDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="progettiDTO">
@@ -52,7 +52,7 @@ public class ProgettiDTO {
     protected String nomeProgetto;
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Gets the value of the cup property.
+     * Recupera il valore della proprietà cup.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Sets the value of the cup property.
+     * Imposta il valore della proprietà cup.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Gets the value of the dsTipoProgetto property.
+     * Recupera il valore della proprietà dsTipoProgetto.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Sets the value of the dsTipoProgetto property.
+     * Imposta il valore della proprietà dsTipoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Gets the value of the flVincolaWp property.
+     * Recupera il valore della proprietà flVincolaWp.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Sets the value of the flVincolaWp property.
+     * Imposta il valore della proprietà flVincolaWp.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Gets the value of the idProgetto property.
+     * Recupera il valore della proprietà idProgetto.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Sets the value of the idProgetto property.
+     * Imposta il valore della proprietà idProgetto.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Gets the value of the idTipoProgetto property.
+     * Recupera il valore della proprietà idTipoProgetto.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Sets the value of the idTipoProgetto property.
+     * Imposta il valore della proprietà idTipoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Gets the value of the nomeProgetto property.
+     * Recupera il valore della proprietà nomeProgetto.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class ProgettiDTO {
     }
 
     /**
-     * Sets the value of the nomeProgetto property.
+     * Imposta il valore della proprietà nomeProgetto.
      * 
      * @param value
      *     allowed object is

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for logScritturaEsternaCoanDTO complex type.
+ * <p>Classe Java per logScritturaEsternaCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="logScritturaEsternaCoanDTO">
@@ -52,7 +52,7 @@ public class LogScritturaEsternaCoanDTO {
     protected Long pgScr;
 
     /**
-     * Gets the value of the cdUaBudget property.
+     * Recupera il valore della proprietà cdUaBudget.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUaBudget property.
+     * Imposta il valore della proprietà cdUaBudget.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the idDettaglioDocumento property.
+     * Recupera il valore della proprietà idDettaglioDocumento.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the idDettaglioDocumento property.
+     * Imposta il valore della proprietà idDettaglioDocumento.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the idScrCoan property.
+     * Recupera il valore della proprietà idScrCoan.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the idScrCoan property.
+     * Imposta il valore della proprietà idScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the idScrCoanDet property.
+     * Recupera il valore della proprietà idScrCoanDet.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the idScrCoanDet property.
+     * Imposta il valore della proprietà idScrCoanDet.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the pgDetScr property.
+     * Recupera il valore della proprietà pgDetScr.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the pgDetScr property.
+     * Imposta il valore della proprietà pgDetScr.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Gets the value of the pgScr property.
+     * Recupera il valore della proprietà pgScr.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
-     * Sets the value of the pgScr property.
+     * Imposta il valore della proprietà pgScr.
      * 
      * @param value
      *     allowed object is

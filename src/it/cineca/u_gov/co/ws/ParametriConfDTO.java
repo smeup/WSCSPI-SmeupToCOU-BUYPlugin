@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for parametriConfDTO complex type.
+ * <p>Classe Java per parametriConfDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="parametriConfDTO">
@@ -52,7 +52,7 @@ public class ParametriConfDTO {
     protected String strValore;
 
     /**
-     * Gets the value of the cdChiavePrimaria property.
+     * Recupera il valore della proprietà cdChiavePrimaria.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Sets the value of the cdChiavePrimaria property.
+     * Imposta il valore della proprietà cdChiavePrimaria.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Gets the value of the cdChiaveSecondaria property.
+     * Recupera il valore della proprietà cdChiaveSecondaria.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Sets the value of the cdChiaveSecondaria property.
+     * Imposta il valore della proprietà cdChiaveSecondaria.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Gets the value of the cdUnitaFunzionale property.
+     * Recupera il valore della proprietà cdUnitaFunzionale.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Sets the value of the cdUnitaFunzionale property.
+     * Imposta il valore della proprietà cdUnitaFunzionale.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Gets the value of the errore property.
+     * Recupera il valore della proprietà errore.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Sets the value of the errore property.
+     * Imposta il valore della proprietà errore.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Gets the value of the message property.
+     * Recupera il valore della proprietà message.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Sets the value of the message property.
+     * Imposta il valore della proprietà message.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Gets the value of the strValore property.
+     * Recupera il valore della proprietà strValore.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class ParametriConfDTO {
     }
 
     /**
-     * Sets the value of the strValore property.
+     * Imposta il valore della proprietà strValore.
      * 
      * @param value
      *     allowed object is

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for creaTrasfeVociOutDTO complex type.
+ * <p>Classe Java per creaTrasfeVociOutDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaTrasfeVociOutDTO">
@@ -37,7 +37,7 @@ public class CreaTrasfeVociOutDTO {
     protected String denomVoceCoge;
 
     /**
-     * Gets the value of the cdVoceCoge property.
+     * Recupera il valore della proprietà cdVoceCoge.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CreaTrasfeVociOutDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoge property.
+     * Imposta il valore della proprietà cdVoceCoge.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class CreaTrasfeVociOutDTO {
     }
 
     /**
-     * Gets the value of the denomVoceCoge property.
+     * Recupera il valore della proprietà denomVoceCoge.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class CreaTrasfeVociOutDTO {
     }
 
     /**
-     * Sets the value of the denomVoceCoge property.
+     * Imposta il valore della proprietà denomVoceCoge.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for coBeniServiziDTO complex type.
+ * <p>Classe Java per coBeniServiziDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="coBeniServiziDTO">
@@ -71,7 +71,7 @@ public class CoBeniServiziDTO {
     protected String tiGestInvMag;
 
     /**
-     * Gets the value of the ammCostoStandard property.
+     * Recupera il valore della proprietà ammCostoStandard.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the ammCostoStandard property.
+     * Imposta il valore della proprietà ammCostoStandard.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the cdBeneServizio property.
+     * Recupera il valore della proprietà cdBeneServizio.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the cdBeneServizio property.
+     * Imposta il valore della proprietà cdBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the cdIvaDetr property.
+     * Recupera il valore della proprietà cdIvaDetr.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the cdIvaDetr property.
+     * Imposta il valore della proprietà cdIvaDetr.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +143,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the cdIvaIndetr property.
+     * Recupera il valore della proprietà cdIvaIndetr.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the cdIvaIndetr property.
+     * Imposta il valore della proprietà cdIvaIndetr.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the cdNomenclIntra property.
+     * Recupera il valore della proprietà cdNomenclIntra.
      * 
      * @return
      *     possible object is
@@ -179,7 +179,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the cdNomenclIntra property.
+     * Imposta il valore della proprietà cdNomenclIntra.
      * 
      * @param value
      *     allowed object is
@@ -191,7 +191,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the dsBeneServizio property.
+     * Recupera il valore della proprietà dsBeneServizio.
      * 
      * @return
      *     possible object is
@@ -203,7 +203,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the dsBeneServizio property.
+     * Imposta il valore della proprietà dsBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -215,7 +215,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the dsMarchio property.
+     * Recupera il valore della proprietà dsMarchio.
      * 
      * @return
      *     possible object is
@@ -227,7 +227,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the dsMarchio property.
+     * Imposta il valore della proprietà dsMarchio.
      * 
      * @param value
      *     allowed object is
@@ -239,7 +239,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the dsUnitaMisura property.
+     * Recupera il valore della proprietà dsUnitaMisura.
      * 
      * @return
      *     possible object is
@@ -251,7 +251,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the dsUnitaMisura property.
+     * Imposta il valore della proprietà dsUnitaMisura.
      * 
      * @param value
      *     allowed object is
@@ -263,7 +263,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the flCollaudo property.
+     * Recupera il valore della proprietà flCollaudo.
      * 
      * @return
      *     possible object is
@@ -275,7 +275,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the flCollaudo property.
+     * Imposta il valore della proprietà flCollaudo.
      * 
      * @param value
      *     allowed object is
@@ -287,7 +287,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the flVisibileRda property.
+     * Recupera il valore della proprietà flVisibileRda.
      * 
      * @return
      *     possible object is
@@ -299,7 +299,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the flVisibileRda property.
+     * Imposta il valore della proprietà flVisibileRda.
      * 
      * @param value
      *     allowed object is
@@ -311,7 +311,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the idAb property.
+     * Recupera il valore della proprietà idAb.
      * 
      * @return
      *     possible object is
@@ -323,7 +323,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the idAb property.
+     * Imposta il valore della proprietà idAb.
      * 
      * @param value
      *     allowed object is
@@ -335,7 +335,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the tiBeneServizio property.
+     * Recupera il valore della proprietà tiBeneServizio.
      * 
      * @return
      *     possible object is
@@ -347,7 +347,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the tiBeneServizio property.
+     * Imposta il valore della proprietà tiBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -359,7 +359,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Gets the value of the tiGestInvMag property.
+     * Recupera il valore della proprietà tiGestInvMag.
      * 
      * @return
      *     possible object is
@@ -371,7 +371,7 @@ public class CoBeniServiziDTO {
     }
 
     /**
-     * Sets the value of the tiGestInvMag property.
+     * Imposta il valore della proprietà tiGestInvMag.
      * 
      * @param value
      *     allowed object is

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for valoriBeniInDTO complex type.
+ * <p>Classe Java per valoriBeniInDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="valoriBeniInDTO">
@@ -43,7 +43,7 @@ public class ValoriBeniInDTO {
     protected Integer pgBeneSub;
 
     /**
-     * Gets the value of the cdInvent property.
+     * Recupera il valore della proprietà cdInvent.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class ValoriBeniInDTO {
     }
 
     /**
-     * Sets the value of the cdInvent property.
+     * Imposta il valore della proprietà cdInvent.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class ValoriBeniInDTO {
     }
 
     /**
-     * Gets the value of the idInventarioBeni property.
+     * Recupera il valore della proprietà idInventarioBeni.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class ValoriBeniInDTO {
     }
 
     /**
-     * Sets the value of the idInventarioBeni property.
+     * Imposta il valore della proprietà idInventarioBeni.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class ValoriBeniInDTO {
     }
 
     /**
-     * Gets the value of the pgBene property.
+     * Recupera il valore della proprietà pgBene.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class ValoriBeniInDTO {
     }
 
     /**
-     * Sets the value of the pgBene property.
+     * Imposta il valore della proprietà pgBene.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class ValoriBeniInDTO {
     }
 
     /**
-     * Gets the value of the pgBeneSub property.
+     * Recupera il valore della proprietà pgBeneSub.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class ValoriBeniInDTO {
     }
 
     /**
-     * Sets the value of the pgBeneSub property.
+     * Imposta il valore della proprietà pgBeneSub.
      * 
      * @param value
      *     allowed object is

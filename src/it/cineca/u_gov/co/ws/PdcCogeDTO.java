@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for pdcCogeDTO complex type.
+ * <p>Classe Java per pdcCogeDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="pdcCogeDTO">
@@ -52,7 +52,7 @@ public class PdcCogeDTO {
     protected String tiCampoAttivita;
 
     /**
-     * Gets the value of the cdTiVoce property.
+     * Recupera il valore della proprietà cdTiVoce.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Sets the value of the cdTiVoce property.
+     * Imposta il valore della proprietà cdTiVoce.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoge property.
+     * Recupera il valore della proprietà cdVoceCoge.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoge property.
+     * Imposta il valore della proprietà cdVoceCoge.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Gets the value of the denomVoceCoge property.
+     * Recupera il valore della proprietà denomVoceCoge.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Sets the value of the denomVoceCoge property.
+     * Imposta il valore della proprietà denomVoceCoge.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Gets the value of the idVoceCoge property.
+     * Recupera il valore della proprietà idVoceCoge.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Sets the value of the idVoceCoge property.
+     * Imposta il valore della proprietà idVoceCoge.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Gets the value of the tiAttivoPassivo property.
+     * Recupera il valore della proprietà tiAttivoPassivo.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Sets the value of the tiAttivoPassivo property.
+     * Imposta il valore della proprietà tiAttivoPassivo.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class PdcCogeDTO {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for creaTrasfeDetOutDTO complex type.
+ * <p>Classe Java per creaTrasfeDetOutDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaTrasfeDetOutDTO">
@@ -77,7 +77,7 @@ public class CreaTrasfeDetOutDTO {
     }
 
     /**
-     * Gets the value of the cdImmobilizzazione property.
+     * Recupera il valore della proprietà cdImmobilizzazione.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class CreaTrasfeDetOutDTO {
     }
 
     /**
-     * Sets the value of the cdImmobilizzazione property.
+     * Imposta il valore della proprietà cdImmobilizzazione.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class CreaTrasfeDetOutDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class CreaTrasfeDetOutDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is

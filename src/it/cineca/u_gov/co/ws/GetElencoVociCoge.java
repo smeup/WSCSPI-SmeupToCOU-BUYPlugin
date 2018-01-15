@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getElencoVociCoge complex type.
+ * <p>Classe Java per getElencoVociCoge complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getElencoVociCoge">
@@ -49,7 +49,7 @@ public class GetElencoVociCoge {
     protected String codiceTariffario;
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Gets the value of the cdUe property.
+     * Recupera il valore della proprietà cdUe.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Sets the value of the cdUe property.
+     * Imposta il valore della proprietà cdUe.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Gets the value of the tipoAttivoPassivo property.
+     * Recupera il valore della proprietà tipoAttivoPassivo.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Sets the value of the tipoAttivoPassivo property.
+     * Imposta il valore della proprietà tipoAttivoPassivo.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Gets the value of the tipoCampoAttivita property.
+     * Recupera il valore della proprietà tipoCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Sets the value of the tipoCampoAttivita property.
+     * Imposta il valore della proprietà tipoCampoAttivita.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Gets the value of the codiceBeneServizio property.
+     * Recupera il valore della proprietà codiceBeneServizio.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Sets the value of the codiceBeneServizio property.
+     * Imposta il valore della proprietà codiceBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Gets the value of the codiceTariffario property.
+     * Recupera il valore della proprietà codiceTariffario.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class GetElencoVociCoge {
     }
 
     /**
-     * Sets the value of the codiceTariffario property.
+     * Imposta il valore della proprietà codiceTariffario.
      * 
      * @param value
      *     allowed object is

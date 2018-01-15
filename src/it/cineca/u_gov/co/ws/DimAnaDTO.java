@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for dimAnaDTO complex type.
+ * <p>Classe Java per dimAnaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="dimAnaDTO">
@@ -52,7 +52,7 @@ public class DimAnaDTO {
     protected String tipoDimAna;
 
     /**
-     * Gets the value of the cdDimAna property.
+     * Recupera il valore della proprietà cdDimAna.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Sets the value of the cdDimAna property.
+     * Imposta il valore della proprietà cdDimAna.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Gets the value of the denomDimAna property.
+     * Recupera il valore della proprietà denomDimAna.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Sets the value of the denomDimAna property.
+     * Imposta il valore della proprietà denomDimAna.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Gets the value of the flRiportoVinc property.
+     * Recupera il valore della proprietà flRiportoVinc.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Sets the value of the flRiportoVinc property.
+     * Imposta il valore della proprietà flRiportoVinc.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Gets the value of the idDimAna property.
+     * Recupera il valore della proprietà idDimAna.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Sets the value of the idDimAna property.
+     * Imposta il valore della proprietà idDimAna.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Gets the value of the livello property.
+     * Recupera il valore della proprietà livello.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Sets the value of the livello property.
+     * Imposta il valore della proprietà livello.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Gets the value of the tipoDimAna property.
+     * Recupera il valore della proprietà tipoDimAna.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class DimAnaDTO {
     }
 
     /**
-     * Sets the value of the tipoDimAna property.
+     * Imposta il valore della proprietà tipoDimAna.
      * 
      * @param value
      *     allowed object is

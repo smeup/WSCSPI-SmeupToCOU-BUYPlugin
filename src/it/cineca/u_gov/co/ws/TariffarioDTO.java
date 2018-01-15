@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for tariffarioDTO complex type.
+ * <p>Classe Java per tariffarioDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="tariffarioDTO">
@@ -71,7 +71,7 @@ public class TariffarioDTO {
     protected String unitaMisura;
 
     /**
-     * Gets the value of the cdIvaDefault property.
+     * Recupera il valore della proprietà cdIvaDefault.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the cdIvaDefault property.
+     * Imposta il valore della proprietà cdIvaDefault.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the cdNomenclIntra property.
+     * Recupera il valore della proprietà cdNomenclIntra.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the cdNomenclIntra property.
+     * Imposta il valore della proprietà cdNomenclIntra.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the cdTariffario property.
+     * Recupera il valore della proprietà cdTariffario.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the cdTariffario property.
+     * Imposta il valore della proprietà cdTariffario.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +143,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the cdTipoSpesaSanitaria property.
+     * Recupera il valore della proprietà cdTipoSpesaSanitaria.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the cdTipoSpesaSanitaria property.
+     * Imposta il valore della proprietà cdTipoSpesaSanitaria.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the cdUo property.
+     * Recupera il valore della proprietà cdUo.
      * 
      * @return
      *     possible object is
@@ -179,7 +179,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the cdUo property.
+     * Imposta il valore della proprietà cdUo.
      * 
      * @param value
      *     allowed object is
@@ -191,7 +191,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the dsTariffario property.
+     * Recupera il valore della proprietà dsTariffario.
      * 
      * @return
      *     possible object is
@@ -203,7 +203,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the dsTariffario property.
+     * Imposta il valore della proprietà dsTariffario.
      * 
      * @param value
      *     allowed object is
@@ -215,7 +215,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the flEnpav property.
+     * Recupera il valore della proprietà flEnpav.
      * 
      * @return
      *     possible object is
@@ -227,7 +227,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the flEnpav property.
+     * Imposta il valore della proprietà flEnpav.
      * 
      * @param value
      *     allowed object is
@@ -239,7 +239,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the idTariffario property.
+     * Recupera il valore della proprietà idTariffario.
      * 
      * @return
      *     possible object is
@@ -251,7 +251,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the idTariffario property.
+     * Imposta il valore della proprietà idTariffario.
      * 
      * @param value
      *     allowed object is
@@ -263,7 +263,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the idUo property.
+     * Recupera il valore della proprietà idUo.
      * 
      * @return
      *     possible object is
@@ -275,7 +275,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the idUo property.
+     * Imposta il valore della proprietà idUo.
      * 
      * @param value
      *     allowed object is
@@ -287,7 +287,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the prezzoUnitario property.
+     * Recupera il valore della proprietà prezzoUnitario.
      * 
      * @return
      *     possible object is
@@ -299,7 +299,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the prezzoUnitario property.
+     * Imposta il valore della proprietà prezzoUnitario.
      * 
      * @param value
      *     allowed object is
@@ -311,7 +311,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the tiBeneServizio property.
+     * Recupera il valore della proprietà tiBeneServizio.
      * 
      * @return
      *     possible object is
@@ -323,7 +323,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the tiBeneServizio property.
+     * Imposta il valore della proprietà tiBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -335,7 +335,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the tiGestInvMag property.
+     * Recupera il valore della proprietà tiGestInvMag.
      * 
      * @return
      *     possible object is
@@ -347,7 +347,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the tiGestInvMag property.
+     * Imposta il valore della proprietà tiGestInvMag.
      * 
      * @param value
      *     allowed object is
@@ -359,7 +359,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Gets the value of the unitaMisura property.
+     * Recupera il valore della proprietà unitaMisura.
      * 
      * @return
      *     possible object is
@@ -371,7 +371,7 @@ public class TariffarioDTO {
     }
 
     /**
-     * Sets the value of the unitaMisura property.
+     * Imposta il valore della proprietà unitaMisura.
      * 
      * @param value
      *     allowed object is

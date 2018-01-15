@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getSezionaliIva complex type.
+ * <p>Classe Java per getSezionaliIva complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getSezionaliIva">
@@ -40,7 +40,7 @@ public class GetSezionaliIva {
     protected String cdTipoOperazioneIva;
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class GetSezionaliIva {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class GetSezionaliIva {
     }
 
     /**
-     * Gets the value of the cdUe property.
+     * Recupera il valore della proprietà cdUe.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class GetSezionaliIva {
     }
 
     /**
-     * Sets the value of the cdUe property.
+     * Imposta il valore della proprietà cdUe.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class GetSezionaliIva {
     }
 
     /**
-     * Gets the value of the cdTipoOperazioneIva property.
+     * Recupera il valore della proprietà cdTipoOperazioneIva.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class GetSezionaliIva {
     }
 
     /**
-     * Sets the value of the cdTipoOperazioneIva property.
+     * Imposta il valore della proprietà cdTipoOperazioneIva.
      * 
      * @param value
      *     allowed object is

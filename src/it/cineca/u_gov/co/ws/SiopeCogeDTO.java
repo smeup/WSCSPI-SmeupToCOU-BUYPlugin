@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for siopeCogeDTO complex type.
+ * <p>Classe Java per siopeCogeDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="siopeCogeDTO">
@@ -49,7 +49,7 @@ public class SiopeCogeDTO {
     protected String tiVoce;
 
     /**
-     * Gets the value of the cdSiope property.
+     * Recupera il valore della proprietà cdSiope.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Sets the value of the cdSiope property.
+     * Imposta il valore della proprietà cdSiope.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoge property.
+     * Recupera il valore della proprietà cdVoceCoge.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoge property.
+     * Imposta il valore della proprietà cdVoceCoge.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Gets the value of the dsSiope property.
+     * Recupera il valore della proprietà dsSiope.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Sets the value of the dsSiope property.
+     * Imposta il valore della proprietà dsSiope.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Gets the value of the idVoceRiclCoge property.
+     * Recupera il valore della proprietà idVoceRiclCoge.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Sets the value of the idVoceRiclCoge property.
+     * Imposta il valore della proprietà idVoceRiclCoge.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Gets the value of the tiVoce property.
+     * Recupera il valore della proprietà tiVoce.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class SiopeCogeDTO {
     }
 
     /**
-     * Sets the value of the tiVoce property.
+     * Imposta il valore della proprietà tiVoce.
      * 
      * @param value
      *     allowed object is

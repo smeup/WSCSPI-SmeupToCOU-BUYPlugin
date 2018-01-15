@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for tipoOperazSezionaleIvaDTO complex type.
+ * <p>Classe Java per tipoOperazSezionaleIvaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="tipoOperazSezionaleIvaDTO">
@@ -59,7 +59,7 @@ public class TipoOperazSezionaleIvaDTO {
     protected List<TipoOperazioneIvaLightDTO> tipoOperazioneIva;
 
     /**
-     * Gets the value of the cdUE property.
+     * Recupera il valore della proprietà cdUE.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class TipoOperazSezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the cdUE property.
+     * Imposta il valore della proprietà cdUE.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class TipoOperazSezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the idAbSogg property.
+     * Recupera il valore della proprietà idAbSogg.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class TipoOperazSezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the idAbSogg property.
+     * Imposta il valore della proprietà idAbSogg.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class TipoOperazSezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the percIva property.
+     * Recupera il valore della proprietà percIva.
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class TipoOperazSezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the percIva property.
+     * Imposta il valore della proprietà percIva.
      * 
      * @param value
      *     allowed object is
@@ -189,7 +189,7 @@ public class TipoOperazSezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -201,7 +201,7 @@ public class TipoOperazSezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is

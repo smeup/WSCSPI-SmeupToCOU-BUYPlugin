@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for voceCoanBeneServDTO complex type.
+ * <p>Classe Java per voceCoanBeneServDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="voceCoanBeneServDTO">
@@ -40,7 +40,7 @@ public class VoceCoanBeneServDTO {
     protected Long idVoceCoan;
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class VoceCoanBeneServDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class VoceCoanBeneServDTO {
     }
 
     /**
-     * Gets the value of the denomVoceCoan property.
+     * Recupera il valore della proprietà denomVoceCoan.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class VoceCoanBeneServDTO {
     }
 
     /**
-     * Sets the value of the denomVoceCoan property.
+     * Imposta il valore della proprietà denomVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class VoceCoanBeneServDTO {
     }
 
     /**
-     * Gets the value of the idVoceCoan property.
+     * Recupera il valore della proprietà idVoceCoan.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class VoceCoanBeneServDTO {
     }
 
     /**
-     * Sets the value of the idVoceCoan property.
+     * Imposta il valore della proprietà idVoceCoan.
      * 
      * @param value
      *     allowed object is

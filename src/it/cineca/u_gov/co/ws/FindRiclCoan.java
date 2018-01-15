@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for findRiclCoan complex type.
+ * <p>Classe Java per findRiclCoan complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="findRiclCoan">
@@ -37,7 +37,7 @@ public class FindRiclCoan {
     protected String cdVoceCoan;
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class FindRiclCoan {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class FindRiclCoan {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class FindRiclCoan {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is

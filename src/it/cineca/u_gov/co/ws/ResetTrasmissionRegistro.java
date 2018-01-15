@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for resetTrasmissionRegistro complex type.
+ * <p>Classe Java per resetTrasmissionRegistro complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="resetTrasmissionRegistro">
@@ -34,7 +34,7 @@ public class ResetTrasmissionRegistro {
     protected Long idRegistro;
 
     /**
-     * Gets the value of the idRegistro property.
+     * Recupera il valore della proprietà idRegistro.
      * 
      * @return
      *     possible object is
@@ -46,7 +46,7 @@ public class ResetTrasmissionRegistro {
     }
 
     /**
-     * Sets the value of the idRegistro property.
+     * Imposta il valore della proprietà idRegistro.
      * 
      * @param value
      *     allowed object is

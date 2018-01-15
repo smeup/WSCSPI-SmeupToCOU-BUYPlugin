@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for modificaUESospesoDTO complex type.
+ * <p>Classe Java per modificaUESospesoDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="modificaUESospesoDTO">
@@ -55,7 +55,7 @@ public class ModificaUESospesoDTO {
     protected String ueIniziale;
 
     /**
-     * Gets the value of the anno property.
+     * Recupera il valore della proprietà anno.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the anno property.
+     * Imposta il valore della proprietà anno.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Gets the value of the cdRifIstCass property.
+     * Recupera il valore della proprietà cdRifIstCass.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the cdRifIstCass property.
+     * Imposta il valore della proprietà cdRifIstCass.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Gets the value of the ibanEnte property.
+     * Recupera il valore della proprietà ibanEnte.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the ibanEnte property.
+     * Imposta il valore della proprietà ibanEnte.
      * 
      * @param value
      *     allowed object is
@@ -127,7 +127,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Gets the value of the idRitornoCassiere property.
+     * Recupera il valore della proprietà idRitornoCassiere.
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the idRitornoCassiere property.
+     * Imposta il valore della proprietà idRitornoCassiere.
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Gets the value of the msgErrore property.
+     * Recupera il valore della proprietà msgErrore.
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the msgErrore property.
+     * Imposta il valore della proprietà msgErrore.
      * 
      * @param value
      *     allowed object is
@@ -175,7 +175,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Gets the value of the nuovaUe property.
+     * Recupera il valore della proprietà nuovaUe.
      * 
      * @return
      *     possible object is
@@ -187,7 +187,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the nuovaUe property.
+     * Imposta il valore della proprietà nuovaUe.
      * 
      * @param value
      *     allowed object is
@@ -199,7 +199,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Gets the value of the tipoMovIstCass property.
+     * Recupera il valore della proprietà tipoMovIstCass.
      * 
      * @return
      *     possible object is
@@ -211,7 +211,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the tipoMovIstCass property.
+     * Imposta il valore della proprietà tipoMovIstCass.
      * 
      * @param value
      *     allowed object is
@@ -223,7 +223,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Gets the value of the ueIniziale property.
+     * Recupera il valore della proprietà ueIniziale.
      * 
      * @return
      *     possible object is
@@ -235,7 +235,7 @@ public class ModificaUESospesoDTO {
     }
 
     /**
-     * Sets the value of the ueIniziale property.
+     * Imposta il valore della proprietà ueIniziale.
      * 
      * @param value
      *     allowed object is

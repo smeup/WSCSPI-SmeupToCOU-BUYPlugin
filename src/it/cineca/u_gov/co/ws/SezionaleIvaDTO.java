@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for sezionaleIvaDTO complex type.
+ * <p>Classe Java per sezionaleIvaDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="sezionaleIvaDTO">
@@ -73,7 +73,7 @@ public class SezionaleIvaDTO {
     protected String tiCampoAttivita;
 
     /**
-     * Gets the value of the cdAttivitaIva property.
+     * Recupera il valore della proprietà cdAttivitaIva.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the cdAttivitaIva property.
+     * Imposta il valore della proprietà cdAttivitaIva.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the cdSezionale property.
+     * Recupera il valore della proprietà cdSezionale.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the cdSezionale property.
+     * Imposta il valore della proprietà cdSezionale.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the dsSezionale property.
+     * Recupera il valore della proprietà dsSezionale.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the dsSezionale property.
+     * Imposta il valore della proprietà dsSezionale.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the flAutofatture property.
+     * Recupera il valore della proprietà flAutofatture.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the flAutofatture property.
+     * Imposta il valore della proprietà flAutofatture.
      * 
      * @param value
      *     allowed object is
@@ -193,7 +193,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the flCorrispettivi property.
+     * Recupera il valore della proprietà flCorrispettivi.
      * 
      * @return
      *     possible object is
@@ -205,7 +205,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the flCorrispettivi property.
+     * Imposta il valore della proprietà flCorrispettivi.
      * 
      * @param value
      *     allowed object is
@@ -217,7 +217,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the flExtraUe property.
+     * Recupera il valore della proprietà flExtraUe.
      * 
      * @return
      *     possible object is
@@ -229,7 +229,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the flExtraUe property.
+     * Imposta il valore della proprietà flExtraUe.
      * 
      * @param value
      *     allowed object is
@@ -241,7 +241,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the flFtEl property.
+     * Recupera il valore della proprietà flFtEl.
      * 
      * @return
      *     possible object is
@@ -253,7 +253,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the flFtEl property.
+     * Imposta il valore della proprietà flFtEl.
      * 
      * @param value
      *     allowed object is
@@ -265,7 +265,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the flIntraUe property.
+     * Recupera il valore della proprietà flIntraUe.
      * 
      * @return
      *     possible object is
@@ -277,7 +277,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the flIntraUe property.
+     * Imposta il valore della proprietà flIntraUe.
      * 
      * @param value
      *     allowed object is
@@ -289,7 +289,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the flOrdinario property.
+     * Recupera il valore della proprietà flOrdinario.
      * 
      * @return
      *     possible object is
@@ -301,7 +301,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the flOrdinario property.
+     * Imposta il valore della proprietà flOrdinario.
      * 
      * @param value
      *     allowed object is
@@ -313,7 +313,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the flSanMarino property.
+     * Recupera il valore della proprietà flSanMarino.
      * 
      * @return
      *     possible object is
@@ -325,7 +325,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the flSanMarino property.
+     * Imposta il valore della proprietà flSanMarino.
      * 
      * @param value
      *     allowed object is
@@ -337,7 +337,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the tiAttivoPassivo property.
+     * Recupera il valore della proprietà tiAttivoPassivo.
      * 
      * @return
      *     possible object is
@@ -349,7 +349,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the tiAttivoPassivo property.
+     * Imposta il valore della proprietà tiAttivoPassivo.
      * 
      * @param value
      *     allowed object is
@@ -361,7 +361,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the tiBeneServizio property.
+     * Recupera il valore della proprietà tiBeneServizio.
      * 
      * @return
      *     possible object is
@@ -373,7 +373,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the tiBeneServizio property.
+     * Imposta il valore della proprietà tiBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -385,7 +385,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -397,7 +397,7 @@ public class SezionaleIvaDTO {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is

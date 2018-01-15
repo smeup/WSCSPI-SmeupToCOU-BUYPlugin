@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getTipoOperazSezionaleIva complex type.
+ * <p>Classe Java per getTipoOperazSezionaleIva complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getTipoOperazSezionaleIva">
@@ -59,7 +59,7 @@ public class GetTipoOperazSezionaleIva {
     protected BigDecimal percIva;
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Gets the value of the idAbSogg property.
+     * Recupera il valore della proprietà idAbSogg.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the idAbSogg property.
+     * Imposta il valore della proprietà idAbSogg.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Gets the value of the partIva property.
+     * Recupera il valore della proprietà partIva.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the partIva property.
+     * Imposta il valore della proprietà partIva.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Gets the value of the codFis property.
+     * Recupera il valore della proprietà codFis.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the codFis property.
+     * Imposta il valore della proprietà codFis.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Gets the value of the ragioneSoc property.
+     * Recupera il valore della proprietà ragioneSoc.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the ragioneSoc property.
+     * Imposta il valore della proprietà ragioneSoc.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Gets the value of the dtReg property.
+     * Recupera il valore della proprietà dtReg.
      * 
      * @return
      *     possible object is
@@ -191,7 +191,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the dtReg property.
+     * Imposta il valore della proprietà dtReg.
      * 
      * @param value
      *     allowed object is
@@ -203,7 +203,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Gets the value of the cdUO property.
+     * Recupera il valore della proprietà cdUO.
      * 
      * @return
      *     possible object is
@@ -215,7 +215,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the cdUO property.
+     * Imposta il valore della proprietà cdUO.
      * 
      * @param value
      *     allowed object is
@@ -227,7 +227,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Gets the value of the percIva property.
+     * Recupera il valore della proprietà percIva.
      * 
      * @return
      *     possible object is
@@ -239,7 +239,7 @@ public class GetTipoOperazSezionaleIva {
     }
 
     /**
-     * Sets the value of the percIva property.
+     * Imposta il valore della proprietà percIva.
      * 
      * @param value
      *     allowed object is

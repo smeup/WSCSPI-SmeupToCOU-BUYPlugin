@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for cupDTO complex type.
+ * <p>Classe Java per cupDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="cupDTO">
@@ -43,7 +43,7 @@ public class CupDTO {
     protected String tiAttivoPassivoEntrambe;
 
     /**
-     * Gets the value of the cup property.
+     * Recupera il valore della proprietà cup.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class CupDTO {
     }
 
     /**
-     * Sets the value of the cup property.
+     * Imposta il valore della proprietà cup.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class CupDTO {
     }
 
     /**
-     * Gets the value of the dsCup property.
+     * Recupera il valore della proprietà dsCup.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class CupDTO {
     }
 
     /**
-     * Sets the value of the dsCup property.
+     * Imposta il valore della proprietà dsCup.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class CupDTO {
     }
 
     /**
-     * Gets the value of the idUo property.
+     * Recupera il valore della proprietà idUo.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class CupDTO {
     }
 
     /**
-     * Sets the value of the idUo property.
+     * Imposta il valore della proprietà idUo.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class CupDTO {
     }
 
     /**
-     * Gets the value of the tiAttivoPassivoEntrambe property.
+     * Recupera il valore della proprietà tiAttivoPassivoEntrambe.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class CupDTO {
     }
 
     /**
-     * Sets the value of the tiAttivoPassivoEntrambe property.
+     * Imposta il valore della proprietà tiAttivoPassivoEntrambe.
      * 
      * @param value
      *     allowed object is

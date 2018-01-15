@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getCodiciIva complex type.
+ * <p>Classe Java per getCodiciIva complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getCodiciIva">
@@ -52,7 +52,7 @@ public class GetCodiciIva {
     protected String cdUo;
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Gets the value of the tiCampoAttivita property.
+     * Recupera il valore della proprietà tiCampoAttivita.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Sets the value of the tiCampoAttivita property.
+     * Imposta il valore della proprietà tiCampoAttivita.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Gets the value of the cdTipoOperazioneIva property.
+     * Recupera il valore della proprietà cdTipoOperazioneIva.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Sets the value of the cdTipoOperazioneIva property.
+     * Imposta il valore della proprietà cdTipoOperazioneIva.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Gets the value of the cdBeneServizio property.
+     * Recupera il valore della proprietà cdBeneServizio.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Sets the value of the cdBeneServizio property.
+     * Imposta il valore della proprietà cdBeneServizio.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Gets the value of the cdTariffa property.
+     * Recupera il valore della proprietà cdTariffa.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Sets the value of the cdTariffa property.
+     * Imposta il valore della proprietà cdTariffa.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Gets the value of the cdUo property.
+     * Recupera il valore della proprietà cdUo.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class GetCodiciIva {
     }
 
     /**
-     * Sets the value of the cdUo property.
+     * Imposta il valore della proprietà cdUo.
      * 
      * @param value
      *     allowed object is

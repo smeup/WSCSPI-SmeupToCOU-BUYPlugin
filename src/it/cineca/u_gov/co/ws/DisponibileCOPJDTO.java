@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for disponibileCOPJDTO complex type.
+ * <p>Classe Java per disponibileCOPJDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="disponibileCOPJDTO">
@@ -110,7 +110,7 @@ public class DisponibileCOPJDTO {
     protected BigDecimal pjTotaleScrittureVoceProgettoEse;
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -122,7 +122,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -170,7 +170,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -182,7 +182,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoanBudget property.
+     * Recupera il valore della proprietà cdVoceCoanBudget.
      * 
      * @return
      *     possible object is
@@ -194,7 +194,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoanBudget property.
+     * Imposta il valore della proprietà cdVoceCoanBudget.
      * 
      * @param value
      *     allowed object is
@@ -206,7 +206,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coDisponibile property.
+     * Recupera il valore della proprietà coDisponibile.
      * 
      * @return
      *     possible object is
@@ -218,7 +218,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coDisponibile property.
+     * Imposta il valore della proprietà coDisponibile.
      * 
      * @param value
      *     allowed object is
@@ -230,7 +230,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coDisponibileSinteticoFunzionamentoProgetto property.
+     * Recupera il valore della proprietà coDisponibileSinteticoFunzionamentoProgetto.
      * 
      * @return
      *     possible object is
@@ -242,7 +242,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coDisponibileSinteticoFunzionamentoProgetto property.
+     * Imposta il valore della proprietà coDisponibileSinteticoFunzionamentoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -254,7 +254,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coDisponibileSinteticoInvestimentoProgetto property.
+     * Recupera il valore della proprietà coDisponibileSinteticoInvestimentoProgetto.
      * 
      * @return
      *     possible object is
@@ -266,7 +266,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coDisponibileSinteticoInvestimentoProgetto property.
+     * Imposta il valore della proprietà coDisponibileSinteticoInvestimentoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -278,7 +278,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coDisponibileSinteticoProgetto property.
+     * Recupera il valore della proprietà coDisponibileSinteticoProgetto.
      * 
      * @return
      *     possible object is
@@ -290,7 +290,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coDisponibileSinteticoProgetto property.
+     * Imposta il valore della proprietà coDisponibileSinteticoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -302,7 +302,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coPrevisioneDefinitiva property.
+     * Recupera il valore della proprietà coPrevisioneDefinitiva.
      * 
      * @return
      *     possible object is
@@ -314,7 +314,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coPrevisioneDefinitiva property.
+     * Imposta il valore della proprietà coPrevisioneDefinitiva.
      * 
      * @param value
      *     allowed object is
@@ -326,7 +326,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coPrevisioneSinteticaFunzionamentoProgetto property.
+     * Recupera il valore della proprietà coPrevisioneSinteticaFunzionamentoProgetto.
      * 
      * @return
      *     possible object is
@@ -338,7 +338,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coPrevisioneSinteticaFunzionamentoProgetto property.
+     * Imposta il valore della proprietà coPrevisioneSinteticaFunzionamentoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -350,7 +350,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coPrevisioneSinteticaInvestimentoProgetto property.
+     * Recupera il valore della proprietà coPrevisioneSinteticaInvestimentoProgetto.
      * 
      * @return
      *     possible object is
@@ -362,7 +362,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coPrevisioneSinteticaInvestimentoProgetto property.
+     * Imposta il valore della proprietà coPrevisioneSinteticaInvestimentoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -374,7 +374,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coPrevisioneSinteticaProgetto property.
+     * Recupera il valore della proprietà coPrevisioneSinteticaProgetto.
      * 
      * @return
      *     possible object is
@@ -386,7 +386,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coPrevisioneSinteticaProgetto property.
+     * Imposta il valore della proprietà coPrevisioneSinteticaProgetto.
      * 
      * @param value
      *     allowed object is
@@ -398,7 +398,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coTotaleScritture property.
+     * Recupera il valore della proprietà coTotaleScritture.
      * 
      * @return
      *     possible object is
@@ -410,7 +410,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coTotaleScritture property.
+     * Imposta il valore della proprietà coTotaleScritture.
      * 
      * @param value
      *     allowed object is
@@ -422,7 +422,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coTotaleScrittureSinteticoFunzionamentoProgetto property.
+     * Recupera il valore della proprietà coTotaleScrittureSinteticoFunzionamentoProgetto.
      * 
      * @return
      *     possible object is
@@ -434,7 +434,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coTotaleScrittureSinteticoFunzionamentoProgetto property.
+     * Imposta il valore della proprietà coTotaleScrittureSinteticoFunzionamentoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -446,7 +446,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coTotaleScrittureSinteticoInvestimentoProgetto property.
+     * Recupera il valore della proprietà coTotaleScrittureSinteticoInvestimentoProgetto.
      * 
      * @return
      *     possible object is
@@ -458,7 +458,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coTotaleScrittureSinteticoInvestimentoProgetto property.
+     * Imposta il valore della proprietà coTotaleScrittureSinteticoInvestimentoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -470,7 +470,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the coTotaleScrittureSinteticoProgetto property.
+     * Recupera il valore della proprietà coTotaleScrittureSinteticoProgetto.
      * 
      * @return
      *     possible object is
@@ -482,7 +482,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the coTotaleScrittureSinteticoProgetto property.
+     * Imposta il valore della proprietà coTotaleScrittureSinteticoProgetto.
      * 
      * @param value
      *     allowed object is
@@ -494,7 +494,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the dsVoceProgetto property.
+     * Recupera il valore della proprietà dsVoceProgetto.
      * 
      * @return
      *     possible object is
@@ -506,7 +506,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the dsVoceProgetto property.
+     * Imposta il valore della proprietà dsVoceProgetto.
      * 
      * @param value
      *     allowed object is
@@ -518,7 +518,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -530,7 +530,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -542,7 +542,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the flDisponibilita property.
+     * Recupera il valore della proprietà flDisponibilita.
      * 
      * @return
      *     possible object is
@@ -554,7 +554,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the flDisponibilita property.
+     * Imposta il valore della proprietà flDisponibilita.
      * 
      * @param value
      *     allowed object is
@@ -566,7 +566,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the msgDisponibilita property.
+     * Recupera il valore della proprietà msgDisponibilita.
      * 
      * @return
      *     possible object is
@@ -578,7 +578,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the msgDisponibilita property.
+     * Imposta il valore della proprietà msgDisponibilita.
      * 
      * @param value
      *     allowed object is
@@ -590,7 +590,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the pjDisponibileVoceProgetto property.
+     * Recupera il valore della proprietà pjDisponibileVoceProgetto.
      * 
      * @return
      *     possible object is
@@ -602,7 +602,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the pjDisponibileVoceProgetto property.
+     * Imposta il valore della proprietà pjDisponibileVoceProgetto.
      * 
      * @param value
      *     allowed object is
@@ -614,7 +614,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the pjDisponibileVoceProgettoEse property.
+     * Recupera il valore della proprietà pjDisponibileVoceProgettoEse.
      * 
      * @return
      *     possible object is
@@ -626,7 +626,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the pjDisponibileVoceProgettoEse property.
+     * Imposta il valore della proprietà pjDisponibileVoceProgettoEse.
      * 
      * @param value
      *     allowed object is
@@ -638,7 +638,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the pjPrevisioneVoceProgetto property.
+     * Recupera il valore della proprietà pjPrevisioneVoceProgetto.
      * 
      * @return
      *     possible object is
@@ -650,7 +650,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the pjPrevisioneVoceProgetto property.
+     * Imposta il valore della proprietà pjPrevisioneVoceProgetto.
      * 
      * @param value
      *     allowed object is
@@ -662,7 +662,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the pjPrevisioneVoceProgettoEse property.
+     * Recupera il valore della proprietà pjPrevisioneVoceProgettoEse.
      * 
      * @return
      *     possible object is
@@ -674,7 +674,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the pjPrevisioneVoceProgettoEse property.
+     * Imposta il valore della proprietà pjPrevisioneVoceProgettoEse.
      * 
      * @param value
      *     allowed object is
@@ -686,7 +686,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the pjTotaleScrittureVoceProgetto property.
+     * Recupera il valore della proprietà pjTotaleScrittureVoceProgetto.
      * 
      * @return
      *     possible object is
@@ -698,7 +698,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the pjTotaleScrittureVoceProgetto property.
+     * Imposta il valore della proprietà pjTotaleScrittureVoceProgetto.
      * 
      * @param value
      *     allowed object is
@@ -710,7 +710,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Gets the value of the pjTotaleScrittureVoceProgettoEse property.
+     * Recupera il valore della proprietà pjTotaleScrittureVoceProgettoEse.
      * 
      * @return
      *     possible object is
@@ -722,7 +722,7 @@ public class DisponibileCOPJDTO {
     }
 
     /**
-     * Sets the value of the pjTotaleScrittureVoceProgettoEse property.
+     * Imposta il valore della proprietà pjTotaleScrittureVoceProgettoEse.
      * 
      * @param value
      *     allowed object is

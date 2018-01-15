@@ -12,9 +12,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for creaTrasfeOutDTO complex type.
+ * <p>Classe Java per creaTrasfeOutDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="creaTrasfeOutDTO">
@@ -105,7 +105,7 @@ public class CreaTrasfeOutDTO {
     protected String tipoDgOri;
 
     /**
-     * Gets the value of the cdInventDest property.
+     * Recupera il valore della proprietà cdInventDest.
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the cdInventDest property.
+     * Imposta il valore della proprietà cdInventDest.
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the cdInventOri property.
+     * Recupera il valore della proprietà cdInventOri.
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the cdInventOri property.
+     * Imposta il valore della proprietà cdInventOri.
      * 
      * @param value
      *     allowed object is
@@ -153,7 +153,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the cdUoDgDest property.
+     * Recupera il valore della proprietà cdUoDgDest.
      * 
      * @return
      *     possible object is
@@ -165,7 +165,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the cdUoDgDest property.
+     * Imposta il valore della proprietà cdUoDgDest.
      * 
      * @param value
      *     allowed object is
@@ -177,7 +177,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the cdUoDgOri property.
+     * Recupera il valore della proprietà cdUoDgOri.
      * 
      * @return
      *     possible object is
@@ -189,7 +189,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the cdUoDgOri property.
+     * Imposta il valore della proprietà cdUoDgOri.
      * 
      * @param value
      *     allowed object is
@@ -230,7 +230,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the dsTrasferimentoDest property.
+     * Recupera il valore della proprietà dsTrasferimentoDest.
      * 
      * @return
      *     possible object is
@@ -242,7 +242,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the dsTrasferimentoDest property.
+     * Imposta il valore della proprietà dsTrasferimentoDest.
      * 
      * @param value
      *     allowed object is
@@ -254,7 +254,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the dsTrasferimentoOri property.
+     * Recupera il valore della proprietà dsTrasferimentoOri.
      * 
      * @return
      *     possible object is
@@ -266,7 +266,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the dsTrasferimentoOri property.
+     * Imposta il valore della proprietà dsTrasferimentoOri.
      * 
      * @param value
      *     allowed object is
@@ -278,7 +278,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazioneDgDest property.
+     * Recupera il valore della proprietà dtRegistrazioneDgDest.
      * 
      * @return
      *     possible object is
@@ -290,7 +290,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazioneDgDest property.
+     * Imposta il valore della proprietà dtRegistrazioneDgDest.
      * 
      * @param value
      *     allowed object is
@@ -302,7 +302,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazioneDgOri property.
+     * Recupera il valore della proprietà dtRegistrazioneDgOri.
      * 
      * @return
      *     possible object is
@@ -314,7 +314,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazioneDgOri property.
+     * Imposta il valore della proprietà dtRegistrazioneDgOri.
      * 
      * @param value
      *     allowed object is
@@ -326,7 +326,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -338,7 +338,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -350,7 +350,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the idDgDest property.
+     * Recupera il valore della proprietà idDgDest.
      * 
      * @return
      *     possible object is
@@ -362,7 +362,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the idDgDest property.
+     * Imposta il valore della proprietà idDgDest.
      * 
      * @param value
      *     allowed object is
@@ -374,7 +374,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the idDgOri property.
+     * Recupera il valore della proprietà idDgOri.
      * 
      * @return
      *     possible object is
@@ -386,7 +386,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the idDgOri property.
+     * Imposta il valore della proprietà idDgOri.
      * 
      * @param value
      *     allowed object is
@@ -398,7 +398,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the messaggioErrore property.
+     * Recupera il valore della proprietà messaggioErrore.
      * 
      * @return
      *     possible object is
@@ -410,7 +410,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the messaggioErrore property.
+     * Imposta il valore della proprietà messaggioErrore.
      * 
      * @param value
      *     allowed object is
@@ -422,7 +422,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the numRegistrazioneDgDest property.
+     * Recupera il valore della proprietà numRegistrazioneDgDest.
      * 
      * @return
      *     possible object is
@@ -434,7 +434,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the numRegistrazioneDgDest property.
+     * Imposta il valore della proprietà numRegistrazioneDgDest.
      * 
      * @param value
      *     allowed object is
@@ -446,7 +446,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the numRegistrazioneDgOri property.
+     * Recupera il valore della proprietà numRegistrazioneDgOri.
      * 
      * @return
      *     possible object is
@@ -458,7 +458,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the numRegistrazioneDgOri property.
+     * Imposta il valore della proprietà numRegistrazioneDgOri.
      * 
      * @param value
      *     allowed object is
@@ -470,7 +470,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the pgTrasferimentoDest property.
+     * Recupera il valore della proprietà pgTrasferimentoDest.
      * 
      * @return
      *     possible object is
@@ -482,7 +482,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the pgTrasferimentoDest property.
+     * Imposta il valore della proprietà pgTrasferimentoDest.
      * 
      * @param value
      *     allowed object is
@@ -494,7 +494,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the pgTrasferimentoOri property.
+     * Recupera il valore della proprietà pgTrasferimentoOri.
      * 
      * @return
      *     possible object is
@@ -506,7 +506,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the pgTrasferimentoOri property.
+     * Imposta il valore della proprietà pgTrasferimentoOri.
      * 
      * @param value
      *     allowed object is
@@ -518,7 +518,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the statoEditoriale property.
+     * Recupera il valore della proprietà statoEditoriale.
      * 
      * @return
      *     possible object is
@@ -530,7 +530,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the statoEditoriale property.
+     * Imposta il valore della proprietà statoEditoriale.
      * 
      * @param value
      *     allowed object is
@@ -542,7 +542,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the tiTrasferimentoDest property.
+     * Recupera il valore della proprietà tiTrasferimentoDest.
      * 
      * @return
      *     possible object is
@@ -554,7 +554,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the tiTrasferimentoDest property.
+     * Imposta il valore della proprietà tiTrasferimentoDest.
      * 
      * @param value
      *     allowed object is
@@ -566,7 +566,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the tiTrasferimentoOri property.
+     * Recupera il valore della proprietà tiTrasferimentoOri.
      * 
      * @return
      *     possible object is
@@ -578,7 +578,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the tiTrasferimentoOri property.
+     * Imposta il valore della proprietà tiTrasferimentoOri.
      * 
      * @param value
      *     allowed object is
@@ -590,7 +590,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the tipoDgDest property.
+     * Recupera il valore della proprietà tipoDgDest.
      * 
      * @return
      *     possible object is
@@ -602,7 +602,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the tipoDgDest property.
+     * Imposta il valore della proprietà tipoDgDest.
      * 
      * @param value
      *     allowed object is
@@ -614,7 +614,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Gets the value of the tipoDgOri property.
+     * Recupera il valore della proprietà tipoDgOri.
      * 
      * @return
      *     possible object is
@@ -626,7 +626,7 @@ public class CreaTrasfeOutDTO {
     }
 
     /**
-     * Sets the value of the tipoDgOri property.
+     * Imposta il valore della proprietà tipoDgOri.
      * 
      * @param value
      *     allowed object is

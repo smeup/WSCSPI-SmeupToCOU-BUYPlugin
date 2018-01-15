@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for pdcCoanDTO complex type.
+ * <p>Classe Java per pdcCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="pdcCoanDTO">
@@ -49,7 +49,7 @@ public class PdcCoanDTO {
     protected String tiVoce;
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Gets the value of the denomVoceCoan property.
+     * Recupera il valore della proprietà denomVoceCoan.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Sets the value of the denomVoceCoan property.
+     * Imposta il valore della proprietà denomVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Gets the value of the dsVoceCoan property.
+     * Recupera il valore della proprietà dsVoceCoan.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Sets the value of the dsVoceCoan property.
+     * Imposta il valore della proprietà dsVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Gets the value of the idPdcCoan property.
+     * Recupera il valore della proprietà idPdcCoan.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Sets the value of the idPdcCoan property.
+     * Imposta il valore della proprietà idPdcCoan.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Gets the value of the tiVoce property.
+     * Recupera il valore della proprietà tiVoce.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class PdcCoanDTO {
     }
 
     /**
-     * Sets the value of the tiVoce property.
+     * Imposta il valore della proprietà tiVoce.
      * 
      * @param value
      *     allowed object is

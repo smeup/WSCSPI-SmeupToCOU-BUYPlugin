@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for dimAnaCofogWPDTO complex type.
+ * <p>Classe Java per dimAnaCofogWPDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="dimAnaCofogWPDTO">
@@ -52,7 +52,7 @@ public class DimAnaCofogWPDTO {
     protected List<UnitaLavoroDTO> unitaLavoro;
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class DimAnaCofogWPDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class DimAnaCofogWPDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class DimAnaCofogWPDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is

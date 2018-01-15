@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for logFsmDTO complex type.
+ * <p>Classe Java per logFsmDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="logFsmDTO">
@@ -40,7 +40,7 @@ public class LogFsmDTO {
     protected String messaggio;
 
     /**
-     * Gets the value of the errore property.
+     * Recupera il valore della proprietà errore.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class LogFsmDTO {
     }
 
     /**
-     * Sets the value of the errore property.
+     * Imposta il valore della proprietà errore.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class LogFsmDTO {
     }
 
     /**
-     * Gets the value of the idDg property.
+     * Recupera il valore della proprietà idDg.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class LogFsmDTO {
     }
 
     /**
-     * Sets the value of the idDg property.
+     * Imposta il valore della proprietà idDg.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class LogFsmDTO {
     }
 
     /**
-     * Gets the value of the messaggio property.
+     * Recupera il valore della proprietà messaggio.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class LogFsmDTO {
     }
 
     /**
-     * Sets the value of the messaggio property.
+     * Imposta il valore della proprietà messaggio.
      * 
      * @param value
      *     allowed object is

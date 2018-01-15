@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for tipoOperazioneIvaLightDTO complex type.
+ * <p>Classe Java per tipoOperazioneIvaLightDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="tipoOperazioneIvaLightDTO">
@@ -37,7 +37,7 @@ public class TipoOperazioneIvaLightDTO {
     protected String dsTiOperazIva;
 
     /**
-     * Gets the value of the cdTipoOperazioneIva property.
+     * Recupera il valore della proprietà cdTipoOperazioneIva.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class TipoOperazioneIvaLightDTO {
     }
 
     /**
-     * Sets the value of the cdTipoOperazioneIva property.
+     * Imposta il valore della proprietà cdTipoOperazioneIva.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class TipoOperazioneIvaLightDTO {
     }
 
     /**
-     * Gets the value of the dsTiOperazIva property.
+     * Recupera il valore della proprietà dsTiOperazIva.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class TipoOperazioneIvaLightDTO {
     }
 
     /**
-     * Sets the value of the dsTiOperazIva property.
+     * Imposta il valore della proprietà dsTiOperazIva.
      * 
      * @param value
      *     allowed object is

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for modificaUESospeso complex type.
+ * <p>Classe Java per modificaUESospeso complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="modificaUESospeso">
@@ -49,7 +49,7 @@ public class ModificaUESospeso {
     protected Integer anno;
 
     /**
-     * Gets the value of the idRitornoCassiere property.
+     * Recupera il valore della proprietà idRitornoCassiere.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Sets the value of the idRitornoCassiere property.
+     * Imposta il valore della proprietà idRitornoCassiere.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Gets the value of the codiceUE property.
+     * Recupera il valore della proprietà codiceUE.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Sets the value of the codiceUE property.
+     * Imposta il valore della proprietà codiceUE.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Gets the value of the ibanEnte property.
+     * Recupera il valore della proprietà ibanEnte.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Sets the value of the ibanEnte property.
+     * Imposta il valore della proprietà ibanEnte.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Gets the value of the tipoMovIstCass property.
+     * Recupera il valore della proprietà tipoMovIstCass.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Sets the value of the tipoMovIstCass property.
+     * Imposta il valore della proprietà tipoMovIstCass.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Gets the value of the cdRifIstCass property.
+     * Recupera il valore della proprietà cdRifIstCass.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Sets the value of the cdRifIstCass property.
+     * Imposta il valore della proprietà cdRifIstCass.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Gets the value of the anno property.
+     * Recupera il valore della proprietà anno.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class ModificaUESospeso {
     }
 
     /**
-     * Sets the value of the anno property.
+     * Imposta il valore della proprietà anno.
      * 
      * @param value
      *     allowed object is

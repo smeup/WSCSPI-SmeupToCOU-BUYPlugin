@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for cofogCoanDTO complex type.
+ * <p>Classe Java per cofogCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="cofogCoanDTO">
@@ -52,7 +52,7 @@ public class CofogCoanDTO {
     protected Integer livello;
 
     /**
-     * Gets the value of the cdCofogCoan property.
+     * Recupera il valore della proprietà cdCofogCoan.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Sets the value of the cdCofogCoan property.
+     * Imposta il valore della proprietà cdCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Gets the value of the denomCofogCoan property.
+     * Recupera il valore della proprietà denomCofogCoan.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Sets the value of the denomCofogCoan property.
+     * Imposta il valore della proprietà denomCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Gets the value of the flDefault property.
+     * Recupera il valore della proprietà flDefault.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Sets the value of the flDefault property.
+     * Imposta il valore della proprietà flDefault.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Gets the value of the flUltimoLivello property.
+     * Recupera il valore della proprietà flUltimoLivello.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Sets the value of the flUltimoLivello property.
+     * Imposta il valore della proprietà flUltimoLivello.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Gets the value of the idCofogCoan property.
+     * Recupera il valore della proprietà idCofogCoan.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Sets the value of the idCofogCoan property.
+     * Imposta il valore della proprietà idCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Gets the value of the livello property.
+     * Recupera il valore della proprietà livello.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class CofogCoanDTO {
     }
 
     /**
-     * Sets the value of the livello property.
+     * Imposta il valore della proprietà livello.
      * 
      * @param value
      *     allowed object is

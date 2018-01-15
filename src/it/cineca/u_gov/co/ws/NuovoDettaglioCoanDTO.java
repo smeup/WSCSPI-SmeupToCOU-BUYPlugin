@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for nuovoDettaglioCoanDTO complex type.
+ * <p>Classe Java per nuovoDettaglioCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="nuovoDettaglioCoanDTO">
@@ -75,7 +75,7 @@ public class NuovoDettaglioCoanDTO {
     protected Long progDettaglio;
 
     /**
-     * Gets the value of the ammontareDettaglio property.
+     * Recupera il valore della proprietà ammontareDettaglio.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the ammontareDettaglio property.
+     * Imposta il valore della proprietà ammontareDettaglio.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the cdCofogCoan property.
+     * Recupera il valore della proprietà cdCofogCoan.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the cdCofogCoan property.
+     * Imposta il valore della proprietà cdCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the cdDimAna property.
+     * Recupera il valore della proprietà cdDimAna.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the cdDimAna property.
+     * Imposta il valore della proprietà cdDimAna.
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -159,7 +159,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -183,7 +183,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -195,7 +195,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUnitaLavoro property.
+     * Recupera il valore della proprietà cdUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -207,7 +207,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUnitaLavoro property.
+     * Imposta il valore della proprietà cdUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -219,7 +219,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -231,7 +231,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -243,7 +243,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the cdVoceRiclassificato property.
+     * Recupera il valore della proprietà cdVoceRiclassificato.
      * 
      * @return
      *     possible object is
@@ -255,7 +255,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the cdVoceRiclassificato property.
+     * Imposta il valore della proprietà cdVoceRiclassificato.
      * 
      * @param value
      *     allowed object is
@@ -267,7 +267,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the dsScrCoanDet property.
+     * Recupera il valore della proprietà dsScrCoanDet.
      * 
      * @return
      *     possible object is
@@ -279,7 +279,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the dsScrCoanDet property.
+     * Imposta il valore della proprietà dsScrCoanDet.
      * 
      * @param value
      *     allowed object is
@@ -291,7 +291,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the dtFineComp property.
+     * Recupera il valore della proprietà dtFineComp.
      * 
      * @return
      *     possible object is
@@ -303,7 +303,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the dtFineComp property.
+     * Imposta il valore della proprietà dtFineComp.
      * 
      * @param value
      *     allowed object is
@@ -315,7 +315,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the dtInizioComp property.
+     * Recupera il valore della proprietà dtInizioComp.
      * 
      * @return
      *     possible object is
@@ -327,7 +327,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the dtInizioComp property.
+     * Imposta il valore della proprietà dtInizioComp.
      * 
      * @param value
      *     allowed object is
@@ -339,7 +339,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the idAb property.
+     * Recupera il valore della proprietà idAb.
      * 
      * @return
      *     possible object is
@@ -351,7 +351,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the idAb property.
+     * Imposta il valore della proprietà idAb.
      * 
      * @param value
      *     allowed object is
@@ -363,7 +363,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Gets the value of the progDettaglio property.
+     * Recupera il valore della proprietà progDettaglio.
      * 
      * @return
      *     possible object is
@@ -375,7 +375,7 @@ public class NuovoDettaglioCoanDTO {
     }
 
     /**
-     * Sets the value of the progDettaglio property.
+     * Imposta il valore della proprietà progDettaglio.
      * 
      * @param value
      *     allowed object is

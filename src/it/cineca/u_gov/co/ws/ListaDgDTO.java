@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for listaDgDTO complex type.
+ * <p>Classe Java per listaDgDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="listaDgDTO">
@@ -75,7 +75,7 @@ public class ListaDgDTO {
     protected String valutatore;
 
     /**
-     * Gets the value of the dsDg property.
+     * Recupera il valore della proprietà dsDg.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the dsDg property.
+     * Imposta il valore della proprietà dsDg.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the dtDocRif property.
+     * Recupera il valore della proprietà dtDocRif.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the dtDocRif property.
+     * Imposta il valore della proprietà dtDocRif.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the fornitore property.
+     * Recupera il valore della proprietà fornitore.
      * 
      * @return
      *     possible object is
@@ -159,7 +159,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the fornitore property.
+     * Imposta il valore della proprietà fornitore.
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the idDg property.
+     * Recupera il valore della proprietà idDg.
      * 
      * @return
      *     possible object is
@@ -183,7 +183,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the idDg property.
+     * Imposta il valore della proprietà idDg.
      * 
      * @param value
      *     allowed object is
@@ -195,7 +195,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the imponibile property.
+     * Recupera il valore della proprietà imponibile.
      * 
      * @return
      *     possible object is
@@ -207,7 +207,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the imponibile property.
+     * Imposta il valore della proprietà imponibile.
      * 
      * @param value
      *     allowed object is
@@ -219,7 +219,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the iva property.
+     * Recupera il valore della proprietà iva.
      * 
      * @return
      *     possible object is
@@ -231,7 +231,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the iva property.
+     * Imposta il valore della proprietà iva.
      * 
      * @param value
      *     allowed object is
@@ -243,7 +243,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the nomeTipoDg property.
+     * Recupera il valore della proprietà nomeTipoDg.
      * 
      * @return
      *     possible object is
@@ -255,7 +255,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the nomeTipoDg property.
+     * Imposta il valore della proprietà nomeTipoDg.
      * 
      * @param value
      *     allowed object is
@@ -267,7 +267,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the numDocRif property.
+     * Recupera il valore della proprietà numDocRif.
      * 
      * @return
      *     possible object is
@@ -279,7 +279,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the numDocRif property.
+     * Imposta il valore della proprietà numDocRif.
      * 
      * @param value
      *     allowed object is
@@ -291,7 +291,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the numRegistrazione property.
+     * Recupera il valore della proprietà numRegistrazione.
      * 
      * @return
      *     possible object is
@@ -303,7 +303,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the numRegistrazione property.
+     * Imposta il valore della proprietà numRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -315,7 +315,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the statoAutorizzazionePagamento property.
+     * Recupera il valore della proprietà statoAutorizzazionePagamento.
      * 
      * @return
      *     possible object is
@@ -327,7 +327,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the statoAutorizzazionePagamento property.
+     * Imposta il valore della proprietà statoAutorizzazionePagamento.
      * 
      * @param value
      *     allowed object is
@@ -339,7 +339,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the totale property.
+     * Recupera il valore della proprietà totale.
      * 
      * @return
      *     possible object is
@@ -351,7 +351,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the totale property.
+     * Imposta il valore della proprietà totale.
      * 
      * @param value
      *     allowed object is
@@ -363,7 +363,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Gets the value of the valutatore property.
+     * Recupera il valore della proprietà valutatore.
      * 
      * @return
      *     possible object is
@@ -375,7 +375,7 @@ public class ListaDgDTO {
     }
 
     /**
-     * Sets the value of the valutatore property.
+     * Imposta il valore della proprietà valutatore.
      * 
      * @param value
      *     allowed object is

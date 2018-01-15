@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for respProgettoDTO complex type.
+ * <p>Classe Java per respProgettoDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="respProgettoDTO">
@@ -46,7 +46,7 @@ public class RespProgettoDTO {
     protected String nomeProgetto;
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Gets the value of the idAb property.
+     * Recupera il valore della proprietà idAb.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Sets the value of the idAb property.
+     * Imposta il valore della proprietà idAb.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Gets the value of the idProgetto property.
+     * Recupera il valore della proprietà idProgetto.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Sets the value of the idProgetto property.
+     * Imposta il valore della proprietà idProgetto.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Gets the value of the nomeEsteso property.
+     * Recupera il valore della proprietà nomeEsteso.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Sets the value of the nomeEsteso property.
+     * Imposta il valore della proprietà nomeEsteso.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Gets the value of the nomeProgetto property.
+     * Recupera il valore della proprietà nomeProgetto.
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class RespProgettoDTO {
     }
 
     /**
-     * Sets the value of the nomeProgetto property.
+     * Imposta il valore della proprietà nomeProgetto.
      * 
      * @param value
      *     allowed object is

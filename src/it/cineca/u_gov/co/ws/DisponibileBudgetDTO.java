@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for disponibileBudgetDTO complex type.
+ * <p>Classe Java per disponibileBudgetDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="disponibileBudgetDTO">
@@ -98,7 +98,7 @@ public class DisponibileBudgetDTO {
     protected BigDecimal totScrAutTotaleRicavo;
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the disponibileEsercizioCosto property.
+     * Recupera il valore della proprietà disponibileEsercizioCosto.
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the disponibileEsercizioCosto property.
+     * Imposta il valore della proprietà disponibileEsercizioCosto.
      * 
      * @param value
      *     allowed object is
@@ -194,7 +194,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the disponibileEsercizioRicavo property.
+     * Recupera il valore della proprietà disponibileEsercizioRicavo.
      * 
      * @return
      *     possible object is
@@ -206,7 +206,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the disponibileEsercizioRicavo property.
+     * Imposta il valore della proprietà disponibileEsercizioRicavo.
      * 
      * @param value
      *     allowed object is
@@ -218,7 +218,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the disponibilePluriCosto property.
+     * Recupera il valore della proprietà disponibilePluriCosto.
      * 
      * @return
      *     possible object is
@@ -230,7 +230,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the disponibilePluriCosto property.
+     * Imposta il valore della proprietà disponibilePluriCosto.
      * 
      * @param value
      *     allowed object is
@@ -242,7 +242,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the disponibilePluriRicavo property.
+     * Recupera il valore della proprietà disponibilePluriRicavo.
      * 
      * @return
      *     possible object is
@@ -254,7 +254,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the disponibilePluriRicavo property.
+     * Imposta il valore della proprietà disponibilePluriRicavo.
      * 
      * @param value
      *     allowed object is
@@ -266,7 +266,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the disponibileTotaleCosto property.
+     * Recupera il valore della proprietà disponibileTotaleCosto.
      * 
      * @return
      *     possible object is
@@ -278,7 +278,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the disponibileTotaleCosto property.
+     * Imposta il valore della proprietà disponibileTotaleCosto.
      * 
      * @param value
      *     allowed object is
@@ -290,7 +290,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the disponibileTotaleRicavo property.
+     * Recupera il valore della proprietà disponibileTotaleRicavo.
      * 
      * @return
      *     possible object is
@@ -302,7 +302,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the disponibileTotaleRicavo property.
+     * Imposta il valore della proprietà disponibileTotaleRicavo.
      * 
      * @param value
      *     allowed object is
@@ -314,7 +314,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the flDisponibilita property.
+     * Recupera il valore della proprietà flDisponibilita.
      * 
      * @return
      *     possible object is
@@ -326,7 +326,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the flDisponibilita property.
+     * Imposta il valore della proprietà flDisponibilita.
      * 
      * @param value
      *     allowed object is
@@ -338,7 +338,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the previsioneDefinitivaEsercizioCosto property.
+     * Recupera il valore della proprietà previsioneDefinitivaEsercizioCosto.
      * 
      * @return
      *     possible object is
@@ -350,7 +350,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the previsioneDefinitivaEsercizioCosto property.
+     * Imposta il valore della proprietà previsioneDefinitivaEsercizioCosto.
      * 
      * @param value
      *     allowed object is
@@ -362,7 +362,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the previsioneDefinitivaEsercizioRicavo property.
+     * Recupera il valore della proprietà previsioneDefinitivaEsercizioRicavo.
      * 
      * @return
      *     possible object is
@@ -374,7 +374,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the previsioneDefinitivaEsercizioRicavo property.
+     * Imposta il valore della proprietà previsioneDefinitivaEsercizioRicavo.
      * 
      * @param value
      *     allowed object is
@@ -386,7 +386,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the previsioneDefinitivaPluriCosto property.
+     * Recupera il valore della proprietà previsioneDefinitivaPluriCosto.
      * 
      * @return
      *     possible object is
@@ -398,7 +398,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the previsioneDefinitivaPluriCosto property.
+     * Imposta il valore della proprietà previsioneDefinitivaPluriCosto.
      * 
      * @param value
      *     allowed object is
@@ -410,7 +410,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the previsioneDefinitivaPluriRicavo property.
+     * Recupera il valore della proprietà previsioneDefinitivaPluriRicavo.
      * 
      * @return
      *     possible object is
@@ -422,7 +422,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the previsioneDefinitivaPluriRicavo property.
+     * Imposta il valore della proprietà previsioneDefinitivaPluriRicavo.
      * 
      * @param value
      *     allowed object is
@@ -434,7 +434,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the previsioneDefinitivaTotaleCosto property.
+     * Recupera il valore della proprietà previsioneDefinitivaTotaleCosto.
      * 
      * @return
      *     possible object is
@@ -446,7 +446,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the previsioneDefinitivaTotaleCosto property.
+     * Imposta il valore della proprietà previsioneDefinitivaTotaleCosto.
      * 
      * @param value
      *     allowed object is
@@ -458,7 +458,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the previsioneDefinitivaTotaleRicavo property.
+     * Recupera il valore della proprietà previsioneDefinitivaTotaleRicavo.
      * 
      * @return
      *     possible object is
@@ -470,7 +470,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the previsioneDefinitivaTotaleRicavo property.
+     * Imposta il valore della proprietà previsioneDefinitivaTotaleRicavo.
      * 
      * @param value
      *     allowed object is
@@ -482,7 +482,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the totScrAutEsercizioCosto property.
+     * Recupera il valore della proprietà totScrAutEsercizioCosto.
      * 
      * @return
      *     possible object is
@@ -494,7 +494,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the totScrAutEsercizioCosto property.
+     * Imposta il valore della proprietà totScrAutEsercizioCosto.
      * 
      * @param value
      *     allowed object is
@@ -506,7 +506,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the totScrAutEsercizioRicavo property.
+     * Recupera il valore della proprietà totScrAutEsercizioRicavo.
      * 
      * @return
      *     possible object is
@@ -518,7 +518,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the totScrAutEsercizioRicavo property.
+     * Imposta il valore della proprietà totScrAutEsercizioRicavo.
      * 
      * @param value
      *     allowed object is
@@ -530,7 +530,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the totScrAutPluriCosto property.
+     * Recupera il valore della proprietà totScrAutPluriCosto.
      * 
      * @return
      *     possible object is
@@ -542,7 +542,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the totScrAutPluriCosto property.
+     * Imposta il valore della proprietà totScrAutPluriCosto.
      * 
      * @param value
      *     allowed object is
@@ -554,7 +554,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the totScrAutPluriRicavo property.
+     * Recupera il valore della proprietà totScrAutPluriRicavo.
      * 
      * @return
      *     possible object is
@@ -566,7 +566,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the totScrAutPluriRicavo property.
+     * Imposta il valore della proprietà totScrAutPluriRicavo.
      * 
      * @param value
      *     allowed object is
@@ -578,7 +578,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the totScrAutTotaleCosto property.
+     * Recupera il valore della proprietà totScrAutTotaleCosto.
      * 
      * @return
      *     possible object is
@@ -590,7 +590,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the totScrAutTotaleCosto property.
+     * Imposta il valore della proprietà totScrAutTotaleCosto.
      * 
      * @param value
      *     allowed object is
@@ -602,7 +602,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Gets the value of the totScrAutTotaleRicavo property.
+     * Recupera il valore della proprietà totScrAutTotaleRicavo.
      * 
      * @return
      *     possible object is
@@ -614,7 +614,7 @@ public class DisponibileBudgetDTO {
     }
 
     /**
-     * Sets the value of the totScrAutTotaleRicavo property.
+     * Imposta il valore della proprietà totScrAutTotaleRicavo.
      * 
      * @param value
      *     allowed object is

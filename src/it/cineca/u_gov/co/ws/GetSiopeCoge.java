@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getSiopeCoge complex type.
+ * <p>Classe Java per getSiopeCoge complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getSiopeCoge">
@@ -43,7 +43,7 @@ public class GetSiopeCoge {
     protected Boolean flNotaCredito;
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class GetSiopeCoge {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class GetSiopeCoge {
     }
 
     /**
-     * Gets the value of the tiAttivoPassivo property.
+     * Recupera il valore della proprietà tiAttivoPassivo.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class GetSiopeCoge {
     }
 
     /**
-     * Sets the value of the tiAttivoPassivo property.
+     * Imposta il valore della proprietà tiAttivoPassivo.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class GetSiopeCoge {
     }
 
     /**
-     * Gets the value of the cdVoceCoge property.
+     * Recupera il valore della proprietà cdVoceCoge.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class GetSiopeCoge {
     }
 
     /**
-     * Sets the value of the cdVoceCoge property.
+     * Imposta il valore della proprietà cdVoceCoge.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class GetSiopeCoge {
     }
 
     /**
-     * Gets the value of the flNotaCredito property.
+     * Recupera il valore della proprietà flNotaCredito.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class GetSiopeCoge {
     }
 
     /**
-     * Sets the value of the flNotaCredito property.
+     * Imposta il valore della proprietà flNotaCredito.
      * 
      * @param value
      *     allowed object is

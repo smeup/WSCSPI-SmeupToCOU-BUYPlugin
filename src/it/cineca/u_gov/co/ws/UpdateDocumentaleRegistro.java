@@ -9,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for updateDocumentaleRegistro complex type.
+ * <p>Classe Java per updateDocumentaleRegistro complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="updateDocumentaleRegistro">
@@ -46,7 +46,7 @@ public class UpdateDocumentaleRegistro {
     protected XMLGregorianCalendar dtProtocollo;
 
     /**
-     * Gets the value of the idRegistro property.
+     * Recupera il valore della proprietà idRegistro.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class UpdateDocumentaleRegistro {
     }
 
     /**
-     * Sets the value of the idRegistro property.
+     * Imposta il valore della proprietà idRegistro.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class UpdateDocumentaleRegistro {
     }
 
     /**
-     * Gets the value of the idDocumentale property.
+     * Recupera il valore della proprietà idDocumentale.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class UpdateDocumentaleRegistro {
     }
 
     /**
-     * Sets the value of the idDocumentale property.
+     * Imposta il valore della proprietà idDocumentale.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class UpdateDocumentaleRegistro {
     }
 
     /**
-     * Gets the value of the idProtocollo property.
+     * Recupera il valore della proprietà idProtocollo.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class UpdateDocumentaleRegistro {
     }
 
     /**
-     * Sets the value of the idProtocollo property.
+     * Imposta il valore della proprietà idProtocollo.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class UpdateDocumentaleRegistro {
     }
 
     /**
-     * Gets the value of the dtProtocollo property.
+     * Recupera il valore della proprietà dtProtocollo.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class UpdateDocumentaleRegistro {
     }
 
     /**
-     * Sets the value of the dtProtocollo property.
+     * Imposta il valore della proprietà dtProtocollo.
      * 
      * @param value
      *     allowed object is

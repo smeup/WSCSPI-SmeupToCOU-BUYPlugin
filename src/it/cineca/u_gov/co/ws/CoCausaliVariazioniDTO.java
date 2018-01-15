@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for coCausaliVariazioniDTO complex type.
+ * <p>Classe Java per coCausaliVariazioniDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="coCausaliVariazioniDTO">
@@ -52,7 +52,7 @@ public class CoCausaliVariazioniDTO {
     protected String tiSubCausale;
 
     /**
-     * Gets the value of the cdCauVar property.
+     * Recupera il valore della proprietà cdCauVar.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Sets the value of the cdCauVar property.
+     * Imposta il valore della proprietà cdCauVar.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Gets the value of the dsCauVar property.
+     * Recupera il valore della proprietà dsCauVar.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Sets the value of the dsCauVar property.
+     * Imposta il valore della proprietà dsCauVar.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Gets the value of the flRisultato property.
+     * Recupera il valore della proprietà flRisultato.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Sets the value of the flRisultato property.
+     * Imposta il valore della proprietà flRisultato.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Gets the value of the flSys property.
+     * Recupera il valore della proprietà flSys.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Sets the value of the flSys property.
+     * Imposta il valore della proprietà flSys.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Gets the value of the flUsaUtente property.
+     * Recupera il valore della proprietà flUsaUtente.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Sets the value of the flUsaUtente property.
+     * Imposta il valore della proprietà flUsaUtente.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Gets the value of the tiCausale property.
+     * Recupera il valore della proprietà tiCausale.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Sets the value of the tiCausale property.
+     * Imposta il valore della proprietà tiCausale.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Gets the value of the tiSubCausale property.
+     * Recupera il valore della proprietà tiSubCausale.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class CoCausaliVariazioniDTO {
     }
 
     /**
-     * Sets the value of the tiSubCausale property.
+     * Imposta il valore della proprietà tiSubCausale.
      * 
      * @param value
      *     allowed object is

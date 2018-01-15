@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ueDTO complex type.
+ * <p>Classe Java per ueDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ueDTO">
@@ -52,7 +52,7 @@ public class UeDTO {
     protected Boolean riferimento;
 
     /**
-     * Gets the value of the amministrazioneCentrale property.
+     * Recupera il valore della proprietà amministrazioneCentrale.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class UeDTO {
     }
 
     /**
-     * Sets the value of the amministrazioneCentrale property.
+     * Imposta il valore della proprietà amministrazioneCentrale.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class UeDTO {
     }
 
     /**
-     * Gets the value of the autonomia property.
+     * Recupera il valore della proprietà autonomia.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class UeDTO {
     }
 
     /**
-     * Sets the value of the autonomia property.
+     * Imposta il valore della proprietà autonomia.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class UeDTO {
     }
 
     /**
-     * Gets the value of the cdUe property.
+     * Recupera il valore della proprietà cdUe.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class UeDTO {
     }
 
     /**
-     * Sets the value of the cdUe property.
+     * Imposta il valore della proprietà cdUe.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class UeDTO {
     }
 
     /**
-     * Gets the value of the codiceUo property.
+     * Recupera il valore della proprietà codiceUo.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class UeDTO {
     }
 
     /**
-     * Sets the value of the codiceUo property.
+     * Imposta il valore della proprietà codiceUo.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class UeDTO {
     }
 
     /**
-     * Gets the value of the denominazione property.
+     * Recupera il valore della proprietà denominazione.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class UeDTO {
     }
 
     /**
-     * Sets the value of the denominazione property.
+     * Imposta il valore della proprietà denominazione.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class UeDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class UeDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class UeDTO {
     }
 
     /**
-     * Gets the value of the riferimento property.
+     * Recupera il valore della proprietà riferimento.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class UeDTO {
     }
 
     /**
-     * Sets the value of the riferimento property.
+     * Imposta il valore della proprietà riferimento.
      * 
      * @param value
      *     allowed object is

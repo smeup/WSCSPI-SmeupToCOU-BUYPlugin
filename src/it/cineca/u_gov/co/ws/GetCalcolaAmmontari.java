@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getCalcolaAmmontari complex type.
+ * <p>Classe Java per getCalcolaAmmontari complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getCalcolaAmmontari">
@@ -47,7 +47,7 @@ public class GetCalcolaAmmontari {
     protected BigDecimal ammImpScontatoEuro;
 
     /**
-     * Gets the value of the cdIva property.
+     * Recupera il valore della proprietà cdIva.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class GetCalcolaAmmontari {
     }
 
     /**
-     * Sets the value of the cdIva property.
+     * Imposta il valore della proprietà cdIva.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class GetCalcolaAmmontari {
     }
 
     /**
-     * Gets the value of the cdSezionale property.
+     * Recupera il valore della proprietà cdSezionale.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class GetCalcolaAmmontari {
     }
 
     /**
-     * Sets the value of the cdSezionale property.
+     * Imposta il valore della proprietà cdSezionale.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class GetCalcolaAmmontari {
     }
 
     /**
-     * Gets the value of the dtRiferimento property.
+     * Recupera il valore della proprietà dtRiferimento.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class GetCalcolaAmmontari {
     }
 
     /**
-     * Sets the value of the dtRiferimento property.
+     * Imposta il valore della proprietà dtRiferimento.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class GetCalcolaAmmontari {
     }
 
     /**
-     * Gets the value of the ammImpScontatoEuro property.
+     * Recupera il valore della proprietà ammImpScontatoEuro.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class GetCalcolaAmmontari {
     }
 
     /**
-     * Sets the value of the ammImpScontatoEuro property.
+     * Imposta il valore della proprietà ammImpScontatoEuro.
      * 
      * @param value
      *     allowed object is

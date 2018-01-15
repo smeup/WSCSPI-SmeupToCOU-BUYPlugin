@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ammSuccessoriDTO complex type.
+ * <p>Classe Java per ammSuccessoriDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ammSuccessoriDTO">
@@ -47,7 +47,7 @@ public class AmmSuccessoriDTO {
     protected Long idDg;
 
     /**
-     * Gets the value of the ammontareAperto property.
+     * Recupera il valore della proprietà ammontareAperto.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Sets the value of the ammontareAperto property.
+     * Imposta il valore della proprietà ammontareAperto.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Gets the value of the ammontareDeiSuccessori property.
+     * Recupera il valore della proprietà ammontareDeiSuccessori.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Sets the value of the ammontareDeiSuccessori property.
+     * Imposta il valore della proprietà ammontareDeiSuccessori.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Gets the value of the ammontareDelDocumento property.
+     * Recupera il valore della proprietà ammontareDelDocumento.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Sets the value of the ammontareDelDocumento property.
+     * Imposta il valore della proprietà ammontareDelDocumento.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Gets the value of the ammontarePagatoIncassato property.
+     * Recupera il valore della proprietà ammontarePagatoIncassato.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Sets the value of the ammontarePagatoIncassato property.
+     * Imposta il valore della proprietà ammontarePagatoIncassato.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +143,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Gets the value of the idDg property.
+     * Recupera il valore della proprietà idDg.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class AmmSuccessoriDTO {
     }
 
     /**
-     * Sets the value of the idDg property.
+     * Imposta il valore della proprietà idDg.
      * 
      * @param value
      *     allowed object is

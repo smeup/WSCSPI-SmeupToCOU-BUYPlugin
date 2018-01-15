@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for getValoriBene complex type.
+ * <p>Classe Java per getValoriBene complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="getValoriBene">
@@ -42,7 +42,7 @@ public class GetValoriBene {
     protected List<ValoriBeniInDTO> beni;
 
     /**
-     * Gets the value of the dtRif property.
+     * Recupera il valore della proprietà dtRif.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class GetValoriBene {
     }
 
     /**
-     * Sets the value of the dtRif property.
+     * Imposta il valore della proprietà dtRif.
      * 
      * @param value
      *     allowed object is

@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for controlloRuoloDTO complex type.
+ * <p>Classe Java per controlloRuoloDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="controlloRuoloDTO">
@@ -40,7 +40,7 @@ public class ControlloRuoloDTO {
     protected String user;
 
     /**
-     * Gets the value of the ok property.
+     * Recupera il valore della proprietà ok.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class ControlloRuoloDTO {
     }
 
     /**
-     * Sets the value of the ok property.
+     * Imposta il valore della proprietà ok.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class ControlloRuoloDTO {
     }
 
     /**
-     * Gets the value of the ruolo property.
+     * Recupera il valore della proprietà ruolo.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class ControlloRuoloDTO {
     }
 
     /**
-     * Sets the value of the ruolo property.
+     * Imposta il valore della proprietà ruolo.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class ControlloRuoloDTO {
     }
 
     /**
-     * Gets the value of the user property.
+     * Recupera il valore della proprietà user.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class ControlloRuoloDTO {
     }
 
     /**
-     * Sets the value of the user property.
+     * Imposta il valore della proprietà user.
      * 
      * @param value
      *     allowed object is

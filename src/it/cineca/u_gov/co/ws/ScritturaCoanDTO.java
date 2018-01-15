@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for scritturaCoanDTO complex type.
+ * <p>Classe Java per scritturaCoanDTO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="scritturaCoanDTO">
@@ -178,7 +178,7 @@ public class ScritturaCoanDTO {
     protected String tiVoce;
 
     /**
-     * Gets the value of the ammQuotaApertaDettaglio property.
+     * Recupera il valore della proprietà ammQuotaApertaDettaglio.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the ammQuotaApertaDettaglio property.
+     * Imposta il valore della proprietà ammQuotaApertaDettaglio.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the ammontareDettaglio property.
+     * Recupera il valore della proprietà ammontareDettaglio.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the ammontareDettaglio property.
+     * Imposta il valore della proprietà ammontareDettaglio.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdCauVar property.
+     * Recupera il valore della proprietà cdCauVar.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdCauVar property.
+     * Imposta il valore della proprietà cdCauVar.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdCofogCoan property.
+     * Recupera il valore della proprietà cdCofogCoan.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdCofogCoan property.
+     * Imposta il valore della proprietà cdCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -274,7 +274,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdDimAna property.
+     * Recupera il valore della proprietà cdDimAna.
      * 
      * @return
      *     possible object is
@@ -286,7 +286,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdDimAna property.
+     * Imposta il valore della proprietà cdDimAna.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +298,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdProgetto property.
+     * Recupera il valore della proprietà cdProgetto.
      * 
      * @return
      *     possible object is
@@ -310,7 +310,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdProgetto property.
+     * Imposta il valore della proprietà cdProgetto.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +322,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUa property.
+     * Recupera il valore della proprietà cdUa.
      * 
      * @return
      *     possible object is
@@ -334,7 +334,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUa property.
+     * Imposta il valore della proprietà cdUa.
      * 
      * @param value
      *     allowed object is
@@ -346,7 +346,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUaBudget property.
+     * Recupera il valore della proprietà cdUaBudget.
      * 
      * @return
      *     possible object is
@@ -358,7 +358,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUaBudget property.
+     * Imposta il valore della proprietà cdUaBudget.
      * 
      * @param value
      *     allowed object is
@@ -370,7 +370,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdUnitaLavoro property.
+     * Recupera il valore della proprietà cdUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -382,7 +382,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdUnitaLavoro property.
+     * Imposta il valore della proprietà cdUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -394,7 +394,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdVoceCoan property.
+     * Recupera il valore della proprietà cdVoceCoan.
      * 
      * @return
      *     possible object is
@@ -406,7 +406,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdVoceCoan property.
+     * Imposta il valore della proprietà cdVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -418,7 +418,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the cdVoceRiclassificato property.
+     * Recupera il valore della proprietà cdVoceRiclassificato.
      * 
      * @return
      *     possible object is
@@ -430,7 +430,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the cdVoceRiclassificato property.
+     * Imposta il valore della proprietà cdVoceRiclassificato.
      * 
      * @param value
      *     allowed object is
@@ -442,7 +442,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the denomDimAna property.
+     * Recupera il valore della proprietà denomDimAna.
      * 
      * @return
      *     possible object is
@@ -454,7 +454,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the denomDimAna property.
+     * Imposta il valore della proprietà denomDimAna.
      * 
      * @param value
      *     allowed object is
@@ -466,7 +466,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the denomUaBudget property.
+     * Recupera il valore della proprietà denomUaBudget.
      * 
      * @return
      *     possible object is
@@ -478,7 +478,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the denomUaBudget property.
+     * Imposta il valore della proprietà denomUaBudget.
      * 
      * @param value
      *     allowed object is
@@ -490,7 +490,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the denomVoceCoan property.
+     * Recupera il valore della proprietà denomVoceCoan.
      * 
      * @return
      *     possible object is
@@ -502,7 +502,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the denomVoceCoan property.
+     * Imposta il valore della proprietà denomVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -514,7 +514,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsCauVar property.
+     * Recupera il valore della proprietà dsCauVar.
      * 
      * @return
      *     possible object is
@@ -526,7 +526,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsCauVar property.
+     * Imposta il valore della proprietà dsCauVar.
      * 
      * @param value
      *     allowed object is
@@ -538,7 +538,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsCofogCoan property.
+     * Recupera il valore della proprietà dsCofogCoan.
      * 
      * @return
      *     possible object is
@@ -550,7 +550,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsCofogCoan property.
+     * Imposta il valore della proprietà dsCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -562,7 +562,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsProgetto property.
+     * Recupera il valore della proprietà dsProgetto.
      * 
      * @return
      *     possible object is
@@ -574,7 +574,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsProgetto property.
+     * Imposta il valore della proprietà dsProgetto.
      * 
      * @param value
      *     allowed object is
@@ -586,7 +586,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsScrCoan property.
+     * Recupera il valore della proprietà dsScrCoan.
      * 
      * @return
      *     possible object is
@@ -598,7 +598,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsScrCoan property.
+     * Imposta il valore della proprietà dsScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -610,7 +610,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsScrCoanDet property.
+     * Recupera il valore della proprietà dsScrCoanDet.
      * 
      * @return
      *     possible object is
@@ -622,7 +622,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsScrCoanDet property.
+     * Imposta il valore della proprietà dsScrCoanDet.
      * 
      * @param value
      *     allowed object is
@@ -634,7 +634,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsUnitaLavoro property.
+     * Recupera il valore della proprietà dsUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -646,7 +646,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsUnitaLavoro property.
+     * Imposta il valore della proprietà dsUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -658,7 +658,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dsVoceRiclassificato property.
+     * Recupera il valore della proprietà dsVoceRiclassificato.
      * 
      * @return
      *     possible object is
@@ -670,7 +670,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dsVoceRiclassificato property.
+     * Imposta il valore della proprietà dsVoceRiclassificato.
      * 
      * @param value
      *     allowed object is
@@ -682,7 +682,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dtFineComp property.
+     * Recupera il valore della proprietà dtFineComp.
      * 
      * @return
      *     possible object is
@@ -694,7 +694,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dtFineComp property.
+     * Imposta il valore della proprietà dtFineComp.
      * 
      * @param value
      *     allowed object is
@@ -706,7 +706,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dtInizioComp property.
+     * Recupera il valore della proprietà dtInizioComp.
      * 
      * @return
      *     possible object is
@@ -718,7 +718,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dtInizioComp property.
+     * Imposta il valore della proprietà dtInizioComp.
      * 
      * @param value
      *     allowed object is
@@ -730,7 +730,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the dtRegistrazione property.
+     * Recupera il valore della proprietà dtRegistrazione.
      * 
      * @return
      *     possible object is
@@ -742,7 +742,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the dtRegistrazione property.
+     * Imposta il valore della proprietà dtRegistrazione.
      * 
      * @param value
      *     allowed object is
@@ -754,7 +754,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the esercizio property.
+     * Recupera il valore della proprietà esercizio.
      * 
      * @return
      *     possible object is
@@ -766,7 +766,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the esercizio property.
+     * Imposta il valore della proprietà esercizio.
      * 
      * @param value
      *     allowed object is
@@ -778,7 +778,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the esercizioOrigine property.
+     * Recupera il valore della proprietà esercizioOrigine.
      * 
      * @return
      *     possible object is
@@ -790,7 +790,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the esercizioOrigine property.
+     * Imposta il valore della proprietà esercizioOrigine.
      * 
      * @param value
      *     allowed object is
@@ -802,7 +802,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idAbDettaglio property.
+     * Recupera il valore della proprietà idAbDettaglio.
      * 
      * @return
      *     possible object is
@@ -814,7 +814,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idAbDettaglio property.
+     * Imposta il valore della proprietà idAbDettaglio.
      * 
      * @param value
      *     allowed object is
@@ -826,7 +826,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idCofogCoan property.
+     * Recupera il valore della proprietà idCofogCoan.
      * 
      * @return
      *     possible object is
@@ -838,7 +838,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idCofogCoan property.
+     * Imposta il valore della proprietà idCofogCoan.
      * 
      * @param value
      *     allowed object is
@@ -850,7 +850,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idDimAna property.
+     * Recupera il valore della proprietà idDimAna.
      * 
      * @return
      *     possible object is
@@ -862,7 +862,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idDimAna property.
+     * Imposta il valore della proprietà idDimAna.
      * 
      * @param value
      *     allowed object is
@@ -874,7 +874,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idGestionale property.
+     * Recupera il valore della proprietà idGestionale.
      * 
      * @return
      *     possible object is
@@ -886,7 +886,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idGestionale property.
+     * Imposta il valore della proprietà idGestionale.
      * 
      * @param value
      *     allowed object is
@@ -898,7 +898,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idProgetto property.
+     * Recupera il valore della proprietà idProgetto.
      * 
      * @return
      *     possible object is
@@ -910,7 +910,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idProgetto property.
+     * Imposta il valore della proprietà idProgetto.
      * 
      * @param value
      *     allowed object is
@@ -922,7 +922,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idScrCoan property.
+     * Recupera il valore della proprietà idScrCoan.
      * 
      * @return
      *     possible object is
@@ -934,7 +934,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idScrCoan property.
+     * Imposta il valore della proprietà idScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -946,7 +946,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idScrCoanDet property.
+     * Recupera il valore della proprietà idScrCoanDet.
      * 
      * @return
      *     possible object is
@@ -958,7 +958,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idScrCoanDet property.
+     * Imposta il valore della proprietà idScrCoanDet.
      * 
      * @param value
      *     allowed object is
@@ -970,7 +970,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idScrCoanDetEseSucc property.
+     * Recupera il valore della proprietà idScrCoanDetEseSucc.
      * 
      * @return
      *     possible object is
@@ -982,7 +982,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idScrCoanDetEseSucc property.
+     * Imposta il valore della proprietà idScrCoanDetEseSucc.
      * 
      * @param value
      *     allowed object is
@@ -994,7 +994,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idScrCoanEseSucc property.
+     * Recupera il valore della proprietà idScrCoanEseSucc.
      * 
      * @return
      *     possible object is
@@ -1006,7 +1006,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idScrCoanEseSucc property.
+     * Imposta il valore della proprietà idScrCoanEseSucc.
      * 
      * @param value
      *     allowed object is
@@ -1018,7 +1018,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idUnitaLavoro property.
+     * Recupera il valore della proprietà idUnitaLavoro.
      * 
      * @return
      *     possible object is
@@ -1030,7 +1030,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idUnitaLavoro property.
+     * Imposta il valore della proprietà idUnitaLavoro.
      * 
      * @param value
      *     allowed object is
@@ -1042,7 +1042,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the idVoceCoan property.
+     * Recupera il valore della proprietà idVoceCoan.
      * 
      * @return
      *     possible object is
@@ -1054,7 +1054,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the idVoceCoan property.
+     * Imposta il valore della proprietà idVoceCoan.
      * 
      * @param value
      *     allowed object is
@@ -1066,7 +1066,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the nomeEstesoUa property.
+     * Recupera il valore della proprietà nomeEstesoUa.
      * 
      * @return
      *     possible object is
@@ -1078,7 +1078,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the nomeEstesoUa property.
+     * Imposta il valore della proprietà nomeEstesoUa.
      * 
      * @param value
      *     allowed object is
@@ -1090,7 +1090,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the numeroOrigine property.
+     * Recupera il valore della proprietà numeroOrigine.
      * 
      * @return
      *     possible object is
@@ -1102,7 +1102,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the numeroOrigine property.
+     * Imposta il valore della proprietà numeroOrigine.
      * 
      * @param value
      *     allowed object is
@@ -1114,7 +1114,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the pgRiga property.
+     * Recupera il valore della proprietà pgRiga.
      * 
      * @return
      *     possible object is
@@ -1126,7 +1126,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the pgRiga property.
+     * Imposta il valore della proprietà pgRiga.
      * 
      * @param value
      *     allowed object is
@@ -1138,7 +1138,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the pgRigaScrCoanEseSucc property.
+     * Recupera il valore della proprietà pgRigaScrCoanEseSucc.
      * 
      * @return
      *     possible object is
@@ -1150,7 +1150,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the pgRigaScrCoanEseSucc property.
+     * Imposta il valore della proprietà pgRigaScrCoanEseSucc.
      * 
      * @param value
      *     allowed object is
@@ -1162,7 +1162,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the pgScrCoan property.
+     * Recupera il valore della proprietà pgScrCoan.
      * 
      * @return
      *     possible object is
@@ -1174,7 +1174,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the pgScrCoan property.
+     * Imposta il valore della proprietà pgScrCoan.
      * 
      * @param value
      *     allowed object is
@@ -1186,7 +1186,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the pgScrCoanEseSucc property.
+     * Recupera il valore della proprietà pgScrCoanEseSucc.
      * 
      * @return
      *     possible object is
@@ -1198,7 +1198,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the pgScrCoanEseSucc property.
+     * Imposta il valore della proprietà pgScrCoanEseSucc.
      * 
      * @param value
      *     allowed object is
@@ -1210,7 +1210,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the soggettoDettaglio property.
+     * Recupera il valore della proprietà soggettoDettaglio.
      * 
      * @return
      *     possible object is
@@ -1222,7 +1222,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the soggettoDettaglio property.
+     * Imposta il valore della proprietà soggettoDettaglio.
      * 
      * @param value
      *     allowed object is
@@ -1234,7 +1234,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the tiScrittura property.
+     * Recupera il valore della proprietà tiScrittura.
      * 
      * @return
      *     possible object is
@@ -1246,7 +1246,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the tiScrittura property.
+     * Imposta il valore della proprietà tiScrittura.
      * 
      * @param value
      *     allowed object is
@@ -1258,7 +1258,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the tiSubScrittura property.
+     * Recupera il valore della proprietà tiSubScrittura.
      * 
      * @return
      *     possible object is
@@ -1270,7 +1270,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the tiSubScrittura property.
+     * Imposta il valore della proprietà tiSubScrittura.
      * 
      * @param value
      *     allowed object is
@@ -1282,7 +1282,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Gets the value of the tiVoce property.
+     * Recupera il valore della proprietà tiVoce.
      * 
      * @return
      *     possible object is
@@ -1294,7 +1294,7 @@ public class ScritturaCoanDTO {
     }
 
     /**
-     * Sets the value of the tiVoce property.
+     * Imposta il valore della proprietà tiVoce.
      * 
      * @param value
      *     allowed object is

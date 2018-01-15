@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for fsmAutorizza complex type.
+ * <p>Classe Java per fsmAutorizza complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="fsmAutorizza">
@@ -79,7 +79,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Gets the value of the idAb property.
+     * Recupera il valore della proprietà idAb.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Sets the value of the idAb property.
+     * Imposta il valore della proprietà idAb.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Gets the value of the flAutorizza property.
+     * Recupera il valore della proprietà flAutorizza.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Sets the value of the flAutorizza property.
+     * Imposta il valore della proprietà flAutorizza.
      * 
      * @param value
      *     allowed object is
@@ -127,7 +127,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Gets the value of the tipoDocumento property.
+     * Recupera il valore della proprietà tipoDocumento.
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Sets the value of the tipoDocumento property.
+     * Imposta il valore della proprietà tipoDocumento.
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Gets the value of the note property.
+     * Recupera il valore della proprietà note.
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class FsmAutorizza {
     }
 
     /**
-     * Sets the value of the note property.
+     * Imposta il valore della proprietà note.
      * 
      * @param value
      *     allowed object is
