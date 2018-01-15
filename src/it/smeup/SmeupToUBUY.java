@@ -127,13 +127,13 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		if (arg1.getData(USER)!=null && arg1.getData(USER).trim().length()>0) {
 			user = arg1.getData(USER);
 		} else {
-			user = "WS_UBUY";
+			user = "WS_UBUY@uniud.it";
 		}
 		
 		if (arg1.getData(PASSWORD)!=null && arg1.getData(PASSWORD).trim().length()>0) {
 			password = arg1.getData(PASSWORD);
 		} else {
-			password = "test";
+			password = "RdeFrt453";
 		}
 			
 		return true;
@@ -404,8 +404,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	public static void main(String[] args)  {
 	   	SPIWsCConnectorConf vConf = new SPIWsCConnectorConf();	
 
-        vConf.addData(USER, "WS_UBUY");
-        vConf.addData(PASSWORD, "test");
+        vConf.addData(USER, "WS_UBUY@uniud.it");
+        vConf.addData(PASSWORD, "RdeFrt453");
                 
         SmeupToUBUY vPlugin = new SmeupToUBUY();
         
