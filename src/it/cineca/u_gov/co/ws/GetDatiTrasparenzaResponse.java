@@ -10,16 +10,16 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java per creaScrittureCoanAntResponse complex type.
+ * <p>Classe Java per getDatiTrasparenzaResponse complex type.
  * 
  * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
- * &lt;complexType name="creaScrittureCoanAntResponse">
+ * &lt;complexType name="getDatiTrasparenzaResponse">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://ws.co.u-gov.cineca.it/}logScritturaCoanDTO" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="return" type="{http://ws.co.u-gov.cineca.it/}datiTrasparenzaOutDTO" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -29,13 +29,13 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "creaScrittureCoanAntResponse", propOrder = {
+@XmlType(name = "getDatiTrasparenzaResponse", propOrder = {
     "_return"
 })
-public class CreaScrittureCoanAntResponse {
+public class GetDatiTrasparenzaResponse {
 
     @XmlElement(name = "return")
-    protected List<LogScritturaCoanDTO> _return;
+    protected List<DatiTrasparenzaOutDTO> _return;
 
     /**
      * Gets the value of the return property.
@@ -55,13 +55,13 @@ public class CreaScrittureCoanAntResponse {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link LogScritturaCoanDTO }
+     * {@link DatiTrasparenzaOutDTO }
      * 
      * 
      */
-    public List<LogScritturaCoanDTO> getReturn() {
+    public List<DatiTrasparenzaOutDTO> getReturn() {
         if (_return == null) {
-            _return = new ArrayList<LogScritturaCoanDTO>();
+            _return = new ArrayList<DatiTrasparenzaOutDTO>();
         }
         return this._return;
     }

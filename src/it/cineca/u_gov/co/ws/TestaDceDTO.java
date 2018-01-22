@@ -31,6 +31,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="dtDg" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="dtReg" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="idAbSogg" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="note" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="numDg" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="partIva" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ragioneSociale" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -56,6 +57,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "dtDg",
     "dtReg",
     "idAbSogg",
+    "note",
     "numDg",
     "partIva",
     "ragioneSociale",
@@ -77,6 +79,7 @@ public class TestaDceDTO {
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar dtReg;
     protected Long idAbSogg;
+    protected String note;
     protected String numDg;
     protected String partIva;
     protected String ragioneSociale;
@@ -326,6 +329,30 @@ public class TestaDceDTO {
      */
     public void setIdAbSogg(Long value) {
         this.idAbSogg = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà note.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getNote() {
+        return note;
+    }
+
+    /**
+     * Imposta il valore della proprietà note.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setNote(String value) {
+        this.note = value;
     }
 
     /**

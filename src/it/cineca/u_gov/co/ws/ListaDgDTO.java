@@ -29,7 +29,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="nomeTipoDg" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="numDocRif" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="numRegistrazione" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="progetto" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="richiedente" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="statoAutorizzazionePagamento" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="statoAvanzamentoRda" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="totale" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *         &lt;element name="valutatore" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
@@ -52,7 +55,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "nomeTipoDg",
     "numDocRif",
     "numRegistrazione",
+    "progetto",
+    "richiedente",
     "statoAutorizzazionePagamento",
+    "statoAvanzamentoRda",
     "totale",
     "valutatore"
 })
@@ -70,7 +76,10 @@ public class ListaDgDTO {
     protected String nomeTipoDg;
     protected String numDocRif;
     protected Long numRegistrazione;
+    protected String progetto;
+    protected String richiedente;
     protected String statoAutorizzazionePagamento;
+    protected String statoAvanzamentoRda;
     protected BigDecimal totale;
     protected String valutatore;
 
@@ -315,6 +324,54 @@ public class ListaDgDTO {
     }
 
     /**
+     * Recupera il valore della proprietà progetto.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getProgetto() {
+        return progetto;
+    }
+
+    /**
+     * Imposta il valore della proprietà progetto.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setProgetto(String value) {
+        this.progetto = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà richiedente.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getRichiedente() {
+        return richiedente;
+    }
+
+    /**
+     * Imposta il valore della proprietà richiedente.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setRichiedente(String value) {
+        this.richiedente = value;
+    }
+
+    /**
      * Recupera il valore della proprietà statoAutorizzazionePagamento.
      * 
      * @return
@@ -336,6 +393,30 @@ public class ListaDgDTO {
      */
     public void setStatoAutorizzazionePagamento(String value) {
         this.statoAutorizzazionePagamento = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà statoAvanzamentoRda.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getStatoAvanzamentoRda() {
+        return statoAvanzamentoRda;
+    }
+
+    /**
+     * Imposta il valore della proprietà statoAvanzamentoRda.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setStatoAvanzamentoRda(String value) {
+        this.statoAvanzamentoRda = value;
     }
 
     /**
