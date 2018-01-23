@@ -30,21 +30,47 @@ public interface WSCOService {
 
     /**
      * 
-     * @param scritture
+     * @param idProtocollo
+     * @param dtProtocollo
+     * @param idDocumentale
+     * @param idRegistro
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @RequestWrapper(localName = "updateDocumentaleRegistro", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.UpdateDocumentaleRegistro")
+    @ResponseWrapper(localName = "updateDocumentaleRegistroResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.UpdateDocumentaleRegistroResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/updateDocumentaleRegistroRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/updateDocumentaleRegistroResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/updateDocumentaleRegistro/Fault/ApplicationException")
+    })
+    public void updateDocumentaleRegistro(
+        @WebParam(name = "idRegistro", targetNamespace = "")
+        Long idRegistro,
+        @WebParam(name = "idDocumentale", targetNamespace = "")
+        String idDocumentale,
+        @WebParam(name = "idProtocollo", targetNamespace = "")
+        String idProtocollo,
+        @WebParam(name = "dtProtocollo", targetNamespace = "")
+        XMLGregorianCalendar dtProtocollo)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param idDgs
      * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.LogScritturaCoanDTO>
+     *     returns java.util.List<it.cineca.u_gov.co.ws.ListaDgDTO>
      * @throws ApplicationException_Exception
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "creaScrittureCoanAnt", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.CreaScrittureCoanAnt")
-    @ResponseWrapper(localName = "creaScrittureCoanAntResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.CreaScrittureCoanAntResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/creaScrittureCoanAntRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/creaScrittureCoanAntResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/creaScrittureCoanAnt/Fault/ApplicationException")
+    @RequestWrapper(localName = "listaStatoRda", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.ListaStatoRda")
+    @ResponseWrapper(localName = "listaStatoRdaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.ListaStatoRdaResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/listaStatoRdaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/listaStatoRdaResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/listaStatoRda/Fault/ApplicationException")
     })
-    public List<LogScritturaCoanDTO> creaScrittureCoanAnt(
-        @WebParam(name = "scritture", targetNamespace = "")
-        List<NuovaScritturaCoanDTO> scritture)
+    public List<ListaDgDTO> listaStatoRda(
+        @WebParam(name = "idDgs", targetNamespace = "")
+        List<Long> idDgs)
         throws ApplicationException_Exception
     ;
 
@@ -68,6 +94,83 @@ public interface WSCOService {
         String user,
         @WebParam(name = "ruoli", targetNamespace = "")
         List<String> ruoli)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.RegistroIvaDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getElencoRegistriDaTrasmettere", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoRegistriDaTrasmettere")
+    @ResponseWrapper(localName = "getElencoRegistriDaTrasmettereResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoRegistriDaTrasmettereResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoRegistriDaTrasmettereRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoRegistriDaTrasmettereResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoRegistriDaTrasmettere/Fault/ApplicationException")
+    })
+    public List<RegistroIvaDTO> getElencoRegistriDaTrasmettere()
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param idRegistro
+     * @return
+     *     returns byte[]
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getRegistro", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetRegistro")
+    @ResponseWrapper(localName = "getRegistroResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetRegistroResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getRegistroRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getRegistroResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getRegistro/Fault/ApplicationException")
+    })
+    public byte[] getRegistro(
+        @WebParam(name = "idRegistro", targetNamespace = "")
+        Long idRegistro)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param idRegistro
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @RequestWrapper(localName = "resetTrasmissionRegistro", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.ResetTrasmissionRegistro")
+    @ResponseWrapper(localName = "resetTrasmissionRegistroResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.ResetTrasmissionRegistroResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/resetTrasmissionRegistroRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/resetTrasmissionRegistroResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/resetTrasmissionRegistro/Fault/ApplicationException")
+    })
+    public void resetTrasmissionRegistro(
+        @WebParam(name = "idRegistro", targetNamespace = "")
+        Long idRegistro)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param esercizio
+     * @param ua
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.UaDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getUAEse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetUAEse")
+    @ResponseWrapper(localName = "getUAEseResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetUAEseResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getUAEseRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getUAEseResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getUAEse/Fault/ApplicationException")
+    })
+    public List<UaDTO> getUAEse(
+        @WebParam(name = "ua", targetNamespace = "")
+        String ua,
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio)
         throws ApplicationException_Exception
     ;
 
@@ -351,6 +454,477 @@ public interface WSCOService {
         String cdVoceCoge,
         @WebParam(name = "cdUa", targetNamespace = "")
         String cdUa)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.CoBeniServiziDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getBeniServizi", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetBeniServizi")
+    @ResponseWrapper(localName = "getBeniServiziResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetBeniServiziResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getBeniServiziRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getBeniServiziResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getBeniServizi/Fault/ApplicationException")
+    })
+    public List<CoBeniServiziDTO> getBeniServizi()
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param dtRegistrazione
+     * @param tiAttivoPassivo
+     * @param idAb
+     * @param tiCampoAttivita
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.TipoOperazioneIvaDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getTipoOperazioneIva", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetTipoOperazioneIva")
+    @ResponseWrapper(localName = "getTipoOperazioneIvaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetTipoOperazioneIvaResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getTipoOperazioneIvaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getTipoOperazioneIvaResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getTipoOperazioneIva/Fault/ApplicationException")
+    })
+    public List<TipoOperazioneIvaDTO> getTipoOperazioneIva(
+        @WebParam(name = "dtRegistrazione", targetNamespace = "")
+        XMLGregorianCalendar dtRegistrazione,
+        @WebParam(name = "idAb", targetNamespace = "")
+        Long idAb,
+        @WebParam(name = "tiCampoAttivita", targetNamespace = "")
+        String tiCampoAttivita,
+        @WebParam(name = "tiAttivoPassivo", targetNamespace = "")
+        String tiAttivoPassivo)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param esercizio
+     * @param cdTipoOperazioneIva
+     * @param cdUe
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.SezionaleIvaDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getSezionaliIva", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSezionaliIva")
+    @ResponseWrapper(localName = "getSezionaliIvaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSezionaliIvaResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getSezionaliIvaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getSezionaliIvaResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getSezionaliIva/Fault/ApplicationException")
+    })
+    public List<SezionaleIvaDTO> getSezionaliIva(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdUe", targetNamespace = "")
+        String cdUe,
+        @WebParam(name = "cdTipoOperazioneIva", targetNamespace = "")
+        String cdTipoOperazioneIva)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param cdBeneServizio
+     * @param dtRegistrazione
+     * @param cdUo
+     * @param cdTipoOperazioneIva
+     * @param cdTariffa
+     * @param tiCampoAttivita
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.CodiceIvaDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getCodiciIva", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetCodiciIva")
+    @ResponseWrapper(localName = "getCodiciIvaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetCodiciIvaResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getCodiciIvaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getCodiciIvaResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getCodiciIva/Fault/ApplicationException")
+    })
+    public List<CodiceIvaDTO> getCodiciIva(
+        @WebParam(name = "dtRegistrazione", targetNamespace = "")
+        XMLGregorianCalendar dtRegistrazione,
+        @WebParam(name = "tiCampoAttivita", targetNamespace = "")
+        String tiCampoAttivita,
+        @WebParam(name = "cdTipoOperazioneIva", targetNamespace = "")
+        String cdTipoOperazioneIva,
+        @WebParam(name = "cdBeneServizio", targetNamespace = "")
+        String cdBeneServizio,
+        @WebParam(name = "cdTariffa", targetNamespace = "")
+        String cdTariffa,
+        @WebParam(name = "cdUo", targetNamespace = "")
+        String cdUo)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param cdUa
+     * @param esercizio
+     * @param idVoceCoan
+     * @param cdVoceCoan
+     * @return
+     *     returns it.cineca.u_gov.co.ws.ProspettoCoanDTO
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getProspettoCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetProspettoCoan")
+    @ResponseWrapper(localName = "getProspettoCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetProspettoCoanResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getProspettoCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getProspettoCoanResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getProspettoCoan/Fault/ApplicationException")
+    })
+    public ProspettoCoanDTO getProspettoCoan(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdUa", targetNamespace = "")
+        String cdUa,
+        @WebParam(name = "cdVoceCoan", targetNamespace = "")
+        String cdVoceCoan,
+        @WebParam(name = "idVoceCoan", targetNamespace = "")
+        Long idVoceCoan)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param cdUa
+     * @param esercizio
+     * @param idProgetto
+     * @param idVoceCoan
+     * @param cdProgetto
+     * @param cdVoceCoan
+     * @return
+     *     returns it.cineca.u_gov.co.ws.DisponibiliProgettoDTO
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getDisponibiliPerProgetto", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibiliPerProgetto")
+    @ResponseWrapper(localName = "getDisponibiliPerProgettoResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibiliPerProgettoResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibiliPerProgettoRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibiliPerProgettoResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibiliPerProgetto/Fault/ApplicationException")
+    })
+    public DisponibiliProgettoDTO getDisponibiliPerProgetto(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdProgetto", targetNamespace = "")
+        String cdProgetto,
+        @WebParam(name = "cdUa", targetNamespace = "")
+        String cdUa,
+        @WebParam(name = "cdVoceCoan", targetNamespace = "")
+        String cdVoceCoan,
+        @WebParam(name = "idProgetto", targetNamespace = "")
+        Long idProgetto,
+        @WebParam(name = "idVoceCoan", targetNamespace = "")
+        Long idVoceCoan)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param cdUa
+     * @param ammontare
+     * @param cdWp
+     * @param esercizio
+     * @param cdProgetto
+     * @param cdVoceCoan
+     * @return
+     *     returns it.cineca.u_gov.co.ws.DisponibileCOPJDTO
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getDisponibileCOPJ", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileCOPJ")
+    @ResponseWrapper(localName = "getDisponibileCOPJResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileCOPJResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileCOPJRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileCOPJResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileCOPJ/Fault/ApplicationException")
+    })
+    public DisponibileCOPJDTO getDisponibileCOPJ(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdUa", targetNamespace = "")
+        String cdUa,
+        @WebParam(name = "cdVoceCoan", targetNamespace = "")
+        String cdVoceCoan,
+        @WebParam(name = "cdProgetto", targetNamespace = "")
+        String cdProgetto,
+        @WebParam(name = "cdWp", targetNamespace = "")
+        String cdWp,
+        @WebParam(name = "ammontare", targetNamespace = "")
+        BigDecimal ammontare)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param cdUa
+     * @param ammontare
+     * @param esercizio
+     * @param cdProgetto
+     * @param cdVoceCoan
+     * @return
+     *     returns it.cineca.u_gov.co.ws.DisponibileBudgetDTO
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getDisponibileBudget", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileBudget")
+    @ResponseWrapper(localName = "getDisponibileBudgetResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileBudgetResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileBudgetRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileBudgetResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileBudget/Fault/ApplicationException")
+    })
+    public DisponibileBudgetDTO getDisponibileBudget(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdUa", targetNamespace = "")
+        String cdUa,
+        @WebParam(name = "cdVoceCoan", targetNamespace = "")
+        String cdVoceCoan,
+        @WebParam(name = "cdProgetto", targetNamespace = "")
+        String cdProgetto,
+        @WebParam(name = "ammontare", targetNamespace = "")
+        BigDecimal ammontare)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param idDgList
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.AmmOrdinativoDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getAmmPagato", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmPagato")
+    @ResponseWrapper(localName = "getAmmPagatoResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmPagatoResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmPagatoRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmPagatoResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmPagato/Fault/ApplicationException")
+    })
+    public List<AmmOrdinativoDTO> getAmmPagato(
+        @WebParam(name = "id_dg_list", targetNamespace = "")
+        List<Long> idDgList)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param idDgList
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.AmmSuccessoriDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getAmmSuccessori", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmSuccessori")
+    @ResponseWrapper(localName = "getAmmSuccessoriResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmSuccessoriResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmSuccessoriRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmSuccessoriResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmSuccessori/Fault/ApplicationException")
+    })
+    public List<AmmSuccessoriDTO> getAmmSuccessori(
+        @WebParam(name = "id_dg_list", targetNamespace = "")
+        List<Long> idDgList)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param esercizio
+     * @param cdVoceCoan
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.CofogCoanDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "findCofogCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindCofogCoan")
+    @ResponseWrapper(localName = "findCofogCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindCofogCoanResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/findCofogCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/findCofogCoanResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/findCofogCoan/Fault/ApplicationException")
+    })
+    public List<CofogCoanDTO> findCofogCoan(
+        @WebParam(name = "cdVoceCoan", targetNamespace = "")
+        String cdVoceCoan,
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param esercizio
+     * @param cdVoceCoan
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.RiclCoanNewDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "findRiclCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindRiclCoan")
+    @ResponseWrapper(localName = "findRiclCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindRiclCoanResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/findRiclCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/findRiclCoanResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/findRiclCoan/Fault/ApplicationException")
+    })
+    public List<RiclCoanNewDTO> findRiclCoan(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdVoceCoan", targetNamespace = "")
+        String cdVoceCoan)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param tiAttivoPassivo
+     * @param esercizio
+     * @param flNotaCredito
+     * @param cdVoceCoge
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.SiopeCogeDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getSiopeCoge", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSiopeCoge")
+    @ResponseWrapper(localName = "getSiopeCogeResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSiopeCogeResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getSiopeCogeRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getSiopeCogeResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getSiopeCoge/Fault/ApplicationException")
+    })
+    public List<SiopeCogeDTO> getSiopeCoge(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "tiAttivoPassivo", targetNamespace = "")
+        String tiAttivoPassivo,
+        @WebParam(name = "cdVoceCoge", targetNamespace = "")
+        String cdVoceCoge,
+        @WebParam(name = "flNotaCredito", targetNamespace = "")
+        Boolean flNotaCredito)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param tiAttivoPassivo
+     * @param esercizio
+     * @param idAb
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.PdcCogeDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getVociContropartita", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetVociContropartita")
+    @ResponseWrapper(localName = "getVociContropartitaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetVociContropartitaResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getVociContropartitaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getVociContropartitaResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getVociContropartita/Fault/ApplicationException")
+    })
+    public List<PdcCogeDTO> getVociContropartita(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "tiAttivoPassivo", targetNamespace = "")
+        String tiAttivoPassivo,
+        @WebParam(name = "idAb", targetNamespace = "")
+        Long idAb)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param esercizio
+     * @param cdSiope
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.AttivitaSiopeDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getAttivitaSiope", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAttivitaSiope")
+    @ResponseWrapper(localName = "getAttivitaSiopeResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAttivitaSiopeResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getAttivitaSiopeRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getAttivitaSiopeResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getAttivitaSiope/Fault/ApplicationException")
+    })
+    public List<AttivitaSiopeDTO> getAttivitaSiope(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdSiope", targetNamespace = "")
+        String cdSiope)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @return
+     *     returns java.lang.Long
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getIdAbDiversi", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetIdAbDiversi")
+    @ResponseWrapper(localName = "getIdAbDiversiResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetIdAbDiversiResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getIdAbDiversiRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getIdAbDiversiResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getIdAbDiversi/Fault/ApplicationException")
+    })
+    public Long getIdAbDiversi()
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param cdUa
+     * @param esercizio
+     * @param cdVoceCoan
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.DimAnaDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getDimAna", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDimAna")
+    @ResponseWrapper(localName = "getDimAnaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDimAnaResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDimAnaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDimAnaResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDimAna/Fault/ApplicationException")
+    })
+    public List<DimAnaDTO> getDimAna(
+        @WebParam(name = "esercizio", targetNamespace = "")
+        Integer esercizio,
+        @WebParam(name = "cdVoceCoan", targetNamespace = "")
+        String cdVoceCoan,
+        @WebParam(name = "cdUa", targetNamespace = "")
+        String cdUa)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param dtRif
+     * @param flCaricoBene
+     * @param cdTipoOpIva
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.CoBeniServiziDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getElencoBeniServizi", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoBeniServizi")
+    @ResponseWrapper(localName = "getElencoBeniServiziResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoBeniServiziResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoBeniServiziRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoBeniServiziResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoBeniServizi/Fault/ApplicationException")
+    })
+    public List<CoBeniServiziDTO> getElencoBeniServizi(
+        @WebParam(name = "dtRif", targetNamespace = "")
+        XMLGregorianCalendar dtRif,
+        @WebParam(name = "cdTipoOpIva", targetNamespace = "")
+        String cdTipoOpIva,
+        @WebParam(name = "flCaricoBene", targetNamespace = "")
+        Boolean flCaricoBene)
         throws ApplicationException_Exception
     ;
 
@@ -853,6 +1427,46 @@ public interface WSCOService {
 
     /**
      * 
+     * @param idProgetto
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.RespProgettoDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getResponsabiliProgetto", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetResponsabiliProgetto")
+    @ResponseWrapper(localName = "getResponsabiliProgettoResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetResponsabiliProgettoResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getResponsabiliProgettoRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getResponsabiliProgettoResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getResponsabiliProgetto/Fault/ApplicationException")
+    })
+    public List<RespProgettoDTO> getResponsabiliProgetto(
+        @WebParam(name = "idProgetto", targetNamespace = "")
+        Long idProgetto)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
+     * @param scrittureList
+     * @return
+     *     returns java.util.List<it.cineca.u_gov.co.ws.ScritturaCoanDTO>
+     * @throws ApplicationException_Exception
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getScrCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetScrCoan")
+    @ResponseWrapper(localName = "getScrCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetScrCoanResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getScrCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getScrCoanResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getScrCoan/Fault/ApplicationException")
+    })
+    public List<ScritturaCoanDTO> getScrCoan(
+        @WebParam(name = "scrittureList", targetNamespace = "")
+        List<ScritturaCoanDTO> scrittureList)
+        throws ApplicationException_Exception
+    ;
+
+    /**
+     * 
      * @param tipoDocumento
      * @param note
      * @param idDgs
@@ -880,26 +1494,6 @@ public interface WSCOService {
         String tipoDocumento,
         @WebParam(name = "note", targetNamespace = "")
         String note)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param idProgetto
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.RespProgettoDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getResponsabiliProgetto", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetResponsabiliProgetto")
-    @ResponseWrapper(localName = "getResponsabiliProgettoResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetResponsabiliProgettoResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getResponsabiliProgettoRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getResponsabiliProgettoResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getResponsabiliProgetto/Fault/ApplicationException")
-    })
-    public List<RespProgettoDTO> getResponsabiliProgetto(
-        @WebParam(name = "idProgetto", targetNamespace = "")
-        Long idProgetto)
         throws ApplicationException_Exception
     ;
 
@@ -1000,592 +1594,53 @@ public interface WSCOService {
 
     /**
      * 
-     * @param scrittureList
+     * @param tiDoc
+     * @param cig
+     * @param dtFine
+     * @param dtInizio
+     * @param cdAppExt
      * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.ScritturaCoanDTO>
+     *     returns java.util.List<it.cineca.u_gov.co.ws.DatiTrasparenzaOutDTO>
      * @throws ApplicationException_Exception
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getScrCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetScrCoan")
-    @ResponseWrapper(localName = "getScrCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetScrCoanResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getScrCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getScrCoanResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getScrCoan/Fault/ApplicationException")
+    @RequestWrapper(localName = "getDatiTrasparenza", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDatiTrasparenza")
+    @ResponseWrapper(localName = "getDatiTrasparenzaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDatiTrasparenzaResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDatiTrasparenzaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDatiTrasparenzaResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDatiTrasparenza/Fault/ApplicationException")
     })
-    public List<ScritturaCoanDTO> getScrCoan(
-        @WebParam(name = "scrittureList", targetNamespace = "")
-        List<ScritturaCoanDTO> scrittureList)
+    public List<DatiTrasparenzaOutDTO> getDatiTrasparenza(
+        @WebParam(name = "cdAppExt", targetNamespace = "")
+        String cdAppExt,
+        @WebParam(name = "tiDoc", targetNamespace = "")
+        String tiDoc,
+        @WebParam(name = "dtInizio", targetNamespace = "")
+        XMLGregorianCalendar dtInizio,
+        @WebParam(name = "dtFine", targetNamespace = "")
+        XMLGregorianCalendar dtFine,
+        @WebParam(name = "cig", targetNamespace = "")
+        String cig)
         throws ApplicationException_Exception
     ;
 
     /**
      * 
-     * @param esercizio
-     * @param ua
+     * @param idSchedaBudget
      * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.UaDTO>
+     *     returns it.cineca.u_gov.co.ws.TotScrAutSchBudDTO
      * @throws ApplicationException_Exception
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getUAEse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetUAEse")
-    @ResponseWrapper(localName = "getUAEseResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetUAEseResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getUAEseRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getUAEseResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getUAEse/Fault/ApplicationException")
+    @RequestWrapper(localName = "getTotScrAutSchedaBud", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetTotScrAutSchedaBud")
+    @ResponseWrapper(localName = "getTotScrAutSchedaBudResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetTotScrAutSchedaBudResponse")
+    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getTotScrAutSchedaBudRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getTotScrAutSchedaBudResponse", fault = {
+        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getTotScrAutSchedaBud/Fault/ApplicationException")
     })
-    public List<UaDTO> getUAEse(
-        @WebParam(name = "ua", targetNamespace = "")
-        String ua,
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.CoBeniServiziDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getBeniServizi", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetBeniServizi")
-    @ResponseWrapper(localName = "getBeniServiziResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetBeniServiziResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getBeniServiziRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getBeniServiziResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getBeniServizi/Fault/ApplicationException")
-    })
-    public List<CoBeniServiziDTO> getBeniServizi()
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param dtRegistrazione
-     * @param tiAttivoPassivo
-     * @param idAb
-     * @param tiCampoAttivita
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.TipoOperazioneIvaDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getTipoOperazioneIva", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetTipoOperazioneIva")
-    @ResponseWrapper(localName = "getTipoOperazioneIvaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetTipoOperazioneIvaResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getTipoOperazioneIvaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getTipoOperazioneIvaResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getTipoOperazioneIva/Fault/ApplicationException")
-    })
-    public List<TipoOperazioneIvaDTO> getTipoOperazioneIva(
-        @WebParam(name = "dtRegistrazione", targetNamespace = "")
-        XMLGregorianCalendar dtRegistrazione,
-        @WebParam(name = "idAb", targetNamespace = "")
-        Long idAb,
-        @WebParam(name = "tiCampoAttivita", targetNamespace = "")
-        String tiCampoAttivita,
-        @WebParam(name = "tiAttivoPassivo", targetNamespace = "")
-        String tiAttivoPassivo)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param esercizio
-     * @param cdTipoOperazioneIva
-     * @param cdUe
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.SezionaleIvaDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getSezionaliIva", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSezionaliIva")
-    @ResponseWrapper(localName = "getSezionaliIvaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSezionaliIvaResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getSezionaliIvaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getSezionaliIvaResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getSezionaliIva/Fault/ApplicationException")
-    })
-    public List<SezionaleIvaDTO> getSezionaliIva(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "cdUe", targetNamespace = "")
-        String cdUe,
-        @WebParam(name = "cdTipoOperazioneIva", targetNamespace = "")
-        String cdTipoOperazioneIva)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param cdBeneServizio
-     * @param dtRegistrazione
-     * @param cdUo
-     * @param cdTipoOperazioneIva
-     * @param cdTariffa
-     * @param tiCampoAttivita
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.CodiceIvaDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getCodiciIva", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetCodiciIva")
-    @ResponseWrapper(localName = "getCodiciIvaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetCodiciIvaResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getCodiciIvaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getCodiciIvaResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getCodiciIva/Fault/ApplicationException")
-    })
-    public List<CodiceIvaDTO> getCodiciIva(
-        @WebParam(name = "dtRegistrazione", targetNamespace = "")
-        XMLGregorianCalendar dtRegistrazione,
-        @WebParam(name = "tiCampoAttivita", targetNamespace = "")
-        String tiCampoAttivita,
-        @WebParam(name = "cdTipoOperazioneIva", targetNamespace = "")
-        String cdTipoOperazioneIva,
-        @WebParam(name = "cdBeneServizio", targetNamespace = "")
-        String cdBeneServizio,
-        @WebParam(name = "cdTariffa", targetNamespace = "")
-        String cdTariffa,
-        @WebParam(name = "cdUo", targetNamespace = "")
-        String cdUo)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param cdUa
-     * @param esercizio
-     * @param idVoceCoan
-     * @param cdVoceCoan
-     * @return
-     *     returns it.cineca.u_gov.co.ws.ProspettoCoanDTO
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getProspettoCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetProspettoCoan")
-    @ResponseWrapper(localName = "getProspettoCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetProspettoCoanResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getProspettoCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getProspettoCoanResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getProspettoCoan/Fault/ApplicationException")
-    })
-    public ProspettoCoanDTO getProspettoCoan(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "cdUa", targetNamespace = "")
-        String cdUa,
-        @WebParam(name = "cdVoceCoan", targetNamespace = "")
-        String cdVoceCoan,
-        @WebParam(name = "idVoceCoan", targetNamespace = "")
-        Long idVoceCoan)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param cdUa
-     * @param esercizio
-     * @param idProgetto
-     * @param idVoceCoan
-     * @param cdProgetto
-     * @param cdVoceCoan
-     * @return
-     *     returns it.cineca.u_gov.co.ws.DisponibiliProgettoDTO
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getDisponibiliPerProgetto", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibiliPerProgetto")
-    @ResponseWrapper(localName = "getDisponibiliPerProgettoResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibiliPerProgettoResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibiliPerProgettoRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibiliPerProgettoResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibiliPerProgetto/Fault/ApplicationException")
-    })
-    public DisponibiliProgettoDTO getDisponibiliPerProgetto(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "cdProgetto", targetNamespace = "")
-        String cdProgetto,
-        @WebParam(name = "cdUa", targetNamespace = "")
-        String cdUa,
-        @WebParam(name = "cdVoceCoan", targetNamespace = "")
-        String cdVoceCoan,
-        @WebParam(name = "idProgetto", targetNamespace = "")
-        Long idProgetto,
-        @WebParam(name = "idVoceCoan", targetNamespace = "")
-        Long idVoceCoan)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param cdUa
-     * @param ammontare
-     * @param cdWp
-     * @param esercizio
-     * @param cdProgetto
-     * @param cdVoceCoan
-     * @return
-     *     returns it.cineca.u_gov.co.ws.DisponibileCOPJDTO
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getDisponibileCOPJ", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileCOPJ")
-    @ResponseWrapper(localName = "getDisponibileCOPJResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileCOPJResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileCOPJRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileCOPJResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileCOPJ/Fault/ApplicationException")
-    })
-    public DisponibileCOPJDTO getDisponibileCOPJ(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "cdUa", targetNamespace = "")
-        String cdUa,
-        @WebParam(name = "cdVoceCoan", targetNamespace = "")
-        String cdVoceCoan,
-        @WebParam(name = "cdProgetto", targetNamespace = "")
-        String cdProgetto,
-        @WebParam(name = "cdWp", targetNamespace = "")
-        String cdWp,
-        @WebParam(name = "ammontare", targetNamespace = "")
-        BigDecimal ammontare)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param cdUa
-     * @param ammontare
-     * @param esercizio
-     * @param cdProgetto
-     * @param cdVoceCoan
-     * @return
-     *     returns it.cineca.u_gov.co.ws.DisponibileBudgetDTO
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getDisponibileBudget", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileBudget")
-    @ResponseWrapper(localName = "getDisponibileBudgetResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDisponibileBudgetResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileBudgetRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileBudgetResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDisponibileBudget/Fault/ApplicationException")
-    })
-    public DisponibileBudgetDTO getDisponibileBudget(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "cdUa", targetNamespace = "")
-        String cdUa,
-        @WebParam(name = "cdVoceCoan", targetNamespace = "")
-        String cdVoceCoan,
-        @WebParam(name = "cdProgetto", targetNamespace = "")
-        String cdProgetto,
-        @WebParam(name = "ammontare", targetNamespace = "")
-        BigDecimal ammontare)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param idDgList
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.AmmOrdinativoDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getAmmPagato", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmPagato")
-    @ResponseWrapper(localName = "getAmmPagatoResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmPagatoResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmPagatoRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmPagatoResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmPagato/Fault/ApplicationException")
-    })
-    public List<AmmOrdinativoDTO> getAmmPagato(
-        @WebParam(name = "id_dg_list", targetNamespace = "")
-        List<Long> idDgList)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param idDgList
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.AmmSuccessoriDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getAmmSuccessori", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmSuccessori")
-    @ResponseWrapper(localName = "getAmmSuccessoriResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAmmSuccessoriResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmSuccessoriRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmSuccessoriResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getAmmSuccessori/Fault/ApplicationException")
-    })
-    public List<AmmSuccessoriDTO> getAmmSuccessori(
-        @WebParam(name = "id_dg_list", targetNamespace = "")
-        List<Long> idDgList)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param esercizio
-     * @param cdVoceCoan
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.CofogCoanDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "findCofogCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindCofogCoan")
-    @ResponseWrapper(localName = "findCofogCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindCofogCoanResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/findCofogCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/findCofogCoanResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/findCofogCoan/Fault/ApplicationException")
-    })
-    public List<CofogCoanDTO> findCofogCoan(
-        @WebParam(name = "cdVoceCoan", targetNamespace = "")
-        String cdVoceCoan,
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param esercizio
-     * @param cdVoceCoan
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.RiclCoanNewDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "findRiclCoan", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindRiclCoan")
-    @ResponseWrapper(localName = "findRiclCoanResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.FindRiclCoanResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/findRiclCoanRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/findRiclCoanResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/findRiclCoan/Fault/ApplicationException")
-    })
-    public List<RiclCoanNewDTO> findRiclCoan(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "cdVoceCoan", targetNamespace = "")
-        String cdVoceCoan)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param tiAttivoPassivo
-     * @param esercizio
-     * @param flNotaCredito
-     * @param cdVoceCoge
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.SiopeCogeDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getSiopeCoge", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSiopeCoge")
-    @ResponseWrapper(localName = "getSiopeCogeResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetSiopeCogeResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getSiopeCogeRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getSiopeCogeResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getSiopeCoge/Fault/ApplicationException")
-    })
-    public List<SiopeCogeDTO> getSiopeCoge(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "tiAttivoPassivo", targetNamespace = "")
-        String tiAttivoPassivo,
-        @WebParam(name = "cdVoceCoge", targetNamespace = "")
-        String cdVoceCoge,
-        @WebParam(name = "flNotaCredito", targetNamespace = "")
-        Boolean flNotaCredito)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param tiAttivoPassivo
-     * @param esercizio
-     * @param idAb
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.PdcCogeDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getVociContropartita", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetVociContropartita")
-    @ResponseWrapper(localName = "getVociContropartitaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetVociContropartitaResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getVociContropartitaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getVociContropartitaResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getVociContropartita/Fault/ApplicationException")
-    })
-    public List<PdcCogeDTO> getVociContropartita(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "tiAttivoPassivo", targetNamespace = "")
-        String tiAttivoPassivo,
-        @WebParam(name = "idAb", targetNamespace = "")
-        Long idAb)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param esercizio
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.AttivitaSiopeDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getAttivitaSiope", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAttivitaSiope")
-    @ResponseWrapper(localName = "getAttivitaSiopeResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetAttivitaSiopeResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getAttivitaSiopeRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getAttivitaSiopeResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getAttivitaSiope/Fault/ApplicationException")
-    })
-    public List<AttivitaSiopeDTO> getAttivitaSiope(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @return
-     *     returns java.lang.Long
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getIdAbDiversi", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetIdAbDiversi")
-    @ResponseWrapper(localName = "getIdAbDiversiResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetIdAbDiversiResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getIdAbDiversiRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getIdAbDiversiResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getIdAbDiversi/Fault/ApplicationException")
-    })
-    public Long getIdAbDiversi()
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param cdUa
-     * @param esercizio
-     * @param cdVoceCoan
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.DimAnaDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getDimAna", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDimAna")
-    @ResponseWrapper(localName = "getDimAnaResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetDimAnaResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getDimAnaRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getDimAnaResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getDimAna/Fault/ApplicationException")
-    })
-    public List<DimAnaDTO> getDimAna(
-        @WebParam(name = "esercizio", targetNamespace = "")
-        Integer esercizio,
-        @WebParam(name = "cdVoceCoan", targetNamespace = "")
-        String cdVoceCoan,
-        @WebParam(name = "cdUa", targetNamespace = "")
-        String cdUa)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param dtRif
-     * @param flCaricoBene
-     * @param cdTipoOpIva
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.CoBeniServiziDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getElencoBeniServizi", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoBeniServizi")
-    @ResponseWrapper(localName = "getElencoBeniServiziResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoBeniServiziResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoBeniServiziRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoBeniServiziResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoBeniServizi/Fault/ApplicationException")
-    })
-    public List<CoBeniServiziDTO> getElencoBeniServizi(
-        @WebParam(name = "dtRif", targetNamespace = "")
-        XMLGregorianCalendar dtRif,
-        @WebParam(name = "cdTipoOpIva", targetNamespace = "")
-        String cdTipoOpIva,
-        @WebParam(name = "flCaricoBene", targetNamespace = "")
-        Boolean flCaricoBene)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @return
-     *     returns java.util.List<it.cineca.u_gov.co.ws.RegistroIvaDTO>
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getElencoRegistriDaTrasmettere", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoRegistriDaTrasmettere")
-    @ResponseWrapper(localName = "getElencoRegistriDaTrasmettereResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetElencoRegistriDaTrasmettereResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoRegistriDaTrasmettereRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoRegistriDaTrasmettereResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getElencoRegistriDaTrasmettere/Fault/ApplicationException")
-    })
-    public List<RegistroIvaDTO> getElencoRegistriDaTrasmettere()
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param idRegistro
-     * @return
-     *     returns byte[]
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getRegistro", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetRegistro")
-    @ResponseWrapper(localName = "getRegistroResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.GetRegistroResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/getRegistroRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/getRegistroResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/getRegistro/Fault/ApplicationException")
-    })
-    public byte[] getRegistro(
-        @WebParam(name = "idRegistro", targetNamespace = "")
-        Long idRegistro)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param idRegistro
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @RequestWrapper(localName = "resetTrasmissionRegistro", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.ResetTrasmissionRegistro")
-    @ResponseWrapper(localName = "resetTrasmissionRegistroResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.ResetTrasmissionRegistroResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/resetTrasmissionRegistroRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/resetTrasmissionRegistroResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/resetTrasmissionRegistro/Fault/ApplicationException")
-    })
-    public void resetTrasmissionRegistro(
-        @WebParam(name = "idRegistro", targetNamespace = "")
-        Long idRegistro)
-        throws ApplicationException_Exception
-    ;
-
-    /**
-     * 
-     * @param idProtocollo
-     * @param dtProtocollo
-     * @param idDocumentale
-     * @param idRegistro
-     * @throws ApplicationException_Exception
-     */
-    @WebMethod
-    @RequestWrapper(localName = "updateDocumentaleRegistro", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.UpdateDocumentaleRegistro")
-    @ResponseWrapper(localName = "updateDocumentaleRegistroResponse", targetNamespace = "http://ws.co.u-gov.cineca.it/", className = "it.cineca.u_gov.co.ws.UpdateDocumentaleRegistroResponse")
-    @Action(input = "http://ws.co.u-gov.cineca.it/WSCOService/updateDocumentaleRegistroRequest", output = "http://ws.co.u-gov.cineca.it/WSCOService/updateDocumentaleRegistroResponse", fault = {
-        @FaultAction(className = ApplicationException_Exception.class, value = "http://ws.co.u-gov.cineca.it/WSCOService/updateDocumentaleRegistro/Fault/ApplicationException")
-    })
-    public void updateDocumentaleRegistro(
-        @WebParam(name = "idRegistro", targetNamespace = "")
-        Long idRegistro,
-        @WebParam(name = "idDocumentale", targetNamespace = "")
-        String idDocumentale,
-        @WebParam(name = "idProtocollo", targetNamespace = "")
-        String idProtocollo,
-        @WebParam(name = "dtProtocollo", targetNamespace = "")
-        XMLGregorianCalendar dtProtocollo)
+    public TotScrAutSchBudDTO getTotScrAutSchedaBud(
+        @WebParam(name = "idSchedaBudget", targetNamespace = "")
+        Long idSchedaBudget)
         throws ApplicationException_Exception
     ;
 

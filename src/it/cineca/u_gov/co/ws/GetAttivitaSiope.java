@@ -17,6 +17,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="esercizio" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="cdSiope" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -27,11 +28,13 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "getAttivitaSiope", propOrder = {
-    "esercizio"
+    "esercizio",
+    "cdSiope"
 })
 public class GetAttivitaSiope {
 
     protected Integer esercizio;
+    protected String cdSiope;
 
     /**
      * Recupera il valore della proprietà esercizio.
@@ -55,6 +58,30 @@ public class GetAttivitaSiope {
      */
     public void setEsercizio(Integer value) {
         this.esercizio = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdSiope.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdSiope() {
+        return cdSiope;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdSiope.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdSiope(String value) {
+        this.cdSiope = value;
     }
 
 }
