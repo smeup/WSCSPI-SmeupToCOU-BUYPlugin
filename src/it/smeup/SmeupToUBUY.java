@@ -27,8 +27,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.sun.xml.internal.ws.client.ClientTransportException;
-
 import Smeup.smeui.wscspi.datastructure.interfaces.SezInterface;
 import Smeup.smeui.wscspi.datastructure.wscconnector.SPIWsCConnectorConf;
 import Smeup.smeui.wscspi.datastructure.wscconnector.SPIWsCConnectorInput;
@@ -305,11 +303,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		
 		} catch (Exception e) {
 			if (sr.getCode()==RETCODEOK) {
-				if (e.getClass().equals(ClientTransportException.class)) {
-					sr.setCode(RETCODEERRORPAGENOTFOUND);
-					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
-					sr.setSubType(SubTypeValue.APPLICATION.name());
-				} else if (e.getClass().equals(NullPointerException.class)) {
+				if (e.getClass().equals(NullPointerException.class)) {
 					sr.setCode(RETCODEERRORDIFFERENTWSDL);
 					sr.setOrigin(OriginValue.SMEUP.name());
 					sr.setSubType(SubTypeValue.APPLICATION.name());
@@ -365,10 +359,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			}
 		} catch (Exception e) {
 			if (sr.getCode()==RETCODEOK) {
-				if (e.getClass().equals(ClientTransportException.class)) {
-					sr.setCode(RETCODEERRORPAGENOTFOUND);
-					sr.setOrigin(OriginValue.WSDEST.name());
-				} else if (e.getClass().equals(ApplicationException_Exception.class)) {
+				if (e.getClass().equals(ApplicationException_Exception.class)) {
 					sr.setCode(RETCODEERRORDATA);
 					sr.setOrigin(OriginValue.SMEUPWSDEST.name());
 				} else if (e.getClass().equals(NullPointerException.class)) {
