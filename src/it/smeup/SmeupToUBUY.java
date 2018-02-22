@@ -567,9 +567,11 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				Element smeupOutput = doc.createElement("SmeupOutput");
 				rootElement.appendChild(smeupOutput);
 				
-				Element smeupPluginWsdlLocation = doc.createElement("SmeupPluginWsdlLocation");
-				smeupPluginWsdlLocation.appendChild(doc.createTextNode(wscoss.getWSDLDocumentLocation().toExternalForm()));
-				smeupOutput.appendChild(smeupPluginWsdlLocation);				
+				if (wscoss!= null && wscoss.getWSDLDocumentLocation()!=null) {
+					Element smeupPluginWsdlLocation = doc.createElement("SmeupPluginWsdlLocation");
+					smeupPluginWsdlLocation.appendChild(doc.createTextNode(wscoss.getWSDLDocumentLocation().toExternalForm()));
+					smeupOutput.appendChild(smeupPluginWsdlLocation);	
+				}
 
 				Element smeupPluginReturnCode = doc.createElement("SmeupPluginReturnCode");
 				smeupPluginReturnCode.appendChild(doc.createTextNode(DRC.getCode()));
