@@ -395,8 +395,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	public static void main(String[] args)  {
 	   	SPIWsCConnectorConf vConf = new SPIWsCConnectorConf();	
 
-        vConf.addData(USER, "WS_UBUY@uniud.it");
-        vConf.addData(PASSWORD, "RdeFrt453");
+        vConf.addData(USER, "WS_UBUY");
+        vConf.addData(PASSWORD, "test");
                 
         SmeupToUBUY vPlugin = new SmeupToUBUY();
         

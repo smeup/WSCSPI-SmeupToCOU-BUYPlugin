@@ -67,6 +67,7 @@ public class ObjectFactory {
     private final static QName _GetAmmPagato_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getAmmPagato");
     private final static QName _GetUAForUOResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getUAForUOResponse");
     private final static QName _GetElencoTariffari_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoTariffari");
+    private final static QName _GetAllegatiPratica_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getAllegatiPratica");
     private final static QName _GetIdAbDiversiResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getIdAbDiversiResponse");
     private final static QName _CancellaCoanAntEsterna_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "cancellaCoanAntEsterna");
     private final static QName _GetElencoCausaliVariazioni_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoCausaliVariazioni");
@@ -88,6 +89,7 @@ public class ObjectFactory {
     private final static QName _GetVociCoanResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getVociCoanResponse");
     private final static QName _GetCodiciIva_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getCodiciIva");
     private final static QName _ListaContrattiPassiviResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "listaContrattiPassiviResponse");
+    private final static QName _GetAllegatiPraticaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getAllegatiPraticaResponse");
     private final static QName _GetAmmSuccessori_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getAmmSuccessori");
     private final static QName _GetTipoOperazioneIvaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getTipoOperazioneIvaResponse");
     private final static QName _FindCofogCoanResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "findCofogCoanResponse");
@@ -1021,6 +1023,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetAllegatiPraticaResponse }
+     * 
+     */
+    public GetAllegatiPraticaResponse createGetAllegatiPraticaResponse() {
+        return new GetAllegatiPraticaResponse();
+    }
+
+    /**
      * Create an instance of {@link GetAmmSuccessori }
      * 
      */
@@ -1197,6 +1207,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetAllegatiPratica }
+     * 
+     */
+    public GetAllegatiPratica createGetAllegatiPratica() {
+        return new GetAllegatiPratica();
+    }
+
+    /**
      * Create an instance of {@link GetIdAbDiversiResponse }
      * 
      */
@@ -1298,6 +1316,14 @@ public class ObjectFactory {
      */
     public ListaDgDTO createListaDgDTO() {
         return new ListaDgDTO();
+    }
+
+    /**
+     * Create an instance of {@link LogDettaglioScrEsternaCoanDTO }
+     * 
+     */
+    public LogDettaglioScrEsternaCoanDTO createLogDettaglioScrEsternaCoanDTO() {
+        return new LogDettaglioScrEsternaCoanDTO();
     }
 
     /**
@@ -1466,6 +1492,14 @@ public class ObjectFactory {
      */
     public TipoOperazSezionaleIvaDTO createTipoOperazSezionaleIvaDTO() {
         return new TipoOperazSezionaleIvaDTO();
+    }
+
+    /**
+     * Create an instance of {@link ListaAllegatiPraticaDTO }
+     * 
+     */
+    public ListaAllegatiPraticaDTO createListaAllegatiPraticaDTO() {
+        return new ListaAllegatiPraticaDTO();
     }
 
     /**
@@ -2208,6 +2242,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllegatiPratica }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getAllegatiPratica")
+    public JAXBElement<GetAllegatiPratica> createGetAllegatiPratica(GetAllegatiPratica value) {
+        return new JAXBElement<GetAllegatiPratica>(_GetAllegatiPratica_QNAME, GetAllegatiPratica.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetIdAbDiversiResponse }{@code >}}
      * 
      */
@@ -2394,6 +2437,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "listaContrattiPassiviResponse")
     public JAXBElement<ListaContrattiPassiviResponse> createListaContrattiPassiviResponse(ListaContrattiPassiviResponse value) {
         return new JAXBElement<ListaContrattiPassiviResponse>(_ListaContrattiPassiviResponse_QNAME, ListaContrattiPassiviResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetAllegatiPraticaResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getAllegatiPraticaResponse")
+    public JAXBElement<GetAllegatiPraticaResponse> createGetAllegatiPraticaResponse(GetAllegatiPraticaResponse value) {
+        return new JAXBElement<GetAllegatiPraticaResponse>(_GetAllegatiPraticaResponse_QNAME, GetAllegatiPraticaResponse.class, null, value);
     }
 
     /**

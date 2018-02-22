@@ -38,6 +38,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="imponibile" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *         &lt;element name="iva" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *         &lt;element name="totale" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
+ *         &lt;element name="idDocumentale" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="idProtocollo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="dtProtocollo" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
+ *         &lt;element name="cdClassificazione" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="idXCommDet" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="numRigaDett" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="dsRiga" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -107,6 +111,10 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "imponibile",
     "iva",
     "totale",
+    "idDocumentale",
+    "idProtocollo",
+    "dtProtocollo",
+    "cdClassificazione",
     "idXCommDet",
     "numRigaDett",
     "dsRiga",
@@ -171,6 +179,11 @@ public class ListaContrPassDTO {
     protected BigDecimal imponibile;
     protected BigDecimal iva;
     protected BigDecimal totale;
+    protected String idDocumentale;
+    protected String idProtocollo;
+    @XmlSchemaType(name = "dateTime")
+    protected XMLGregorianCalendar dtProtocollo;
+    protected String cdClassificazione;
     protected Long idXCommDet;
     protected Integer numRigaDett;
     protected String dsRiga;
@@ -647,6 +660,102 @@ public class ListaContrPassDTO {
      */
     public void setTotale(BigDecimal value) {
         this.totale = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà idDocumentale.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getIdDocumentale() {
+        return idDocumentale;
+    }
+
+    /**
+     * Imposta il valore della proprietà idDocumentale.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setIdDocumentale(String value) {
+        this.idDocumentale = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà idProtocollo.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getIdProtocollo() {
+        return idProtocollo;
+    }
+
+    /**
+     * Imposta il valore della proprietà idProtocollo.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setIdProtocollo(String value) {
+        this.idProtocollo = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà dtProtocollo.
+     * 
+     * @return
+     *     possible object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public XMLGregorianCalendar getDtProtocollo() {
+        return dtProtocollo;
+    }
+
+    /**
+     * Imposta il valore della proprietà dtProtocollo.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public void setDtProtocollo(XMLGregorianCalendar value) {
+        this.dtProtocollo = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdClassificazione.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdClassificazione() {
+        return cdClassificazione;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdClassificazione.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdClassificazione(String value) {
+        this.cdClassificazione = value;
     }
 
     /**
