@@ -495,7 +495,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		//MPB scrivo gli eventuali errori in un altro file diverso da quello di risposta e anche in caso positivo
 //		if (DRC.getCode()!=RETCODEOK) {
 			File out = null;
-			if (errMsg == null && errMsg.trim().length()<=0) {
+			if (errMsg == null || errMsg.trim().length()<=0) {
 				out = new File(System.currentTimeMillis()+".xml");
 			} else {
 				out = new File(errMsg);
