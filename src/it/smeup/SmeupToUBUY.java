@@ -106,6 +106,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	protected String outMsg;
 	protected String errMsg;
 	
+	protected File inpFileBody;
+	
 	protected WSCOService wscos;
 	protected WSCOServiceService wscoss;
 	protected ObjectFactory of;
@@ -151,13 +153,21 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			return generaRisposta(arg1,sr);
 		}
 		
-		File inpFileBody = null;
+		inpFileBody = null;
 		File outFileMsg = null;
 		File errFileMsg = null;
 				
 		inpBody = arg1.getData(PATHNAMEINPUTBODY);
 		outMsg = arg1.getData(PATHNAMEOUTPUTMESSAGE);
 		errMsg = arg1.getData(PATHNAMEERRORMESSAGE);
+		
+		System.out.println("PArametri ricevuti");
+		if (inpBody!=null)
+			System.out.println("File input:" + inpBody);
+		if (outMsg!=null)
+			System.out.println("File output:" + outMsg);
+		if (errMsg!=null)
+			System.out.println("File error:" + errMsg);
 		
 		if (outMsg == null || outMsg.trim().length()<=0) {
 			 sr.setCode(RETCODEERROROUTPUTPARAM);
@@ -247,6 +257,9 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		if (errMsg == null || errMsg.trim().length()<=0) {
 			errMsg = outFileMsg.getPath().substring(0, outFileMsg.getPath().length() - 4).concat("_log.xml");
 		}
+		
+		if (errMsg!=null)
+			System.out.println("File error ricavato da output:" + errMsg);
 		
 		try {
 			errFileMsg = new File(errMsg);
@@ -607,30 +620,36 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		            
 		        }
 
-		        Document docBody;
-				try {
-					docBody = docBuilder.parse(new File(inpBody));
-					
-					Element smeupContentBodyFile = doc.createElement("SmeupContentBodyFile");
-					NodeList list = docBody.getChildNodes();
-					for(int i = 0 ; i< list.getLength() ; i++) {
-						Node n = list.item(i);
-						Node copiedNode = doc.importNode(n, true);
-						smeupContentBodyFile.appendChild(copiedNode);
-
+		        if ((inpBody != null && inpBody.trim().length()>0) || (inpFileBody != null))  {
+			        Document docBody;
+					try {
+						if (inpFileBody!=null)
+							docBody = docBuilder.parse(inpFileBody);
+						else
+							docBody = docBuilder.parse(new File(inpBody));
+						
+						Element smeupContentBodyFile = doc.createElement("SmeupContentBodyFile");
+						NodeList list = docBody.getChildNodes();
+						for(int i = 0 ; i< list.getLength() ; i++) {
+							Node n = list.item(i);
+							Node copiedNode = doc.importNode(n, true);
+							smeupContentBodyFile.appendChild(copiedNode);
+	
+						}
+				        
+						smeupInput.appendChild(smeupContentBodyFile);
+						
+	
+					} catch (SAXException e) {
+						System.out.println(e.toString());
+						e.printStackTrace();
+					} catch (IOException e) {
+						System.out.println(e.toString());
+						e.printStackTrace();
 					}
-			        
-					smeupInput.appendChild(smeupContentBodyFile);
-					
-
-				} catch (SAXException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-					        
+		        } else {
+		        	System.out.println("Missing input file");
+		        }
 
 				// write the content into xml file
 				TransformerFactory transformerFactory = TransformerFactory.newInstance();
@@ -642,9 +661,11 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 
 
 			  } catch (ParserConfigurationException pce) {
-				pce.printStackTrace();
+				  System.out.println(pce.toString());
+				  pce.printStackTrace();
 			  } catch (TransformerException tfe) {
-				tfe.printStackTrace();
+				  System.out.println(tfe.toString());
+				  tfe.printStackTrace();
 			  }
 	}
 	
