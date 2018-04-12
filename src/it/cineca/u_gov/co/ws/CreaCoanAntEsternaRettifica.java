@@ -7,17 +7,18 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java per cancellaCoanAntEsterna complex type.
+ * <p>Classe Java per creaCoanAntEsternaRettifica complex type.
  * 
  * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
- * &lt;complexType name="cancellaCoanAntEsterna">
+ * &lt;complexType name="creaCoanAntEsternaRettifica">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="cdAppExt" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="idDettaglioDocumento" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="idDettaglioDoc" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="esercizio" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -27,14 +28,16 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "cancellaCoanAntEsterna", propOrder = {
+@XmlType(name = "creaCoanAntEsternaRettifica", propOrder = {
     "cdAppExt",
-    "idDettaglioDocumento"
+    "idDettaglioDoc",
+    "esercizio"
 })
-public class CancellaCoanAntEsterna {
+public class CreaCoanAntEsternaRettifica {
 
     protected String cdAppExt;
-    protected Long idDettaglioDocumento;
+    protected Long idDettaglioDoc;
+    protected Integer esercizio;
 
     /**
      * Recupera il valore della proprietà cdAppExt.
@@ -61,27 +64,51 @@ public class CancellaCoanAntEsterna {
     }
 
     /**
-     * Recupera il valore della proprietà idDettaglioDocumento.
+     * Recupera il valore della proprietà idDettaglioDoc.
      * 
      * @return
      *     possible object is
      *     {@link Long }
      *     
      */
-    public Long getIdDettaglioDocumento() {
-        return idDettaglioDocumento;
+    public Long getIdDettaglioDoc() {
+        return idDettaglioDoc;
     }
 
     /**
-     * Imposta il valore della proprietà idDettaglioDocumento.
+     * Imposta il valore della proprietà idDettaglioDoc.
      * 
      * @param value
      *     allowed object is
      *     {@link Long }
      *     
      */
-    public void setIdDettaglioDocumento(Long value) {
-        this.idDettaglioDocumento = value;
+    public void setIdDettaglioDoc(Long value) {
+        this.idDettaglioDoc = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà esercizio.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
+     */
+    public Integer getEsercizio() {
+        return esercizio;
+    }
+
+    /**
+     * Imposta il valore della proprietà esercizio.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
+     */
+    public void setEsercizio(Integer value) {
+        this.esercizio = value;
     }
 
 }
