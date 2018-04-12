@@ -20,7 +20,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="cdBeneServizio" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdCofogCoan" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdDimAna" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="cdIva" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdProgetto" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdUa" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdUnitaLavoro" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdVoceCoan" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="cig" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="cup" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="dsDgDet" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -43,7 +49,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "dettaglioDceDTO", propOrder = {
     "cdBeneServizio",
+    "cdCofogCoan",
+    "cdDimAna",
     "cdIva",
+    "cdProgetto",
+    "cdUa",
+    "cdUnitaLavoro",
+    "cdVoceCoan",
     "cig",
     "cup",
     "dsDgDet",
@@ -59,7 +71,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
 public class DettaglioDceDTO {
 
     protected String cdBeneServizio;
+    protected String cdCofogCoan;
+    protected String cdDimAna;
     protected String cdIva;
+    protected String cdProgetto;
+    protected String cdUa;
+    protected String cdUnitaLavoro;
+    protected String cdVoceCoan;
     protected String cig;
     protected String cup;
     protected String dsDgDet;
@@ -99,6 +117,54 @@ public class DettaglioDceDTO {
     }
 
     /**
+     * Recupera il valore della proprietà cdCofogCoan.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdCofogCoan() {
+        return cdCofogCoan;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdCofogCoan.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdCofogCoan(String value) {
+        this.cdCofogCoan = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdDimAna.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdDimAna() {
+        return cdDimAna;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdDimAna.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdDimAna(String value) {
+        this.cdDimAna = value;
+    }
+
+    /**
      * Recupera il valore della proprietà cdIva.
      * 
      * @return
@@ -120,6 +186,102 @@ public class DettaglioDceDTO {
      */
     public void setCdIva(String value) {
         this.cdIva = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdProgetto.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdProgetto() {
+        return cdProgetto;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdProgetto.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdProgetto(String value) {
+        this.cdProgetto = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdUa.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdUa() {
+        return cdUa;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdUa.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdUa(String value) {
+        this.cdUa = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdUnitaLavoro.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdUnitaLavoro() {
+        return cdUnitaLavoro;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdUnitaLavoro.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdUnitaLavoro(String value) {
+        this.cdUnitaLavoro = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdVoceCoan.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdVoceCoan() {
+        return cdVoceCoan;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdVoceCoan.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdVoceCoan(String value) {
+        this.cdVoceCoan = value;
     }
 
     /**

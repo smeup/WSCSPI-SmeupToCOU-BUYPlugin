@@ -31,7 +31,6 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="dsDgDet" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="dtFine" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="dtInizio" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
- *         &lt;element name="flChiusoForzato" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="idDettaglioDocPredecessore" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="idDettaglioDocumento" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="tiCampoAttivita" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -57,7 +56,6 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "dsDgDet",
     "dtFine",
     "dtInizio",
-    "flChiusoForzato",
     "idDettaglioDocPredecessore",
     "idDettaglioDocumento",
     "tiCampoAttivita"
@@ -78,7 +76,6 @@ public class DettaglioScrEsternaCoanDTO {
     protected XMLGregorianCalendar dtFine;
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar dtInizio;
-    protected Boolean flChiusoForzato;
     protected Long idDettaglioDocPredecessore;
     protected Long idDettaglioDocumento;
     protected String tiCampoAttivita;
@@ -369,30 +366,6 @@ public class DettaglioScrEsternaCoanDTO {
      */
     public void setDtInizio(XMLGregorianCalendar value) {
         this.dtInizio = value;
-    }
-
-    /**
-     * Recupera il valore della proprietà flChiusoForzato.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Boolean }
-     *     
-     */
-    public Boolean isFlChiusoForzato() {
-        return flChiusoForzato;
-    }
-
-    /**
-     * Imposta il valore della proprietà flChiusoForzato.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Boolean }
-     *     
-     */
-    public void setFlChiusoForzato(Boolean value) {
-        this.flChiusoForzato = value;
     }
 
     /**
