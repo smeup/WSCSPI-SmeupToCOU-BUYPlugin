@@ -24,7 +24,9 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="esercizio" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="idDettaglioDocumento" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="idScrCoan" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="messaggioInformativo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="pgScr" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="tipoScrittura" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -40,7 +42,9 @@ import javax.xml.bind.annotation.XmlType;
     "esercizio",
     "idDettaglioDocumento",
     "idScrCoan",
-    "pgScr"
+    "messaggioInformativo",
+    "pgScr",
+    "tipoScrittura"
 })
 public class LogScritturaEsternaCoanDTO {
 
@@ -50,7 +54,9 @@ public class LogScritturaEsternaCoanDTO {
     protected Integer esercizio;
     protected Long idDettaglioDocumento;
     protected Long idScrCoan;
+    protected String messaggioInformativo;
     protected Long pgScr;
+    protected String tipoScrittura;
 
     /**
      * Recupera il valore della proprietà cdUaBudget.
@@ -178,6 +184,30 @@ public class LogScritturaEsternaCoanDTO {
     }
 
     /**
+     * Recupera il valore della proprietà messaggioInformativo.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getMessaggioInformativo() {
+        return messaggioInformativo;
+    }
+
+    /**
+     * Imposta il valore della proprietà messaggioInformativo.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setMessaggioInformativo(String value) {
+        this.messaggioInformativo = value;
+    }
+
+    /**
      * Recupera il valore della proprietà pgScr.
      * 
      * @return
@@ -199,6 +229,30 @@ public class LogScritturaEsternaCoanDTO {
      */
     public void setPgScr(Long value) {
         this.pgScr = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà tipoScrittura.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getTipoScrittura() {
+        return tipoScrittura;
+    }
+
+    /**
+     * Imposta il valore della proprietà tipoScrittura.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setTipoScrittura(String value) {
+        this.tipoScrittura = value;
     }
 
 }

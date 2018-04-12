@@ -95,7 +95,9 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 		CREADCE,
 		GETELENCOUA,
 		GETBENISERVIZI,
-		GETVOCICOAN
+		GETVOCICOAN,
+		CREACOANANTESRE,
+		CANCCOANANTESRE
 	}
 	
 	protected SezInterface mySez;
@@ -353,7 +355,7 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 				wscos.creaCoanAntEsterna(null);
 				break;
 			case CANCCOANANTEST:
-				wscos.cancellaCoanAntEsterna(null);
+				wscos.cancellaCoanAntEsterna(null,null);
 				break;
 			case CREADCE:
 				wscos.creaDce(null);
@@ -367,6 +369,12 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			case GETVOCICOAN:
 				wscos.getVociCoan(null);
 				break;
+			case CREACOANANTESRE:
+				wscos.creaCoanAntEsternaRettifica(null, null, null);
+				break;
+			case CANCCOANANTESRE:
+				wscos.cancellaCoanAntEsternaRettifica(null,null);
+				break;				
 			default:
 				return generaRisposta(arg1,"Unknow Operation");
 			}
@@ -415,8 +423,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
         
         vPlugin.init(null, vConf);		
 
-        SPIWsCConnectorInput vInput=impostaValori(Operazione.COMPETVERIFDISP);        
-      	SPIWsCConnectorResponse vResp = vPlugin.invoke(Operazione.COMPETVERIFDISP.name(),vInput);
+        SPIWsCConnectorInput vInput=impostaValori(Operazione.CANCCOANANTESRE);        
+      	SPIWsCConnectorResponse vResp = vPlugin.invoke(Operazione.CANCCOANANTESRE.name(),vInput);
 	      
 	    if(vResp != null) {
 	      	if (!vResp.getDataTable().isEmpty()) {
@@ -497,7 +505,15 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			break;
 		case GETVOCICOAN:
 			// vInput.addData("esercizio", "prova");
-			break;			
+			break;	
+		case CREACOANANTESRE:
+    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\creaCoanAntEsternaRettifica_input.xml");
+   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\creaCoanAntEsternaRettifica_output.xml");
+			break;
+		case CANCCOANANTESRE:
+    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\cancellaCoanAntEsternaRettifica_input.xml");
+   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\cancellaCoanAntEsternaRettifica_output.xml");
+			break;				
     	default:
     		break;
     	}

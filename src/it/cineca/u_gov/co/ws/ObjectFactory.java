@@ -26,6 +26,7 @@ public class ObjectFactory {
 
     private final static QName _GetScrIva_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getScrIva");
     private final static QName _GetBeniServizi_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getBeniServizi");
+    private final static QName _GetEserciziResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getEserciziResponse");
     private final static QName _GetAttivitaSiope_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getAttivitaSiope");
     private final static QName _GetDisponibileCOPJ_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getDisponibileCOPJ");
     private final static QName _GetCodiceCPVResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getCodiceCPVResponse");
@@ -44,8 +45,10 @@ public class ObjectFactory {
     private final static QName _GetDisponibileBudgetResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getDisponibileBudgetResponse");
     private final static QName _GetElencoUAResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoUAResponse");
     private final static QName _TransFSMResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "transFSMResponse");
+    private final static QName _CancellaCoanAntEsternaRettificaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "cancellaCoanAntEsternaRettificaResponse");
     private final static QName _GetUAVoceCoanProgetto_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getUAVoceCoanProgetto");
     private final static QName _GetTipoOperazSezionaleIva_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getTipoOperazSezionaleIva");
+    private final static QName _CancellaCoanAntEsternaRettifica_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "cancellaCoanAntEsternaRettifica");
     private final static QName _GetElencoUA_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoUA");
     private final static QName _GetBeniServiziResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getBeniServiziResponse");
     private final static QName _GetDimAna_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getDimAna");
@@ -77,6 +80,7 @@ public class ObjectFactory {
     private final static QName _CompetVerificaDispResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "competVerificaDispResponse");
     private final static QName _GetTipoOperazSezionaleIvaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getTipoOperazSezionaleIvaResponse");
     private final static QName _GetElencoTariffariResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoTariffariResponse");
+    private final static QName _GetRaccordiCoan_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getRaccordiCoan");
     private final static QName _CreaCoanAntEsternaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "creaCoanAntEsternaResponse");
     private final static QName _GetVociContropartita_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getVociContropartita");
     private final static QName _ListaDgAutorizza_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "listaDgAutorizza");
@@ -104,6 +108,7 @@ public class ObjectFactory {
     private final static QName _CancellaBuono_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "cancellaBuono");
     private final static QName _GetParametriConf_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getParametriConf");
     private final static QName _ListaContrattiPassivi_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "listaContrattiPassivi");
+    private final static QName _CreaCoanAntEsternaRettificaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "creaCoanAntEsternaRettificaResponse");
     private final static QName _GetUEResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getUEResponse");
     private final static QName _GetVociCoanDaBeneServizioResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getVociCoanDaBeneServizioResponse");
     private final static QName _FindRiclCoan_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "findRiclCoan");
@@ -122,6 +127,7 @@ public class ObjectFactory {
     private final static QName _GetDimAnaCofogWP_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getDimAnaCofogWP");
     private final static QName _GetElencoRegistriDaTrasmettere_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoRegistriDaTrasmettere");
     private final static QName _GetProspettoCoan_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getProspettoCoan");
+    private final static QName _GetEsercizi_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getEsercizi");
     private final static QName _CancellaCoanAntEsternaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "cancellaCoanAntEsternaResponse");
     private final static QName _FsmAutorizzaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "fsmAutorizzaResponse");
     private final static QName _CreaBuonoCaricoScaricoResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "creaBuonoCaricoScaricoResponse");
@@ -131,6 +137,7 @@ public class ObjectFactory {
     private final static QName _GetElencoCup_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoCup");
     private final static QName _GetTotScrAutSchedaBud_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getTotScrAutSchedaBud");
     private final static QName _ApplicationException_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "ApplicationException");
+    private final static QName _CreaCoanAntEsternaRettifica_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "creaCoanAntEsternaRettifica");
     private final static QName _GestisciTariffario_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "gestisciTariffario");
     private final static QName _GetElencoRegistriDaTrasmettereResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getElencoRegistriDaTrasmettereResponse");
     private final static QName _GetDimAnaCofogWPResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getDimAnaCofogWPResponse");
@@ -141,6 +148,7 @@ public class ObjectFactory {
     private final static QName _GetResponsabiliProgettoResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getResponsabiliProgettoResponse");
     private final static QName _GetTipoOperazioneIva_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getTipoOperazioneIva");
     private final static QName _ListaDgAutorizzaDceRdaResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "listaDgAutorizzaDceRdaResponse");
+    private final static QName _GetRaccordiCoanResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "getRaccordiCoanResponse");
     private final static QName _FindCofogCoan_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "findCofogCoan");
     private final static QName _ModificaUESospesoResponse_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "modificaUESospesoResponse");
     private final static QName _CreaTrasferimento_QNAME = new QName("http://ws.co.u-gov.cineca.it/", "creaTrasferimento");
@@ -231,6 +239,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetEsercizi }
+     * 
+     */
+    public GetEsercizi createGetEsercizi() {
+        return new GetEsercizi();
+    }
+
+    /**
      * Create an instance of {@link CancellaCoanAntEsternaResponse }
      * 
      */
@@ -260,6 +276,14 @@ public class ObjectFactory {
      */
     public GetDimAnaCofogWP createGetDimAnaCofogWP() {
         return new GetDimAnaCofogWP();
+    }
+
+    /**
+     * Create an instance of {@link CreaCoanAntEsternaRettificaResponse }
+     * 
+     */
+    public CreaCoanAntEsternaRettificaResponse createCreaCoanAntEsternaRettificaResponse() {
+        return new CreaCoanAntEsternaRettificaResponse();
     }
 
     /**
@@ -535,6 +559,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetRaccordiCoanResponse }
+     * 
+     */
+    public GetRaccordiCoanResponse createGetRaccordiCoanResponse() {
+        return new GetRaccordiCoanResponse();
+    }
+
+    /**
      * Create an instance of {@link GetCalcolaAmmontariResponse }
      * 
      */
@@ -671,6 +703,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link CreaCoanAntEsternaRettifica }
+     * 
+     */
+    public CreaCoanAntEsternaRettifica createCreaCoanAntEsternaRettifica() {
+        return new CreaCoanAntEsternaRettifica();
+    }
+
+    /**
      * Create an instance of {@link GestisciTariffario }
      * 
      */
@@ -756,6 +796,14 @@ public class ObjectFactory {
      */
     public GetTipoOperazSezionaleIva createGetTipoOperazSezionaleIva() {
         return new GetTipoOperazSezionaleIva();
+    }
+
+    /**
+     * Create an instance of {@link CancellaCoanAntEsternaRettifica }
+     * 
+     */
+    public CancellaCoanAntEsternaRettifica createCancellaCoanAntEsternaRettifica() {
+        return new CancellaCoanAntEsternaRettifica();
     }
 
     /**
@@ -871,6 +919,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link CancellaCoanAntEsternaRettificaResponse }
+     * 
+     */
+    public CancellaCoanAntEsternaRettificaResponse createCancellaCoanAntEsternaRettificaResponse() {
+        return new CancellaCoanAntEsternaRettificaResponse();
+    }
+
+    /**
      * Create an instance of {@link GetUAVoceCoanProgetto }
      * 
      */
@@ -956,6 +1012,14 @@ public class ObjectFactory {
      */
     public GetBeniServizi createGetBeniServizi() {
         return new GetBeniServizi();
+    }
+
+    /**
+     * Create an instance of {@link GetEserciziResponse }
+     * 
+     */
+    public GetEserciziResponse createGetEserciziResponse() {
+        return new GetEserciziResponse();
     }
 
     /**
@@ -1183,6 +1247,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link GetRaccordiCoan }
+     * 
+     */
+    public GetRaccordiCoan createGetRaccordiCoan() {
+        return new GetRaccordiCoan();
+    }
+
+    /**
      * Create an instance of {@link ListaStatoRda }
      * 
      */
@@ -1359,6 +1431,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link RaccordiDimAnaDTO }
+     * 
+     */
+    public RaccordiDimAnaDTO createRaccordiDimAnaDTO() {
+        return new RaccordiDimAnaDTO();
+    }
+
+    /**
      * Create an instance of {@link AmmSuccessoriDTO }
      * 
      */
@@ -1380,6 +1460,14 @@ public class ObjectFactory {
      */
     public CreaBuonoDetInDTO createCreaBuonoDetInDTO() {
         return new CreaBuonoDetInDTO();
+    }
+
+    /**
+     * Create an instance of {@link EsercizioDTO }
+     * 
+     */
+    public EsercizioDTO createEsercizioDTO() {
+        return new EsercizioDTO();
     }
 
     /**
@@ -1687,6 +1775,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link RaccordiUaDTO }
+     * 
+     */
+    public RaccordiUaDTO createRaccordiUaDTO() {
+        return new RaccordiUaDTO();
+    }
+
+    /**
      * Create an instance of {@link GestTariffarioOutDTO }
      * 
      */
@@ -1799,6 +1895,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link RaccordiVociCoanDTO }
+     * 
+     */
+    public RaccordiVociCoanDTO createRaccordiVociCoanDTO() {
+        return new RaccordiVociCoanDTO();
+    }
+
+    /**
      * Create an instance of {@link CoCausaliVariazioniDTO }
      * 
      */
@@ -1828,6 +1932,14 @@ public class ObjectFactory {
      */
     public AttivitaSiopeDTO createAttivitaSiopeDTO() {
         return new AttivitaSiopeDTO();
+    }
+
+    /**
+     * Create an instance of {@link RaccordiCoanOutDTO }
+     * 
+     */
+    public RaccordiCoanOutDTO createRaccordiCoanOutDTO() {
+        return new RaccordiCoanOutDTO();
     }
 
     /**
@@ -1870,6 +1982,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getBeniServizi")
     public JAXBElement<GetBeniServizi> createGetBeniServizi(GetBeniServizi value) {
         return new JAXBElement<GetBeniServizi>(_GetBeniServizi_QNAME, GetBeniServizi.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetEserciziResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getEserciziResponse")
+    public JAXBElement<GetEserciziResponse> createGetEserciziResponse(GetEserciziResponse value) {
+        return new JAXBElement<GetEserciziResponse>(_GetEserciziResponse_QNAME, GetEserciziResponse.class, null, value);
     }
 
     /**
@@ -2035,6 +2156,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CancellaCoanAntEsternaRettificaResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "cancellaCoanAntEsternaRettificaResponse")
+    public JAXBElement<CancellaCoanAntEsternaRettificaResponse> createCancellaCoanAntEsternaRettificaResponse(CancellaCoanAntEsternaRettificaResponse value) {
+        return new JAXBElement<CancellaCoanAntEsternaRettificaResponse>(_CancellaCoanAntEsternaRettificaResponse_QNAME, CancellaCoanAntEsternaRettificaResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetUAVoceCoanProgetto }{@code >}}
      * 
      */
@@ -2050,6 +2180,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getTipoOperazSezionaleIva")
     public JAXBElement<GetTipoOperazSezionaleIva> createGetTipoOperazSezionaleIva(GetTipoOperazSezionaleIva value) {
         return new JAXBElement<GetTipoOperazSezionaleIva>(_GetTipoOperazSezionaleIva_QNAME, GetTipoOperazSezionaleIva.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CancellaCoanAntEsternaRettifica }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "cancellaCoanAntEsternaRettifica")
+    public JAXBElement<CancellaCoanAntEsternaRettifica> createCancellaCoanAntEsternaRettifica(CancellaCoanAntEsternaRettifica value) {
+        return new JAXBElement<CancellaCoanAntEsternaRettifica>(_CancellaCoanAntEsternaRettifica_QNAME, CancellaCoanAntEsternaRettifica.class, null, value);
     }
 
     /**
@@ -2332,6 +2471,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetRaccordiCoan }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getRaccordiCoan")
+    public JAXBElement<GetRaccordiCoan> createGetRaccordiCoan(GetRaccordiCoan value) {
+        return new JAXBElement<GetRaccordiCoan>(_GetRaccordiCoan_QNAME, GetRaccordiCoan.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link CreaCoanAntEsternaResponse }{@code >}}
      * 
      */
@@ -2575,6 +2723,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CreaCoanAntEsternaRettificaResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "creaCoanAntEsternaRettificaResponse")
+    public JAXBElement<CreaCoanAntEsternaRettificaResponse> createCreaCoanAntEsternaRettificaResponse(CreaCoanAntEsternaRettificaResponse value) {
+        return new JAXBElement<CreaCoanAntEsternaRettificaResponse>(_CreaCoanAntEsternaRettificaResponse_QNAME, CreaCoanAntEsternaRettificaResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetUEResponse }{@code >}}
      * 
      */
@@ -2737,6 +2894,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetEsercizi }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getEsercizi")
+    public JAXBElement<GetEsercizi> createGetEsercizi(GetEsercizi value) {
+        return new JAXBElement<GetEsercizi>(_GetEsercizi_QNAME, GetEsercizi.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link CancellaCoanAntEsternaResponse }{@code >}}
      * 
      */
@@ -2815,6 +2981,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "ApplicationException")
     public JAXBElement<ApplicationException> createApplicationException(ApplicationException value) {
         return new JAXBElement<ApplicationException>(_ApplicationException_QNAME, ApplicationException.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CreaCoanAntEsternaRettifica }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "creaCoanAntEsternaRettifica")
+    public JAXBElement<CreaCoanAntEsternaRettifica> createCreaCoanAntEsternaRettifica(CreaCoanAntEsternaRettifica value) {
+        return new JAXBElement<CreaCoanAntEsternaRettifica>(_CreaCoanAntEsternaRettifica_QNAME, CreaCoanAntEsternaRettifica.class, null, value);
     }
 
     /**
@@ -2905,6 +3080,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "listaDgAutorizzaDceRdaResponse")
     public JAXBElement<ListaDgAutorizzaDceRdaResponse> createListaDgAutorizzaDceRdaResponse(ListaDgAutorizzaDceRdaResponse value) {
         return new JAXBElement<ListaDgAutorizzaDceRdaResponse>(_ListaDgAutorizzaDceRdaResponse_QNAME, ListaDgAutorizzaDceRdaResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetRaccordiCoanResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://ws.co.u-gov.cineca.it/", name = "getRaccordiCoanResponse")
+    public JAXBElement<GetRaccordiCoanResponse> createGetRaccordiCoanResponse(GetRaccordiCoanResponse value) {
+        return new JAXBElement<GetRaccordiCoanResponse>(_GetRaccordiCoanResponse_QNAME, GetRaccordiCoanResponse.class, null, value);
     }
 
     /**

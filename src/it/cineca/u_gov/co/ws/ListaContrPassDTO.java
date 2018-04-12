@@ -46,6 +46,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="numRigaDett" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *         &lt;element name="dsRiga" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="cdCup" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdCig" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="cdBeneServizio" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="CPV" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="quantita" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
@@ -119,6 +120,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "numRigaDett",
     "dsRiga",
     "cdCup",
+    "cdCig",
     "cdBeneServizio",
     "cpv",
     "quantita",
@@ -188,6 +190,7 @@ public class ListaContrPassDTO {
     protected Integer numRigaDett;
     protected String dsRiga;
     protected String cdCup;
+    protected String cdCig;
     protected String cdBeneServizio;
     @XmlElement(name = "CPV")
     protected String cpv;
@@ -852,6 +855,30 @@ public class ListaContrPassDTO {
      */
     public void setCdCup(String value) {
         this.cdCup = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà cdCig.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCdCig() {
+        return cdCig;
+    }
+
+    /**
+     * Imposta il valore della proprietà cdCig.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCdCig(String value) {
+        this.cdCig = value;
     }
 
     /**
