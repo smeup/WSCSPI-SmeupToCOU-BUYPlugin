@@ -1,10 +1,9 @@
 
 package it.cineca.u_gov.co.ws;
 
-import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElementRef;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -33,18 +32,17 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class GetRegistroResponse {
 
-    @XmlElementRef(name = "return", type = JAXBElement.class, required = false)
-    protected JAXBElement<byte[]> _return;
+    @XmlElement(name = "return")
+    protected byte[] _return;
 
     /**
      * Recupera il valore della proprietà return.
      * 
      * @return
      *     possible object is
-     *     {@link JAXBElement }{@code <}{@link byte[]}{@code >}
-     *     
+     *     byte[]
      */
-    public JAXBElement<byte[]> getReturn() {
+    public byte[] getReturn() {
         return _return;
     }
 
@@ -53,10 +51,9 @@ public class GetRegistroResponse {
      * 
      * @param value
      *     allowed object is
-     *     {@link JAXBElement }{@code <}{@link byte[]}{@code >}
-     *     
+     *     byte[]
      */
-    public void setReturn(JAXBElement<byte[]> value) {
+    public void setReturn(byte[] value) {
         this._return = value;
     }
 

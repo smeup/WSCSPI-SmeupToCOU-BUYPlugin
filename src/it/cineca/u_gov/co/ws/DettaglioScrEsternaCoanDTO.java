@@ -33,6 +33,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="dtInizio" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="idDettaglioDocPredecessore" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="idDettaglioDocumento" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="idSchedaBudget" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="tiCampoAttivita" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -58,6 +59,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "dtInizio",
     "idDettaglioDocPredecessore",
     "idDettaglioDocumento",
+    "idSchedaBudget",
     "tiCampoAttivita"
 })
 public class DettaglioScrEsternaCoanDTO {
@@ -78,6 +80,7 @@ public class DettaglioScrEsternaCoanDTO {
     protected XMLGregorianCalendar dtInizio;
     protected Long idDettaglioDocPredecessore;
     protected Long idDettaglioDocumento;
+    protected Long idSchedaBudget;
     protected String tiCampoAttivita;
 
     /**
@@ -414,6 +417,30 @@ public class DettaglioScrEsternaCoanDTO {
      */
     public void setIdDettaglioDocumento(Long value) {
         this.idDettaglioDocumento = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà idSchedaBudget.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
+     */
+    public Long getIdSchedaBudget() {
+        return idSchedaBudget;
+    }
+
+    /**
+     * Imposta il valore della proprietà idSchedaBudget.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
+     */
+    public void setIdSchedaBudget(Long value) {
+        this.idSchedaBudget = value;
     }
 
     /**

@@ -35,8 +35,8 @@ import Smeup.smeui.wscspi.interaction.SPIWsCConnectorAdapter;
 import Smeup.smeui.wscspi.interaction.interfaces.SPIWsCConnectorInterface;
 import it.cineca.u_gov.co.ws.ApplicationException_Exception;
 import it.cineca.u_gov.co.ws.ObjectFactory;
-import it.cineca.u_gov.co.ws.WSCOService;
 import it.cineca.u_gov.co.ws.WSCOServiceService;
+import it.cineca.u_gov.co.ws.Ws_002fPrivate_002fService;
 
 public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnectorInterface {
 	
@@ -110,8 +110,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 
 	protected File inpFileBody;
 		
-	protected WSCOService wscos;
-	protected WSCOServiceService wscoss;
+	protected WSCOServiceService wscos;
+	protected Ws_002fPrivate_002fService wscoss;
 	protected ObjectFactory of;
 
 	public SmeupToUBUY() {
@@ -305,10 +305,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			
 
 		try {
-			wscoss = new WSCOServiceService();
+			wscoss = new Ws_002fPrivate_002fService();
 			wscoss.setHandlerResolver(new HandlHeaderCO(inpFileBody,outFileMsg,sr));
 			
-			wscos = wscoss.getWSCOServicePort();
+			wscos = wscoss.getWSCOServiceServicePort();
 			
 			of = new ObjectFactory();
 	
@@ -423,8 +423,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
         
         vPlugin.init(null, vConf);		
 
-        SPIWsCConnectorInput vInput=impostaValori(Operazione.CANCCOANANTERE);        
-      	SPIWsCConnectorResponse vResp = vPlugin.invoke(Operazione.CANCCOANANTERE.name(),vInput);
+        SPIWsCConnectorInput vInput=impostaValori(Operazione.COMPETVERIFDISP);        
+      	SPIWsCConnectorResponse vResp = vPlugin.invoke(Operazione.COMPETVERIFDISP.name(),vInput);
 	      
 	    if(vResp != null) {
 	      	if (!vResp.getDataTable().isEmpty()) {
@@ -484,8 +484,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
     		 vInput.addData(PATHNAMEINPUTBODY, "C:\\xmlcineca\\inpcompetverifdisp.xml");
     		 vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\xmlcineca\\outcompetverifdisp.xml"); 
      		*/
-    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\C04012416142494.xml");
-   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\outC04012416142494.xml"); 
+    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\C04012416142494.xml");
+   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\outC04012416142494.xml"); 
     		break;
 		case CREACOANANTEST:
 			break;
@@ -507,12 +507,12 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			// vInput.addData("esercizio", "prova");
 			break;		
 		case CREACOANANTERE:
-    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\creaCoanAntEsternaRettifica_input.xml");
-   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\creaCoanAntEsternaRettifica_output.xml");
+    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\creaCoanAntEsternaRettifica_input.xml");
+   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\creaCoanAntEsternaRettifica_output.xml");
 			break;
 		case CANCCOANANTERE:
-    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\cancellaCoanAntEsternaRettifica_input.xml");
-   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Desktop\\u-buy\\cineca\\cancellaCoanAntEsternaRettifica_output.xml");
+    		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\cancellaCoanAntEsternaRettifica_input.xml");
+   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\cancellaCoanAntEsternaRettifica_output.xml");
 			break;			
     	default:
     		break;

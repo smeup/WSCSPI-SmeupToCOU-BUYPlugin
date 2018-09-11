@@ -7,19 +7,17 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java per getRaccordiCoan complex type.
+ * <p>Classe Java per getUaRaccordata complex type.
  * 
  * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
- * &lt;complexType name="getRaccordiCoan">
+ * &lt;complexType name="getUaRaccordata">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="eseOri" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
- *         &lt;element name="cdVoceCoan" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="cdUa" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="cdDimAna" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="cdUaOri" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="eseDest" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -30,19 +28,15 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getRaccordiCoan", propOrder = {
+@XmlType(name = "getUaRaccordata", propOrder = {
     "eseOri",
-    "cdVoceCoan",
-    "cdUa",
-    "cdDimAna",
+    "cdUaOri",
     "eseDest"
 })
-public class GetRaccordiCoan {
+public class GetUaRaccordata {
 
     protected Integer eseOri;
-    protected String cdVoceCoan;
-    protected String cdUa;
-    protected String cdDimAna;
+    protected String cdUaOri;
     protected Integer eseDest;
 
     /**
@@ -70,75 +64,27 @@ public class GetRaccordiCoan {
     }
 
     /**
-     * Recupera il valore della proprietà cdVoceCoan.
+     * Recupera il valore della proprietà cdUaOri.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getCdVoceCoan() {
-        return cdVoceCoan;
+    public String getCdUaOri() {
+        return cdUaOri;
     }
 
     /**
-     * Imposta il valore della proprietà cdVoceCoan.
+     * Imposta il valore della proprietà cdUaOri.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setCdVoceCoan(String value) {
-        this.cdVoceCoan = value;
-    }
-
-    /**
-     * Recupera il valore della proprietà cdUa.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCdUa() {
-        return cdUa;
-    }
-
-    /**
-     * Imposta il valore della proprietà cdUa.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCdUa(String value) {
-        this.cdUa = value;
-    }
-
-    /**
-     * Recupera il valore della proprietà cdDimAna.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCdDimAna() {
-        return cdDimAna;
-    }
-
-    /**
-     * Imposta il valore della proprietà cdDimAna.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCdDimAna(String value) {
-        this.cdDimAna = value;
+    public void setCdUaOri(String value) {
+        this.cdUaOri = value;
     }
 
     /**

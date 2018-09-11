@@ -18,6 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="cdVoceCoan" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="denomVoceCoan" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="flSchedaBudget" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="idVoceCoan" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
@@ -31,12 +32,14 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "voceCoanBeneServDTO", propOrder = {
     "cdVoceCoan",
     "denomVoceCoan",
+    "flSchedaBudget",
     "idVoceCoan"
 })
 public class VoceCoanBeneServDTO {
 
     protected String cdVoceCoan;
     protected String denomVoceCoan;
+    protected Boolean flSchedaBudget;
     protected Long idVoceCoan;
 
     /**
@@ -85,6 +88,30 @@ public class VoceCoanBeneServDTO {
      */
     public void setDenomVoceCoan(String value) {
         this.denomVoceCoan = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà flSchedaBudget.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
+     */
+    public Boolean isFlSchedaBudget() {
+        return flSchedaBudget;
+    }
+
+    /**
+     * Imposta il valore della proprietà flSchedaBudget.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
+     */
+    public void setFlSchedaBudget(Boolean value) {
+        this.flSchedaBudget = value;
     }
 
     /**

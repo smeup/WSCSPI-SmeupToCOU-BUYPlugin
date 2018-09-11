@@ -34,6 +34,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="dtInizio" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="flChiudePredecessore" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="idDettaglioDocPredecessore" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="idSchedaBudget" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="percIva" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *         &lt;element name="prezzoUnitario" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
  *         &lt;element name="quantita" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
@@ -63,6 +64,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "dtInizio",
     "flChiudePredecessore",
     "idDettaglioDocPredecessore",
+    "idSchedaBudget",
     "percIva",
     "prezzoUnitario",
     "quantita",
@@ -87,6 +89,7 @@ public class DettaglioDceDTO {
     protected XMLGregorianCalendar dtInizio;
     protected Boolean flChiudePredecessore;
     protected Long idDettaglioDocPredecessore;
+    protected Long idSchedaBudget;
     protected BigDecimal percIva;
     protected BigDecimal prezzoUnitario;
     protected BigDecimal quantita;
@@ -450,6 +453,30 @@ public class DettaglioDceDTO {
      */
     public void setIdDettaglioDocPredecessore(Long value) {
         this.idDettaglioDocPredecessore = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà idSchedaBudget.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
+     */
+    public Long getIdSchedaBudget() {
+        return idSchedaBudget;
+    }
+
+    /**
+     * Imposta il valore della proprietà idSchedaBudget.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
+     */
+    public void setIdSchedaBudget(Long value) {
+        this.idSchedaBudget = value;
     }
 
     /**
