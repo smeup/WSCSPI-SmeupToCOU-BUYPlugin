@@ -18,8 +18,6 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="cdAppExt" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="tiDoc" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="dtInizio" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="dtFine" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="cig" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -33,69 +31,17 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "getDatiTrasparenza", propOrder = {
-    "cdAppExt",
-    "tiDoc",
     "dtInizio",
     "dtFine",
     "cig"
 })
 public class GetDatiTrasparenza {
 
-    protected String cdAppExt;
-    protected String tiDoc;
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar dtInizio;
     @XmlSchemaType(name = "dateTime")
     protected XMLGregorianCalendar dtFine;
     protected String cig;
-
-    /**
-     * Recupera il valore della proprietà cdAppExt.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCdAppExt() {
-        return cdAppExt;
-    }
-
-    /**
-     * Imposta il valore della proprietà cdAppExt.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCdAppExt(String value) {
-        this.cdAppExt = value;
-    }
-
-    /**
-     * Recupera il valore della proprietà tiDoc.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTiDoc() {
-        return tiDoc;
-    }
-
-    /**
-     * Imposta il valore della proprietà tiDoc.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTiDoc(String value) {
-        this.tiDoc = value;
-    }
 
     /**
      * Recupera il valore della proprietà dtInizio.

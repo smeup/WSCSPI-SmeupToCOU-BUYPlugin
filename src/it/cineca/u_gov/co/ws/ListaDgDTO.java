@@ -29,6 +29,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="nomeTipoDg" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="numDocRif" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="numRegistrazione" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
+ *         &lt;element name="pagato" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="progetto" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="richiedente" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="statoAutorizzazionePagamento" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -55,6 +56,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "nomeTipoDg",
     "numDocRif",
     "numRegistrazione",
+    "pagato",
     "progetto",
     "richiedente",
     "statoAutorizzazionePagamento",
@@ -76,6 +78,7 @@ public class ListaDgDTO {
     protected String nomeTipoDg;
     protected String numDocRif;
     protected Long numRegistrazione;
+    protected String pagato;
     protected String progetto;
     protected String richiedente;
     protected String statoAutorizzazionePagamento;
@@ -321,6 +324,30 @@ public class ListaDgDTO {
      */
     public void setNumRegistrazione(Long value) {
         this.numRegistrazione = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà pagato.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getPagato() {
+        return pagato;
+    }
+
+    /**
+     * Imposta il valore della proprietà pagato.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setPagato(String value) {
+        this.pagato = value;
     }
 
     /**

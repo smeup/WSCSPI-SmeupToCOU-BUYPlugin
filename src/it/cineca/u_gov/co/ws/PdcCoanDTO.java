@@ -20,6 +20,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="denomVoceCoan" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="dsVoceCoan" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="esercizio" type="{http://www.w3.org/2001/XMLSchema}int" minOccurs="0"/>
+ *         &lt;element name="flSchedaBudget" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/>
  *         &lt;element name="idPdcCoan" type="{http://www.w3.org/2001/XMLSchema}long" minOccurs="0"/>
  *         &lt;element name="tiVoce" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
@@ -36,6 +37,7 @@ import javax.xml.bind.annotation.XmlType;
     "denomVoceCoan",
     "dsVoceCoan",
     "esercizio",
+    "flSchedaBudget",
     "idPdcCoan",
     "tiVoce"
 })
@@ -45,6 +47,7 @@ public class PdcCoanDTO {
     protected String denomVoceCoan;
     protected String dsVoceCoan;
     protected Integer esercizio;
+    protected Boolean flSchedaBudget;
     protected Long idPdcCoan;
     protected String tiVoce;
 
@@ -142,6 +145,30 @@ public class PdcCoanDTO {
      */
     public void setEsercizio(Integer value) {
         this.esercizio = value;
+    }
+
+    /**
+     * Recupera il valore della proprietà flSchedaBudget.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
+     */
+    public Boolean isFlSchedaBudget() {
+        return flSchedaBudget;
+    }
+
+    /**
+     * Imposta il valore della proprietà flSchedaBudget.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
+     */
+    public void setFlSchedaBudget(Boolean value) {
+        this.flSchedaBudget = value;
     }
 
     /**

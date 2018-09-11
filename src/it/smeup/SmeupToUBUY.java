@@ -35,8 +35,8 @@ import Smeup.smeui.wscspi.interaction.SPIWsCConnectorAdapter;
 import Smeup.smeui.wscspi.interaction.interfaces.SPIWsCConnectorInterface;
 import it.cineca.u_gov.co.ws.ApplicationException_Exception;
 import it.cineca.u_gov.co.ws.ObjectFactory;
-import it.cineca.u_gov.co.ws.WSCOService;
 import it.cineca.u_gov.co.ws.WSCOServiceService;
+import it.cineca.u_gov.co.ws.Ws_002fPrivate_002fService;
 
 public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnectorInterface {
 	
@@ -110,8 +110,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 	
 	protected File inpFileBody;
 	
-	protected WSCOService wscos;
-	protected WSCOServiceService wscoss;
+	protected WSCOServiceService wscos;
+	protected Ws_002fPrivate_002fService wscoss;
 	protected ObjectFactory of;
 
 	public SmeupToUBUY() {
@@ -305,10 +305,10 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
 			
 
 		try {
-			wscoss = new WSCOServiceService();
+			wscoss = new Ws_002fPrivate_002fService();
 			wscoss.setHandlerResolver(new HandlHeaderCO(inpFileBody,outFileMsg,sr));
 			
-			wscos = wscoss.getWSCOServicePort();
+			wscos = wscoss.getWSCOServiceServicePort();
 			
 			of = new ObjectFactory();
 	
@@ -423,8 +423,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
         
         vPlugin.init(null, vConf);		
 
-        SPIWsCConnectorInput vInput=impostaValori(Operazione.CANCCOANANTERE);        
-      	SPIWsCConnectorResponse vResp = vPlugin.invoke(Operazione.CANCCOANANTERE.name(),vInput);
+        SPIWsCConnectorInput vInput=impostaValori(Operazione.GETTPOPERSEZIVA);        
+      	SPIWsCConnectorResponse vResp = vPlugin.invoke(Operazione.GETTPOPERSEZIVA.name(),vInput);
 	      
 	    if(vResp != null) {
 	      	if (!vResp.getDataTable().isEmpty()) {
@@ -475,6 +475,8 @@ public class SmeupToUBUY extends SPIWsCConnectorAdapter implements SPIWsCConnect
     		vInput.addData("cdUO","?");
     		vInput.addData("percIva","?");
     		*/
+       		vInput.addData(PATHNAMEINPUTBODY, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\CO\\getTipoOperazSezionaleIva_input.xml");
+   		 	vInput.addData(PATHNAMEOUTPUTMESSAGE, "C:\\Users\\marbonfa\\Documents\\clienti\\U-buy\\cineca\\CO\\getTipoOperazSezionaleIva_output.xml"); 
     		break;
     	case COMPETVERIFDISP:
     		/*
